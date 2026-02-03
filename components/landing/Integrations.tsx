@@ -4,7 +4,7 @@ import { useTranslations } from 'next-intl'
 import { motion } from 'framer-motion'
 import { Puzzle } from 'lucide-react'
 
-const INTEGRATIONS = [
+const NATIVE_INTEGRATIONS = [
   { name: 'Stripe', color: 'bg-purple-100 text-purple-600', initials: 'St' },
   { name: 'Slack', color: 'bg-pink-100 text-pink-600', initials: 'Sl' },
   { name: 'GitHub', color: 'bg-slate-100 text-slate-600', initials: 'GH' },
@@ -12,7 +12,14 @@ const INTEGRATIONS = [
   { name: 'OpenAI', color: 'bg-green-100 text-green-600', initials: 'AI' },
   { name: 'Telegram', color: 'bg-sky-100 text-sky-600', initials: 'TG' },
   { name: 'Sentry', color: 'bg-red-100 text-red-600', initials: 'Se' },
-  { name: 'Vercel', color: 'bg-slate-100 text-slate-700', initials: 'Vc' },
+]
+
+const ERP_INTEGRATIONS = [
+  { name: 'SAP', color: 'bg-blue-100 text-blue-700', initials: 'SAP' },
+  { name: 'Odoo', color: 'bg-violet-100 text-violet-600', initials: 'Od' },
+  { name: 'QuickBooks', color: 'bg-green-100 text-green-700', initials: 'QB' },
+  { name: 'Xero', color: 'bg-cyan-100 text-cyan-700', initials: 'Xe' },
+  { name: 'NetSuite', color: 'bg-orange-100 text-orange-600', initials: 'NS' },
 ]
 
 export function Integrations() {
@@ -46,28 +53,54 @@ export function Integrations() {
           </motion.div>
 
           <motion.div
-            className="grid grid-cols-4 gap-4"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.2 }}
+            className="space-y-6"
           >
-            {INTEGRATIONS.map((integration, i) => (
-              <motion.div
-                key={integration.name}
-                className="flex flex-col items-center gap-2 rounded-2xl border border-slate-100 bg-white p-5 shadow-sm transition-all hover:border-primary/20 hover:shadow-md"
-                whileHover={{ y: -4 }}
-              >
-                <div
-                  className={`flex h-12 w-12 items-center justify-center rounded-xl text-sm font-bold ${integration.color}`}
+            <div className="grid grid-cols-3 gap-4 sm:grid-cols-4">
+              {NATIVE_INTEGRATIONS.map((integration) => (
+                <motion.div
+                  key={integration.name}
+                  className="flex flex-col items-center gap-2 rounded-2xl border border-slate-100 bg-white p-5 shadow-sm transition-all hover:border-primary/20 hover:shadow-md"
+                  whileHover={{ y: -4 }}
                 >
-                  {integration.initials}
-                </div>
-                <span className="text-xs font-medium text-slate-600">
-                  {integration.name}
-                </span>
-              </motion.div>
-            ))}
+                  <div
+                    className={`flex h-12 w-12 items-center justify-center rounded-xl text-sm font-bold ${integration.color}`}
+                  >
+                    {integration.initials}
+                  </div>
+                  <span className="text-xs font-medium text-slate-600">
+                    {integration.name}
+                  </span>
+                </motion.div>
+              ))}
+            </div>
+
+            <div>
+              <p className="mb-3 text-xs font-semibold uppercase tracking-wider text-slate-400">
+                {t('erpLabel')}
+              </p>
+              <div className="grid grid-cols-5 gap-3">
+                {ERP_INTEGRATIONS.map((integration) => (
+                  <motion.div
+                    key={integration.name}
+                    className="flex flex-col items-center gap-2 rounded-2xl border border-dashed border-slate-200 bg-slate-50/50 p-4 transition-all hover:border-primary/30 hover:bg-white hover:shadow-sm"
+                    whileHover={{ y: -4 }}
+                  >
+                    <div
+                      className={`flex h-10 w-10 items-center justify-center rounded-lg text-xs font-bold ${integration.color}`}
+                    >
+                      {integration.initials}
+                    </div>
+                    <span className="text-[10px] font-medium text-slate-500">
+                      {integration.name}
+                    </span>
+                  </motion.div>
+                ))}
+              </div>
+            </div>
           </motion.div>
         </div>
       </div>

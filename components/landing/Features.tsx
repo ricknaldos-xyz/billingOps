@@ -11,13 +11,14 @@ import {
   CheckCircle2,
   ArrowRight,
 } from 'lucide-react'
+import { Link } from '@/i18n/navigation'
 import { cn } from '@/lib/utils'
 
 const TABS = [
   { id: 'operations', icon: Workflow, featureCount: 6 },
   { id: 'finance', icon: BookOpen, featureCount: 6 },
-  { id: 'hr', icon: Users, featureCount: 6 },
-  { id: 'projects', icon: FolderKanban, featureCount: 5 },
+  { id: 'hr', icon: Users, featureCount: 8 },
+  { id: 'projects', icon: FolderKanban, featureCount: 6 },
 ]
 
 export function Features() {
@@ -112,13 +113,13 @@ export function Features() {
                       </li>
                     ))}
                   </ul>
-                  <a
-                    href="#pricing"
+                  <Link
+                    href={`/features/${tab.id}`}
                     className="mt-8 inline-flex items-center gap-2 text-sm font-semibold text-primary hover:underline"
                   >
                     {t('learnMore')}
                     <ArrowRight className="h-4 w-4" />
-                  </a>
+                  </Link>
                 </div>
 
                 {/* Right — mockup */}

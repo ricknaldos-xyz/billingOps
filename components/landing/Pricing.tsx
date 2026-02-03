@@ -123,13 +123,20 @@ export function Pricing() {
                       </span>
                     </div>
                   ) : (
-                    <div className="flex items-baseline gap-1">
-                      <span className="font-display text-5xl font-bold text-slate-900">
-                        ${price}
-                      </span>
-                      <span className="text-sm text-slate-500">
-                        {t('perMonth')}
-                      </span>
+                    <div>
+                      <div className="flex items-baseline gap-1">
+                        <span className="font-display text-5xl font-bold text-slate-900">
+                          ${price}
+                        </span>
+                        <span className="text-sm text-slate-500">
+                          {t('perMonth')}
+                        </span>
+                      </div>
+                      {tier.perEmployee > 0 && (
+                        <p className="mt-2 text-sm text-slate-500">
+                          {t('perEmployee', { price: tier.perEmployee })}
+                        </p>
+                      )}
                     </div>
                   )}
                 </div>

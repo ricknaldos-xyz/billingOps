@@ -19,7 +19,7 @@ export function Navbar() {
     router.replace(pathname, { locale: next })
   }
 
-  const navLinks = [
+  const anchorLinks = [
     { href: '/#features', label: t('features') },
     { href: '/#pricing', label: t('pricing') },
     { href: '/#faq', label: t('faq') },
@@ -40,7 +40,7 @@ export function Navbar() {
 
         {/* Desktop nav */}
         <div className="hidden items-center gap-8 md:flex">
-          {navLinks.map((link) => (
+          {anchorLinks.map((link) => (
             <a
               key={link.href}
               href={link.href}
@@ -49,6 +49,12 @@ export function Navbar() {
               {link.label}
             </a>
           ))}
+          <Link
+            href="/docs"
+            className="text-sm font-medium text-slate-600 transition-colors hover:text-primary"
+          >
+            {t('docs')}
+          </Link>
         </div>
 
         {/* Desktop actions */}
@@ -93,7 +99,7 @@ export function Navbar() {
             className="overflow-hidden border-t border-slate-100 bg-white md:hidden"
           >
             <div className="space-y-1 px-6 py-4">
-              {navLinks.map((link) => (
+              {anchorLinks.map((link) => (
                 <a
                   key={link.href}
                   href={link.href}
@@ -103,6 +109,13 @@ export function Navbar() {
                   {link.label}
                 </a>
               ))}
+              <Link
+                href="/docs"
+                className="block rounded-lg px-3 py-2.5 text-sm font-medium text-slate-600 hover:bg-slate-50"
+                onClick={() => setMobileOpen(false)}
+              >
+                {t('docs')}
+              </Link>
               <button
                 onClick={() => {
                   toggleLocale()

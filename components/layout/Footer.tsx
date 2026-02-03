@@ -11,6 +11,7 @@ export function Footer() {
         { label: t('features'), href: '/#features' },
         { label: t('pricing'), href: '/#pricing' },
         { label: t('demo'), href: '/demo' },
+        { label: t('docs'), href: '/docs' },
       ],
     },
     {

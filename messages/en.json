@@ -7,6 +7,7 @@
     "features": "Features",
     "pricing": "Pricing",
     "faq": "FAQ",
+    "docs": "Docs",
     "requestDemo": "Request a Demo"
   },
   "hero": {
@@ -23,7 +24,7 @@
     "metricCompanies": "Companies",
     "metricUsers": "Users",
     "metricTimeSaved": "Time saved on admin",
-    "metricUptime": "Uptime SLA",
+    "metricUptime": "Uptime SLA (Enterprise)",
     "floatingPayment": "Payment received",
     "floatingPaymentSub": "Invoice #1042 — $4,500",
     "floatingRevenue": "Revenue +23%",
@@ -36,12 +37,12 @@
     "sectionLabel": "Platform",
     "sectionTitle": "One Platform, Every Module",
     "sectionSubtitle": "Four integrated modules that cover your entire operation. No more spreadsheets, no more data silos.",
-    "learnMore": "See pricing plans",
+    "learnMore": "Learn more",
     "tabs": {
-      "operations": "Operations & Billing",
-      "finance": "Accounting & Finance",
+      "operations": "Business Development",
+      "finance": "Finance & Accounting",
       "hr": "HR & Payroll",
-      "projects": "Projects & Clients"
+      "projects": "Projects & Delivery"
     },
     "operations": {
       "title": "Lead-to-Payment Pipeline",
@@ -69,7 +70,7 @@
         },
         "5": {
           "title": "Client Portal",
-          "desc": "Branded portal for clients to view projects, invoices, contracts, and milestones."
+          "desc": "Branded portal for clients to view project progress, approve milestones, and access documents."
         }
       }
     },
@@ -124,12 +125,20 @@
           "desc": "Digital document signing, storage, and compliance tracking."
         },
         "4": {
-          "title": "Contractor Management",
-          "desc": "Handle contractor records, tax forms, and payment tracking."
+          "title": "Employee Self-Service Portal",
+          "desc": "Employees view payslips, request time off, access documents, and complete surveys."
         },
         "5": {
-          "title": "Celebrations & Culture",
-          "desc": "Birthdays, work anniversaries, internal communications, and team events."
+          "title": "Performance Reviews",
+          "desc": "Structured review cycles with self-assessments, manager evaluations, and 360-degree peer feedback."
+        },
+        "6": {
+          "title": "Recruitment & Onboarding",
+          "desc": "Post jobs, track candidates through the hiring pipeline, and onboard new hires with task checklists."
+        },
+        "7": {
+          "title": "Contractor Management",
+          "desc": "Handle contractor records, tax forms (1099), and payment tracking."
         }
       }
     },
@@ -154,8 +163,12 @@
           "desc": "Clients can view project progress, approve milestones, and access documents."
         },
         "4": {
-          "title": "Reporting & Insights",
-          "desc": "Utilization reports, project profitability, and team performance dashboards."
+          "title": "Visual Feedback & Annotations",
+          "desc": "Clients leave point-and-click feedback directly on deliverables, linked to tasks for resolution."
+        },
+        "5": {
+          "title": "AI-Powered Reports",
+          "desc": "Generate monthly project reports with AI-written summaries covering progress, risks, and milestones."
         }
       }
     }
@@ -213,7 +226,423 @@
     "sectionLabel": "Integrations",
     "sectionTitle": "Connects with Your Favorite Tools",
     "sectionSubtitle": "Powerful integrations that extend your workflow. Payment processing, communications, AI, and developer tools — all connected out of the box.",
-    "apiNote": "Open API available for custom integrations on Enterprise plans."
+    "apiNote": "Open API available for custom integrations on Enterprise plans.",
+    "erpLabel": "ERP Integrations (Enterprise)"
+  },
+  "modulePages": {
+    "backToOverview": "Back to all features",
+    "cta": "Request a Demo",
+    "viewPricing": "View Pricing",
+    "learnMore": "Learn more",
+    "exploreOther": "Explore Other Modules",
+    "operations": {
+      "label": "Business Development",
+      "heroTitle": "Lead-to-Payment Pipeline",
+      "heroSubtitle": "Manage the entire sales lifecycle from initial contact to final payment. Automate proposals, contracts, invoicing, and collections — all connected in a single workflow.",
+      "workflow": {
+        "lead": "Lead Capture",
+        "discovery": "Discovery Sessions",
+        "proposal": "Proposals",
+        "contract": "Contracts",
+        "invoice": "Invoicing",
+        "payment": "Payments"
+      },
+      "highlights": {
+        "0": {
+          "stat": "6 stages",
+          "label": "Complete lead-to-payment pipeline"
+        },
+        "1": {
+          "stat": "1-click",
+          "label": "Generate invoices from contracts"
+        },
+        "2": {
+          "stat": "4 methods",
+          "label": "Card, ACH, wire & crypto payments"
+        },
+        "3": {
+          "stat": "Auto",
+          "label": "Dunning reminders for overdue invoices"
+        }
+      },
+      "featuresTitle": "Everything You Need to Close Deals",
+      "featuresSubtitle": "From the first touchpoint to the final payment, every step is tracked and automated.",
+      "detailedFeatures": {
+        "0": {
+          "tag": "CRM",
+          "title": "Lead Management & Pipeline",
+          "description": "Capture and track leads through a visual pipeline. Conduct discovery sessions, run feasibility analyses, and qualify opportunities before committing resources.",
+          "bullets": {
+            "0": "Visual pipeline with customizable stages",
+            "1": "Discovery session recordings with AI transcription",
+            "2": "Feasibility analysis for technical and resource capacity"
+          }
+        },
+        "1": {
+          "tag": "Sales",
+          "title": "Proposals & Contract Signing",
+          "description": "Generate professional proposals from templates, share them via secure links, and convert accepted proposals into legally binding contracts with digital signatures.",
+          "bullets": {
+            "0": "Template-based proposals with custom pricing",
+            "1": "Secure share links with view tracking",
+            "2": "Dual digital signatures (your team + client)"
+          }
+        },
+        "2": {
+          "tag": "Billing",
+          "title": "Automated Invoicing",
+          "description": "Create invoices directly from signed contracts. Send payment links via email with a single click, and track payment status in real-time.",
+          "bullets": {
+            "0": "Auto-generate invoices from contract milestones",
+            "1": "Stripe-powered payment links in every email",
+            "2": "Real-time payment status tracking"
+          }
+        },
+        "3": {
+          "tag": "Payments",
+          "title": "Multi-Method Payment Collection",
+          "description": "Accept payments via credit card, ACH bank transfer, wire transfer, and cryptocurrency (USDC). All powered by Stripe with automatic reconciliation.",
+          "bullets": {
+            "0": "Credit card and ACH via Stripe Checkout",
+            "1": "Wire transfer and crypto (USDC) support",
+            "2": "Automatic payment recording and reconciliation"
+          }
+        },
+        "4": {
+          "tag": "Collections",
+          "title": "Dunning Automation",
+          "description": "Never chase payments manually again. Set up automated reminder sequences for overdue invoices via email, Slack, and in-app notifications.",
+          "bullets": {
+            "0": "Configurable reminder schedules (before, on, after due date)",
+            "1": "Multi-channel: email, Slack, and in-app notifications",
+            "2": "Escalation workflows for chronic late payers"
+          }
+        },
+        "5": {
+          "tag": "Portal",
+          "title": "Client Portal & Visibility",
+          "description": "Give clients a branded portal where they can view project progress, approve milestones, access documents, and make payments — all without needing an account.",
+          "bullets": {
+            "0": "Branded portal via secure share token",
+            "1": "Milestone approvals and document access",
+            "2": "No account required — instant access via link"
+          }
+        }
+      },
+      "ctaTitle": "Ready to Automate Your Sales Pipeline?",
+      "ctaSubtitle": "From leads to payments — manage everything in one place."
+    },
+    "finance": {
+      "label": "Finance & Accounting",
+      "heroTitle": "Double-Entry Accounting, Simplified",
+      "heroSubtitle": "A full accounting engine built for Latin America and the US. PCGE and US GAAP chart of accounts, journal entries, bank reconciliation, multi-currency, and real-time financial reports.",
+      "workflow": {
+        "accounts": "Chart of Accounts",
+        "journals": "Journal Entries",
+        "reconciliation": "Reconciliation",
+        "reports": "Financial Reports",
+        "budgets": "Budgets",
+        "compliance": "Tax Compliance"
+      },
+      "highlights": {
+        "0": {
+          "stat": "PCGE + GAAP",
+          "label": "Pre-built chart of accounts templates"
+        },
+        "1": {
+          "stat": "7 reports",
+          "label": "P&L, balance sheet, cash flow & more"
+        },
+        "2": {
+          "stat": "Multi-currency",
+          "label": "PEN, USD with auto exchange rates"
+        },
+        "3": {
+          "stat": "Auto-journal",
+          "label": "Entries from invoices and payments"
+        }
+      },
+      "featuresTitle": "Complete Financial Management",
+      "featuresSubtitle": "Everything your finance team needs — from daily bookkeeping to year-end reports.",
+      "detailedFeatures": {
+        "0": {
+          "tag": "Foundation",
+          "title": "Chart of Accounts",
+          "description": "Start with pre-built PCGE (Peru) or US GAAP chart of accounts templates, or create your own custom chart. Organize accounts by type, category, and sub-accounts.",
+          "bullets": {
+            "0": "PCGE and US GAAP templates included",
+            "1": "Custom accounts with unlimited sub-levels",
+            "2": "Account types: assets, liabilities, equity, revenue, expenses"
+          }
+        },
+        "1": {
+          "tag": "Bookkeeping",
+          "title": "Journal Entries",
+          "description": "Create manual journal entries or let the system auto-generate them from invoices, payments, and expenses. Every transaction is double-entry compliant.",
+          "bullets": {
+            "0": "Manual and auto-generated entries",
+            "1": "Draft, post, and void workflow",
+            "2": "Automatic balancing validation"
+          }
+        },
+        "2": {
+          "tag": "Reporting",
+          "title": "Financial Reports",
+          "description": "Generate profit & loss, balance sheet, cash flow statement, trial balance, general ledger, and aging reports. Filter by date range, account, and period.",
+          "bullets": {
+            "0": "7 standard financial reports",
+            "1": "Date range and period filtering",
+            "2": "Export to PDF and CSV"
+          }
+        },
+        "3": {
+          "tag": "Banking",
+          "title": "Bank Reconciliation",
+          "description": "Import bank transactions, match them against journal entries, and reconcile your accounts. Identify discrepancies and resolve them quickly.",
+          "bullets": {
+            "0": "Import transactions from bank statements",
+            "1": "Automatic matching against journal entries",
+            "2": "Discrepancy detection and resolution"
+          }
+        },
+        "4": {
+          "tag": "International",
+          "title": "Multi-Currency Support",
+          "description": "Handle transactions in PEN, USD, and other currencies. Automatic exchange rate updates ensure accurate conversions and reporting across currencies.",
+          "bullets": {
+            "0": "PEN, USD, and 150+ currencies supported",
+            "1": "Automatic daily exchange rate updates",
+            "2": "Currency gain/loss tracking"
+          }
+        },
+        "5": {
+          "tag": "Planning",
+          "title": "Budgets & Fiscal Periods",
+          "description": "Set budgets by account, track actual vs. budgeted amounts, and manage fiscal period openings and closures. Stay on top of spending across your organization.",
+          "bullets": {
+            "0": "Budget by account and department",
+            "1": "Variance tracking (actual vs. budget)",
+            "2": "Fiscal period management and closing"
+          }
+        }
+      },
+      "ctaTitle": "Take Control of Your Finances",
+      "ctaSubtitle": "Double-entry accounting that works for Latin America and the US."
+    },
+    "hr": {
+      "label": "People Operations",
+      "heroTitle": "HR & Payroll for Peru and the US",
+      "heroSubtitle": "Complete people management with payroll processing, attendance tracking, document handling, employee portals, performance reviews, recruitment, and contractor management — all compliant with SUNAT and IRS regulations.",
+      "workflow": {
+        "employees": "Employees",
+        "payroll": "Payroll",
+        "attendance": "Attendance",
+        "documents": "Documents",
+        "portal": "Self-Service",
+        "reviews": "Reviews"
+      },
+      "highlights": {
+        "0": {
+          "stat": "2 countries",
+          "label": "Peru (SUNAT) and US (IRS) compliance"
+        },
+        "1": {
+          "stat": "Auto-calc",
+          "label": "Payroll with tax deductions"
+        },
+        "2": {
+          "stat": "Self-service",
+          "label": "Employee portal for payslips & PTO"
+        },
+        "3": {
+          "stat": "360°",
+          "label": "Performance reviews with peer feedback"
+        }
+      },
+      "featuresTitle": "Everything Your HR Team Needs",
+      "featuresSubtitle": "From hiring to payroll to performance reviews — manage your entire workforce in one place.",
+      "detailedFeatures": {
+        "0": {
+          "tag": "Core HR",
+          "title": "Employee Management",
+          "description": "Centralized employee records with personal information, documents, contracts, compensation history, and organizational assignments. One source of truth for your entire workforce.",
+          "bullets": {
+            "0": "Complete employee profiles with document storage",
+            "1": "Compensation and contract history tracking",
+            "2": "Organizational chart and department management"
+          }
+        },
+        "1": {
+          "tag": "Payroll",
+          "title": "Payroll Processing",
+          "description": "Automated payroll calculations for Peru (SUNAT) and US (IRS) compliance. Handle gross-to-net calculations, tax withholdings, social contributions, and payslip generation.",
+          "bullets": {
+            "0": "Peru: AFP, EsSalud, ONP, CTS, Gratificaciones",
+            "1": "US: Federal/state tax, Social Security, Medicare",
+            "2": "Automatic payslip generation and distribution"
+          }
+        },
+        "2": {
+          "tag": "Time & Leave",
+          "title": "Attendance & Time Off",
+          "description": "Track daily attendance, manage PTO balances, handle sick days, and configure company holidays. Employees can request time off and managers approve with one click.",
+          "bullets": {
+            "0": "Daily check-in/check-out tracking",
+            "1": "PTO balance management with accrual rules",
+            "2": "Holiday calendars per country and office"
+          }
+        },
+        "3": {
+          "tag": "Compliance",
+          "title": "Document Management",
+          "description": "Handle employment contracts, NDAs, tax forms, and compliance documents. Digital signature workflows ensure everything is signed and stored securely.",
+          "bullets": {
+            "0": "Digital document signing workflow",
+            "1": "Secure cloud storage with version history",
+            "2": "Compliance tracking with expiration alerts"
+          }
+        },
+        "4": {
+          "tag": "Self-Service",
+          "title": "Employee Portal",
+          "description": "Employees access their own payslips, request time off, view and sign documents, complete surveys, and update personal information — all from a self-service portal.",
+          "bullets": {
+            "0": "Payslip viewing and download",
+            "1": "PTO requests with approval workflow",
+            "2": "Document access and digital signing"
+          }
+        },
+        "5": {
+          "tag": "Performance",
+          "title": "Performance Reviews",
+          "description": "Run structured review cycles with self-assessments, manager evaluations, and 360-degree peer feedback. Track goals, competencies, and development plans.",
+          "bullets": {
+            "0": "Configurable review cycles and templates",
+            "1": "Self, manager, and 360° peer evaluations",
+            "2": "Goal tracking and development plans"
+          }
+        },
+        "6": {
+          "tag": "Recruitment",
+          "title": "Recruitment & Onboarding",
+          "description": "Post job openings, track candidates through your hiring pipeline, and onboard new hires with automated task checklists. From first application to first day.",
+          "bullets": {
+            "0": "Job posting and applicant tracking",
+            "1": "Hiring pipeline with customizable stages",
+            "2": "Onboarding checklists with task assignments"
+          }
+        },
+        "7": {
+          "tag": "Contractors",
+          "title": "Contractor Management",
+          "description": "Manage contractor records, track payments, and handle tax documentation (1099 forms for US). Keep contractor relationships organized alongside your full-time employees.",
+          "bullets": {
+            "0": "Contractor profiles and payment tracking",
+            "1": "1099 form generation and filing",
+            "2": "Year-to-date payment summaries"
+          }
+        }
+      },
+      "ctaTitle": "Simplify Your People Operations",
+      "ctaSubtitle": "HR and payroll compliance for Peru and the US — in one platform."
+    },
+    "projects": {
+      "label": "Projects & Delivery",
+      "heroTitle": "Project Management That Delivers",
+      "heroSubtitle": "From signed contracts to delivered projects. Track milestones, manage tasks, log time, integrate with developer tools, and give clients full visibility through a branded portal.",
+      "workflow": {
+        "setup": "Project Setup",
+        "milestones": "Milestones",
+        "tasks": "Tasks",
+        "timeTracking": "Time Tracking",
+        "portal": "Client Portal",
+        "reports": "AI Reports"
+      },
+      "highlights": {
+        "0": {
+          "stat": "End-to-end",
+          "label": "Contract to delivery tracking"
+        },
+        "1": {
+          "stat": "GitHub + Sentry",
+          "label": "Developer tool integrations"
+        },
+        "2": {
+          "stat": "Billable hours",
+          "label": "Time tracking per task and project"
+        },
+        "3": {
+          "stat": "AI-powered",
+          "label": "Auto-generated project reports"
+        }
+      },
+      "featuresTitle": "Deliver Projects On Time, Every Time",
+      "featuresSubtitle": "Complete project management with client visibility and developer tool integrations.",
+      "detailedFeatures": {
+        "0": {
+          "tag": "Overview",
+          "title": "Project Tracking & Health",
+          "description": "Monitor project health with dashboards showing progress, milestones, budget consumption, and team utilization. Identify at-risk projects before they become problems.",
+          "bullets": {
+            "0": "Health dashboard with progress indicators",
+            "1": "Budget tracking and burn rate monitoring",
+            "2": "Team utilization and workload visibility"
+          }
+        },
+        "1": {
+          "tag": "Milestones",
+          "title": "Milestone Management",
+          "description": "Break projects into milestones with deliverables, due dates, and approval workflows. Clients can approve milestones directly through the portal, triggering invoice generation.",
+          "bullets": {
+            "0": "Milestone-based project structure",
+            "1": "Client approval workflow via portal",
+            "2": "Auto-invoice generation on milestone approval"
+          }
+        },
+        "2": {
+          "tag": "Tasks",
+          "title": "Task Management & Integrations",
+          "description": "Create and assign tasks to team members. Integrate with GitHub for code-linked tasks and Sentry for bug tracking. Keep development work connected to project milestones.",
+          "bullets": {
+            "0": "Task assignment with priority and due dates",
+            "1": "GitHub integration for commit and PR linking",
+            "2": "Sentry integration for bug-to-task tracking"
+          }
+        },
+        "3": {
+          "tag": "Time",
+          "title": "Time Tracking",
+          "description": "Log billable and non-billable hours per task and project. Generate time reports for invoicing, team utilization analysis, and project profitability tracking.",
+          "bullets": {
+            "0": "Per-task and per-project time logging",
+            "1": "Billable vs. non-billable categorization",
+            "2": "Time reports for invoicing and analysis"
+          }
+        },
+        "4": {
+          "tag": "Client Portal",
+          "title": "Client Portal & Feedback",
+          "description": "Give clients a branded portal to view project progress, approve milestones, leave visual feedback on deliverables, and access documents — all without needing an account.",
+          "bullets": {
+            "0": "Branded portal via secure share link",
+            "1": "Point-and-click visual feedback on deliverables",
+            "2": "Document sharing and milestone approvals"
+          }
+        },
+        "5": {
+          "tag": "AI",
+          "title": "AI-Powered Project Reports",
+          "description": "Generate comprehensive monthly project reports with AI-written summaries covering progress, risks, milestones achieved, and next steps. Share with clients or stakeholders.",
+          "bullets": {
+            "0": "AI-generated narrative summaries",
+            "1": "Progress, risks, and milestone coverage",
+            "2": "One-click sharing with clients"
+          }
+        }
+      },
+      "ctaTitle": "Deliver Projects with Confidence",
+      "ctaSubtitle": "Track milestones, manage tasks, and keep clients in the loop — all in one place."
+    }
   },
   "pricing": {
     "sectionLabel": "Pricing",
@@ -221,8 +650,9 @@
     "sectionSubtitle": "Choose the plan that fits your business. No hidden fees. Cancel anytime.",
     "monthly": "Monthly",
     "annual": "Annual",
-    "annualSave": "Save 20%",
+    "annualSave": "Save 15%",
     "perMonth": "/mo",
+    "perEmployee": "+ ${price}/employee/mo beyond 15 included",
     "guarantee": "14-day free trial on all plans. No credit card required.",
     "starter": {
       "name": "Starter",
@@ -242,16 +672,19 @@
       "singleOrg": "1 Organization",
       "basicAccounting": "Basic accounting & reports",
       "invoicing": "Invoicing & payment links",
-      "upTo10Clients": "Up to 10 clients",
+      "upTo10Users": "Up to 10 users",
       "emailSupport": "Email support",
       "multiOrg": "Unlimited organizations",
       "fullAccounting": "Full double-entry accounting (PCGE & US GAAP)",
       "invoicingPayments": "Invoicing, payments & dunning automation",
       "unlimitedClients": "Unlimited clients & projects",
       "hrPayroll": "HR & Payroll (Peru + USA)",
+      "includedEmployees": "15 employees included",
       "financialReports": "All financial reports & dashboards",
+      "dataMigration": "Assisted data migration",
       "prioritySupport": "Priority support",
       "everythingPro": "Everything in Professional",
+      "unlimitedEmployees": "Unlimited employees",
       "apiAccess": "API access & webhooks",
       "customIntegrations": "Custom integrations",
       "dedicatedManager": "Dedicated account manager",
@@ -283,11 +716,11 @@
     },
     "privacy": {
       "title": "Data Privacy",
-      "description": "Your data is never shared with third parties. Full GDPR compliance with data export and deletion capabilities."
+      "description": "Your data is never shared with third parties. Full data export and deletion capabilities with organization-level isolation."
     },
     "compliance": {
       "title": "Tax Compliance",
-      "description": "Built-in compliance for SUNAT (Peru) and IRS (USA) regulations. Automated tax calculations and filing support."
+      "description": "Built-in compliance for SUNAT (Peru) and IRS (USA) regulations. Automated tax calculations, withholding, and SUNAT electronic filing."
     }
   },
   "faq": {
@@ -328,7 +761,7 @@
   },
   "cta": {
     "title": "Ready to Simplify Your Operations?",
-    "subtitle": "Join hundreds of companies that have unified their billing, accounting, HR, and client management in one platform.",
+    "subtitle": "Unify your billing, accounting, HR, and project management in one platform designed for Latin America and the US.",
     "button": "Request a Demo"
   },
   "demo": {
@@ -361,6 +794,7 @@
     "legal": "Legal",
     "features": "Features",
     "pricing": "Pricing",
+    "docs": "Documentation",
     "demo": "Request Demo",
     "about": "About",
     "blog": "Blog",
@@ -371,5 +805,751 @@
     "cookies": "Cookie Policy",
     "builtBy": "Built by Vertek.",
     "rights": "All rights reserved."
+  },
+  "docs": {
+    "backToHome": "Back to Home",
+    "title": "Platform Documentation",
+    "subtitle": "Comprehensive technical and product documentation for BillingOps — the all-in-one billing, accounting, HR, and operations platform built by Vertek.",
+    "nav": {
+      "overview": "Product Overview",
+      "bmc": "Business Model Canvas",
+      "modules": "Modules Overview",
+      "bd": "Business Development",
+      "finance": "Finance & Accounting",
+      "hr": "HR & Payroll",
+      "projects": "Projects & Delivery",
+      "architecture": "Technical Architecture",
+      "dataModel": "Data Model",
+      "security": "Security",
+      "integrations": "Integrations",
+      "api": "API Reference"
+    },
+    "overview": {
+      "intro": "BillingOps is an all-in-one billing, accounting, HR, and operations platform built by Vertek for businesses operating in Latin America and the United States. It replaces the patchwork of disconnected tools — spreadsheets, standalone invoicing apps, separate HR systems, and basic accounting software — with a single, integrated platform that covers the entire business lifecycle from the first lead to the last payment and beyond.",
+      "mission": {
+        "title": "Mission",
+        "desc": "Empower small and mid-sized businesses in Latin America and the US with a unified platform that automates billing, accounting, HR, and project management — eliminating operational complexity so teams can focus on growth."
+      },
+      "market": {
+        "title": "Target Market",
+        "desc": "SMBs, agencies, consulting firms, and technology companies in Peru and the United States that need a bilingual, multi-currency platform with compliance for both SUNAT (Peru) and IRS (USA) regulations."
+      },
+      "value": {
+        "title": "Value Proposition",
+        "desc": "One platform that replaces five or more disconnected tools. Automate the complete lead-to-payment pipeline, run double-entry accounting with PCGE and US GAAP support, manage HR and payroll across countries, and deliver projects with full client visibility."
+      },
+      "differentiator": {
+        "title": "Key Differentiator",
+        "desc": "Purpose-built for the Latin American and US corridor. Native bilingual support (English and Spanish), multi-currency handling (PEN, USD, and more), and built-in compliance for both Peruvian and US tax regulations — something no other single platform offers."
+      },
+      "coreProblem": "Core Problems Solved",
+      "coreProblemDesc": "BillingOps was created to address five critical pain points that businesses in our target market face every day:",
+      "problems": {
+        "0": "Disconnected tools: Teams juggle separate apps for CRM, invoicing, accounting, HR, and project management, leading to data silos and manual re-entry.",
+        "1": "No accounting for LATAM: Most cloud accounting tools lack support for the Peruvian Plan Contable General Empresarial (PCGE) and local tax compliance.",
+        "2": "Manual invoicing and collections: Creating invoices, sending payment links, and chasing overdue payments is time-consuming and error-prone without automation.",
+        "3": "Scattered HR and payroll: Managing employees across Peru and the US requires handling two different sets of labor laws, tax calculations, and compliance requirements.",
+        "4": "No visibility into operations: Without a unified system, business owners lack real-time dashboards and reports to make informed decisions about cash flow, project health, and team performance."
+      }
+    },
+    "bmc": {
+      "intro": "The Business Model Canvas outlines how BillingOps creates, delivers, and captures value. Each block represents a strategic pillar of the business.",
+      "customerSegments": {
+        "title": "Customer Segments",
+        "items": {
+          "0": "Small and mid-sized businesses in Latin America (especially Peru) and the US",
+          "1": "Digital agencies and consulting firms managing multiple client engagements",
+          "2": "Technology companies with distributed teams across LATAM and the US",
+          "3": "Multi-country operations needing unified billing and compliance",
+          "4": "Freelancers and solo operators scaling into small teams"
+        }
+      },
+      "valuePropositions": {
+        "title": "Value Propositions",
+        "items": {
+          "0": "All-in-one platform replacing 5+ disconnected tools",
+          "1": "Dual accounting standards: PCGE (Peru) and US GAAP in one system",
+          "2": "Complete lead-to-payment automation with Stripe integration",
+          "3": "Multi-organization support with full data isolation",
+          "4": "Fully bilingual (English and Spanish) across the entire platform"
+        }
+      },
+      "channels": {
+        "title": "Channels",
+        "items": {
+          "0": "Direct sales with personalized demos and onboarding",
+          "1": "Product website with self-service sign-up and free trial",
+          "2": "Referral program with existing customers and partners",
+          "3": "Content marketing: blog posts, case studies, and webinars",
+          "4": "Strategic partnerships with accounting firms and HR consultants"
+        }
+      },
+      "customerRelationships": {
+        "title": "Customer Relationships",
+        "items": {
+          "0": "Dedicated customer success managers for Professional and Enterprise plans",
+          "1": "Self-service documentation, knowledge base, and video tutorials",
+          "2": "Guided onboarding with data migration assistance",
+          "3": "Community forum for peer support and feature requests",
+          "4": "Quarterly business reviews for Enterprise customers"
+        }
+      },
+      "revenueStreams": {
+        "title": "Revenue Streams",
+        "items": {
+          "0": "Monthly SaaS subscriptions: Starter ($49/mo), Professional ($149/mo), Enterprise (custom)",
+          "1": "Annual plans with 20% discount for upfront commitment",
+          "2": "Implementation and data migration fees for Enterprise customers",
+          "3": "Custom integration development for API and webhook consumers",
+          "4": "Premium support packages with guaranteed response times"
+        }
+      },
+      "keyResources": {
+        "title": "Key Resources",
+        "items": {
+          "0": "Full-stack engineering team with Next.js, TypeScript, and PostgreSQL expertise",
+          "1": "Cloud infrastructure on Vercel with Neon serverless PostgreSQL",
+          "2": "Strategic partnership with Stripe for global payment processing",
+          "3": "Deep domain expertise in Latin American and US accounting and tax compliance",
+          "4": "Proprietary AI models for discovery transcription, document analysis, and automation"
+        }
+      },
+      "keyActivities": {
+        "title": "Key Activities",
+        "items": {
+          "0": "Continuous platform development with bi-weekly feature releases",
+          "1": "Customer success and onboarding for new accounts",
+          "2": "Tax and compliance updates for Peru (SUNAT) and US (IRS) regulations",
+          "3": "Building and maintaining third-party integrations",
+          "4": "Security audits, penetration testing, and SOC 2 compliance work"
+        }
+      },
+      "keyPartners": {
+        "title": "Key Partners",
+        "items": {
+          "0": "Stripe — payment processing, checkout, and financial infrastructure",
+          "1": "Vercel — hosting, edge deployment, and serverless functions",
+          "2": "Resend — transactional email delivery for invoices and notifications",
+          "3": "OpenAI — AI-powered transcription, summaries, and automation",
+          "4": "Accounting firms and HR consultants — implementation partners and referrals"
+        }
+      },
+      "costStructure": {
+        "title": "Cost Structure",
+        "items": {
+          "0": "Engineering team salaries (largest cost center)",
+          "1": "Cloud hosting and infrastructure (Vercel, Neon, storage)",
+          "2": "Payment processing fees (Stripe per-transaction costs)",
+          "3": "Customer support and success team",
+          "4": "Third-party API costs (OpenAI, Resend, Slack, Sentry)"
+        }
+      }
+    },
+    "modules": {
+      "intro": "BillingOps is organized into four integrated modules, each covering a critical area of business operations. All modules share a unified database with 80+ models, ensuring data flows seamlessly between them without manual re-entry or synchronization.",
+      "bd": {
+        "title": "Business Development",
+        "desc": "Complete lead-to-payment pipeline covering lead capture, AI-powered discovery sessions, feasibility analysis, proposal generation, dual-signature contracts, automated invoicing, Stripe payment collection, and dunning automation."
+      },
+      "finance": {
+        "title": "Finance & Accounting",
+        "desc": "Full double-entry accounting engine with PCGE and US GAAP chart of accounts, journal entries (manual and auto-generated), seven report types, bank reconciliation, multi-currency support, budgets, fiscal periods, and tax compliance."
+      },
+      "hr": {
+        "title": "HR & Payroll",
+        "desc": "Comprehensive people operations covering employee management, country-specific payroll (Peru and US), attendance tracking, PTO workflows, document signing, performance reviews, recruitment, onboarding, benefits, and contractor management."
+      },
+      "projects": {
+        "title": "Projects & Delivery",
+        "desc": "End-to-end project management with health dashboards, milestone approval workflows, task boards, time tracking, client portal with email verification, visual feedback annotations, GitHub and Sentry integration, and AI-powered monthly reports."
+      },
+      "learnMore": "Learn more"
+    },
+    "bd": {
+      "intro": "The Business Development module covers the complete lifecycle from initial lead capture through final payment collection. Every stage is connected — data flows automatically from one step to the next, eliminating manual re-entry and ensuring nothing falls through the cracks.",
+      "pipeline": "The Pipeline",
+      "features": {
+        "0": {
+          "title": "Lead Tracking & Management",
+          "desc": "Capture and manage prospects with a full status pipeline (New, Contacted, Qualified, Proposal Sent, Won, Lost). Track company details, contacts, source, and estimated value. Assign owners and set follow-up reminders."
+        },
+        "1": {
+          "title": "AI-Powered Discovery Sessions",
+          "desc": "Record discovery meetings, upload video or audio, and let AI transcribe and analyze the content. Automatically extract key insights, pain points, and requirements into structured summaries for the team."
+        },
+        "2": {
+          "title": "Feasibility Analysis",
+          "desc": "Evaluate technical feasibility, team capacity, and resource requirements for each lead. Score opportunities based on complexity, timeline, and strategic fit before committing to a proposal."
+        },
+        "3": {
+          "title": "Proposal Generation & Public Sharing",
+          "desc": "Create professional proposals with customizable templates, line-item pricing, and scope definitions. Generate secure share links so clients can view proposals in a branded, public-facing page with built-in view tracking."
+        },
+        "4": {
+          "title": "Dual-Signature Contracts",
+          "desc": "Convert accepted proposals into contracts. Rowship pre-signs the contract, then sends a secure link to the client for their digital signature. Both signatures are captured with timestamps and stored for compliance."
+        },
+        "5": {
+          "title": "Automated Invoice Generation",
+          "desc": "Generate invoices directly from active contracts with pre-filled line items, amounts, and payment terms. Send invoices via email with a one-click Stripe checkout link for instant payment collection."
+        },
+        "6": {
+          "title": "Stripe Payment Processing",
+          "desc": "Accept credit/debit cards, ACH bank transfers, wire payments, and cryptocurrency (USDC) through Stripe. Payments are automatically reconciled, and corresponding journal entries are created in the accounting module."
+        },
+        "7": {
+          "title": "Dunning Automation",
+          "desc": "Automated escalation workflow for overdue invoices: reminder on due date (D+0), follow-up at D+2, escalation at D+5, and final notice at D+10. Notifications sent via email, Slack, and in-app channels with AI-generated messaging."
+        },
+        "8": {
+          "title": "Client Conversion",
+          "desc": "When a proposal is accepted and a contract is signed, the lead is automatically converted into a client record. All historical data — discovery notes, proposals, contracts — is preserved and linked to the new client profile."
+        }
+      }
+    },
+    "finance": {
+      "intro": "The Finance module provides a complete double-entry accounting engine designed for businesses operating in both Peru and the United States. It supports the Peruvian Plan Contable General Empresarial (PCGE) and US GAAP chart of accounts out of the box, with automatic journal entry generation from business transactions across the platform.",
+      "features": {
+        "0": {
+          "title": "Double-Entry Accounting Engine",
+          "desc": "Every transaction creates balanced debit and credit entries. The system enforces accounting integrity with validation rules that prevent unbalanced entries from being posted."
+        },
+        "1": {
+          "title": "PCGE & US GAAP Chart of Accounts",
+          "desc": "Pre-built chart of accounts templates for the Peruvian PCGE standard and US GAAP. Seed your books in seconds, or customize the chart to match your specific business needs."
+        },
+        "2": {
+          "title": "Journal Entries (Manual & Automatic)",
+          "desc": "Create manual journal entries for adjustments and accruals. Automatic entries are generated from invoices, payments, payroll runs, expenses, and bill payments — keeping your books always up to date."
+        },
+        "3": {
+          "title": "Bank Reconciliation",
+          "desc": "Import bank transactions, match them against existing journal entries, and reconcile your accounts. Track reconciliation status per bank account with detailed audit trails."
+        },
+        "4": {
+          "title": "Multi-Currency with Exchange Rates",
+          "desc": "Handle transactions in PEN, USD, and other currencies. Fetch latest exchange rates automatically and record currency conversion gains or losses in the appropriate accounts."
+        },
+        "5": {
+          "title": "Budget Management",
+          "desc": "Create budgets by account and fiscal period. Track actual vs. budgeted amounts with variance analysis to keep spending under control and forecast accurately."
+        },
+        "6": {
+          "title": "Fiscal Period Management",
+          "desc": "Define fiscal years and periods (monthly, quarterly, or custom). Close periods to prevent further postings and generate period-end reports for compliance."
+        },
+        "7": {
+          "title": "Vendor & Expense Management",
+          "desc": "Maintain a vendor directory with contact details and payment terms. Track expenses with approval workflows and automatically generate journal entries on approval."
+        },
+        "8": {
+          "title": "Bills & Accounts Payable",
+          "desc": "Record vendor bills, track payment due dates, and process payments. The system maintains a complete accounts payable ledger with aging analysis."
+        },
+        "9": {
+          "title": "Loan Tracking",
+          "desc": "Record loans with principal, interest rates, and payment schedules. Track loan payments and automatically generate the corresponding journal entries for principal and interest."
+        },
+        "10": {
+          "title": "Tax Obligations",
+          "desc": "Track tax obligations for both Peru (SUNAT) and US (IRS). Record tax payments, manage filing deadlines, and maintain a complete history for audit purposes."
+        }
+      },
+      "reportTypes": "Financial Report Types",
+      "reports": {
+        "0": "Profit & Loss Statement",
+        "1": "Balance Sheet",
+        "2": "Cash Flow Statement",
+        "3": "Trial Balance",
+        "4": "General Ledger",
+        "5": "Accounts Receivable Aging",
+        "6": "Accounts Payable Aging"
+      }
+    },
+    "hr": {
+      "intro": "The HR & Payroll module provides comprehensive people operations for businesses with employees in Peru and the United States. From hiring to retirement, it handles employee records, payroll processing with country-specific tax calculations, attendance tracking, document management, performance reviews, recruitment, and much more.",
+      "features": {
+        "0": {
+          "title": "Employee Management",
+          "desc": "Centralized employee profiles with personal details, employment history, compensation records, documents, emergency contacts, and organizational structure. Support for full-time, part-time, and contract workers."
+        },
+        "1": {
+          "title": "Country-Specific Payroll",
+          "desc": "Automated payroll processing with country-specific calculations. Peru: CTS, gratificaciones, EsSalud, AFP/ONP contributions. US: W-2 withholding, federal and state taxes, Social Security, and Medicare."
+        },
+        "2": {
+          "title": "Attendance Tracking",
+          "desc": "Clock in/out functionality, daily attendance records, overtime calculation, and absence tracking. Generate attendance reports by department, team, or individual employee."
+        },
+        "3": {
+          "title": "PTO & Absence Management",
+          "desc": "Configure leave types (vacation, sick, personal, maternity/paternity), set accrual policies, and manage approval workflows. Employees submit requests; managers approve through the platform or HR portal."
+        },
+        "4": {
+          "title": "Document Management & Digital Signatures",
+          "desc": "Upload, store, and manage HR documents with version control. Dual digital signature support for employment contracts, policy acknowledgments, and compliance documents. Track signing status and send reminders."
+        },
+        "5": {
+          "title": "HR Portal for Employees",
+          "desc": "Self-service portal where employees can view payslips, request time off, update personal information, access company documents, complete surveys, and view announcements."
+        },
+        "6": {
+          "title": "Performance Reviews & Peer Feedback",
+          "desc": "Structured performance review cycles with self-assessments, manager evaluations, and 360-degree peer reviews. Track goals, competencies, and development plans over time."
+        },
+        "7": {
+          "title": "Recognition & Kudos",
+          "desc": "Peer-to-peer recognition system where employees can send kudos aligned with company values. Build a culture of appreciation with a public recognition feed and monthly highlights."
+        },
+        "8": {
+          "title": "Recruitment & Hiring",
+          "desc": "Post job openings, track candidates through the hiring pipeline (Applied, Screening, Interview, Offer, Hired, Rejected), schedule interviews, and manage offer letters — all within the platform."
+        },
+        "9": {
+          "title": "Onboarding Checklists",
+          "desc": "Create structured onboarding programs with task checklists, document requirements, and training assignments. Track completion status and ensure every new hire has a consistent experience."
+        },
+        "10": {
+          "title": "Training & Certifications",
+          "desc": "Manage training courses, track employee enrollments and completions, and monitor certification expiration dates. Ensure compliance with mandatory training requirements."
+        },
+        "11": {
+          "title": "Benefits Enrollment & Surveys",
+          "desc": "Manage benefit plans, track enrollment periods, and allow employees to select their benefits through the portal. Run employee surveys to measure engagement and satisfaction."
+        },
+        "12": {
+          "title": "Contractor Management",
+          "desc": "Manage independent contractors with service orders, contract terms, deliverables, and payment tracking. Generate 1099 tax records (US) and maintain compliance documentation."
+        }
+      },
+      "compliance": "Country-Specific Compliance",
+      "peru": {
+        "title": "Peru Compliance",
+        "items": {
+          "0": "CTS (Compensacion por Tiempo de Servicios) calculation and deposits",
+          "1": "Gratificaciones (July and December bonus payments)",
+          "2": "EsSalud employer health insurance contributions",
+          "3": "AFP/ONP pension fund withholding and reporting",
+          "4": "SUNAT payroll tax reporting and electronic filing"
+        }
+      },
+      "usa": {
+        "title": "US Compliance",
+        "items": {
+          "0": "W-2 wage and tax statement generation for employees",
+          "1": "1099-NEC reporting for independent contractors",
+          "2": "Federal income tax withholding (IRS tax tables)",
+          "3": "Social Security and Medicare (FICA) calculations",
+          "4": "State-level tax withholding and reporting"
+        }
+      }
+    },
+    "projects": {
+      "intro": "The Projects module connects signed contracts to delivered work. It provides end-to-end project management with health tracking, milestone-based delivery, task boards, time logging, and a client-facing portal — all integrated with the billing and accounting modules for seamless invoicing and financial reporting.",
+      "features": {
+        "0": {
+          "title": "Project Health Dashboards",
+          "desc": "Visual health indicators (Blue for new, Green for on track, Yellow for at risk, Red for critical) give instant visibility into project status. Track budget burn rate, timeline progress, and team allocation at a glance."
+        },
+        "1": {
+          "title": "Milestone Approval Workflows",
+          "desc": "Define project milestones with deliverables, due dates, and acceptance criteria. Clients review and approve milestones through the client portal, triggering invoice generation for milestone-based billing."
+        },
+        "2": {
+          "title": "Task Management Board",
+          "desc": "Full Kanban-style task board with six statuses: Backlog, To Do, In Progress, Review, Blocked, and Done. Assign tasks to team members, set priorities, track estimates vs. actual time, and link to GitHub issues."
+        },
+        "3": {
+          "title": "Time Tracking (Billable & Non-Billable)",
+          "desc": "Log time entries against tasks with billable and non-billable classification. Calculate billable amounts based on team member rates. Generate utilization reports and feed data into invoicing."
+        },
+        "4": {
+          "title": "Client Portal with Email Verification",
+          "desc": "Branded client portal accessible via secure share tokens. Clients verify their email to access project updates, milestone status, documents, and visual feedback tools. No account creation required."
+        },
+        "5": {
+          "title": "Visual Feedback & Annotations",
+          "desc": "Clients can leave visual feedback directly on deliverables with point-and-click annotations. Comments are threaded, tracked, and linked to specific tasks for resolution."
+        },
+        "6": {
+          "title": "GitHub & Sentry Integration",
+          "desc": "Link tasks to GitHub issues and pull requests for developer workflow integration. Connect Sentry error tracking to identify and link production issues directly to project tasks."
+        },
+        "7": {
+          "title": "AI-Powered Monthly Reports",
+          "desc": "Generate comprehensive monthly project reports with AI-written summaries covering progress, risks, upcoming milestones, and team performance. Share reports with clients through the portal."
+        }
+      }
+    },
+    "architecture": {
+      "intro": "BillingOps is built on a modern, production-grade technology stack optimized for performance, developer experience, and scalability. The architecture follows established patterns for multi-tenant SaaS applications with strong data isolation, role-based access, and comprehensive audit logging.",
+      "stack": "Technology Stack",
+      "techStack": {
+        "0": {
+          "name": "Next.js 14 (App Router)",
+          "desc": "React framework with server components, streaming, and edge runtime for fast page loads and SEO optimization."
+        },
+        "1": {
+          "name": "TypeScript (Strict Mode)",
+          "desc": "End-to-end type safety across the entire codebase — from database queries to API responses to UI components."
+        },
+        "2": {
+          "name": "PostgreSQL via Neon",
+          "desc": "Serverless PostgreSQL with connection pooling, branching for development, and automatic scaling for production workloads."
+        },
+        "3": {
+          "name": "Prisma ORM",
+          "desc": "Type-safe database client with schema-driven migrations, relation management, and an intuitive query builder for 80+ models."
+        },
+        "4": {
+          "name": "NextAuth v5 (JWT Strategy)",
+          "desc": "Authentication with JWT tokens, credentials provider, bcrypt password hashing, and session management with role information."
+        },
+        "5": {
+          "name": "Tailwind CSS",
+          "desc": "Utility-first CSS framework for consistent, responsive design across all modules with a custom design system."
+        },
+        "6": {
+          "name": "shadcn/ui Component Library",
+          "desc": "Accessible, composable UI components built on Radix primitives with full customization and consistent design language."
+        },
+        "7": {
+          "name": "Vercel Deployment",
+          "desc": "Edge network deployment with automatic CI/CD, preview environments for pull requests, and serverless function execution."
+        },
+        "8": {
+          "name": "next-intl for Internationalization",
+          "desc": "Full i18n support with English and Spanish translations, locale-aware routing, and formatted dates, numbers, and currencies."
+        },
+        "9": {
+          "name": "Zod Validation",
+          "desc": "Runtime schema validation for all API inputs and form data, ensuring type safety at the boundary between client and server."
+        }
+      },
+      "patterns": "Architectural Patterns",
+      "patternList": {
+        "0": {
+          "title": "REST API Routes with Consistent Structure",
+          "desc": "All API endpoints follow a standard pattern: authentication, RBAC authorization, Zod validation, business logic, audit logging, and consistent JSON responses with proper HTTP status codes."
+        },
+        "1": {
+          "title": "RBAC Middleware with 25+ Permissions",
+          "desc": "Role-based access control enforced at every API endpoint. Five roles (Owner, Admin, Finance, Sales, Viewer) with granular resource-level permissions across all modules."
+        },
+        "2": {
+          "title": "Comprehensive Audit Logging",
+          "desc": "Every create, update, and delete operation is logged with actor identity, timestamp, entity type, entity ID, and metadata. Provides a complete compliance trail for financial and HR operations."
+        },
+        "3": {
+          "title": "Multi-Tenant Data Isolation",
+          "desc": "All database models include an organizationId field. Queries are scoped to the current organization, ensuring complete data isolation between tenants without separate databases."
+        },
+        "4": {
+          "title": "Public Sharing via Secure Tokens",
+          "desc": "Proposals, contracts, and project portals support public access through cryptographically secure share tokens. No authentication required for clients to view, sign, or interact with shared resources."
+        },
+        "5": {
+          "title": "Webhook Handling for External Events",
+          "desc": "Stripe payment webhooks and crypto payment callbacks are processed through verified webhook endpoints. Events are validated, idempotency is enforced, and corresponding records are created or updated."
+        }
+      }
+    },
+    "dataModel": {
+      "intro": "The BillingOps data model spans 80+ Prisma models and 50+ enums, organized across four modules. Every model includes multi-tenant isolation via organizationId and timestamps for audit purposes. Below are the 20 core entities that form the backbone of the platform.",
+      "coreEntities": "Core Entities",
+      "entity": "Model",
+      "module": "Module",
+      "description": "Description",
+      "entities": {
+        "0": {
+          "name": "User",
+          "module": "Core",
+          "desc": "System users with roles (Owner, Admin, Finance, Sales, Viewer), authentication credentials, and organization membership."
+        },
+        "1": {
+          "name": "Organization",
+          "module": "Core",
+          "desc": "Multi-tenant organization with settings, branding, chart of accounts configuration, and subscription plan."
+        },
+        "2": {
+          "name": "Lead",
+          "module": "BD",
+          "desc": "Potential clients with status pipeline, contact information, estimated value, source tracking, and assigned owner."
+        },
+        "3": {
+          "name": "Discovery",
+          "module": "BD",
+          "desc": "Meeting recordings with AI-generated transcripts and structured summaries extracted via OpenAI."
+        },
+        "4": {
+          "name": "Proposal",
+          "module": "BD",
+          "desc": "Business proposals with line-item pricing, scope definitions, public share tokens, and view tracking analytics."
+        },
+        "5": {
+          "name": "Contract",
+          "module": "BD",
+          "desc": "Signed agreements with dual digital signatures (Rowship + client), share tokens, and linked invoices."
+        },
+        "6": {
+          "name": "Invoice",
+          "module": "BD",
+          "desc": "Billing documents with line items, tax calculations, Stripe checkout integration, and status tracking (Draft, Sent, Paid, Overdue)."
+        },
+        "7": {
+          "name": "Payment",
+          "module": "BD",
+          "desc": "Payment records supporting Card, ACH, Wire, and USDC methods with automatic journal entry generation."
+        },
+        "8": {
+          "name": "Client",
+          "module": "BD",
+          "desc": "Active clients converted from accepted proposals, with contact details, billing preferences, and project history."
+        },
+        "9": {
+          "name": "ChartOfAccounts",
+          "module": "Finance",
+          "desc": "Hierarchical account structure supporting PCGE and US GAAP standards with account types, codes, and balances."
+        },
+        "10": {
+          "name": "JournalEntry",
+          "module": "Finance",
+          "desc": "Double-entry accounting records with debit/credit lines, posting status, and source reference (invoice, payment, payroll)."
+        },
+        "11": {
+          "name": "BankAccount",
+          "module": "Finance",
+          "desc": "Bank accounts with transaction import, reconciliation tracking, and current balance management."
+        },
+        "12": {
+          "name": "Employee",
+          "module": "HR",
+          "desc": "Employee profiles with personal data, employment details, compensation, department, and country-specific tax information."
+        },
+        "13": {
+          "name": "PayrollRun",
+          "module": "HR",
+          "desc": "Payroll processing batches with gross/net calculations, deductions, employer contributions, and approval workflow."
+        },
+        "14": {
+          "name": "Attendance",
+          "module": "HR",
+          "desc": "Daily attendance records with clock-in/out times, overtime calculations, and absence categorization."
+        },
+        "15": {
+          "name": "HRDocument",
+          "module": "HR",
+          "desc": "HR documents with digital signature support, version control, expiration tracking, and compliance categorization."
+        },
+        "16": {
+          "name": "Project",
+          "module": "Projects",
+          "desc": "Active projects linked to contracts with health status, budget tracking, team assignments, and client portal access."
+        },
+        "17": {
+          "name": "Milestone",
+          "module": "Projects",
+          "desc": "Project deliverables with due dates, acceptance criteria, client approval workflow, and invoice generation triggers."
+        },
+        "18": {
+          "name": "Task",
+          "module": "Projects",
+          "desc": "Work items with Kanban status (Backlog through Done), assignees, estimates, GitHub/Sentry links, and time entries."
+        },
+        "19": {
+          "name": "TimeEntry",
+          "module": "Projects",
+          "desc": "Time logs with billable/non-billable classification, hourly rates, task association, and invoicing status."
+        }
+      },
+      "total": "The complete schema includes 80+ models and 50+ enums covering every aspect of business operations — from lead scoring and proposal templates to payroll deductions and bank reconciliation records."
+    },
+    "security": {
+      "intro": "Security is foundational to BillingOps. The platform handles sensitive financial data, employee records, and business contracts, so every layer of the architecture is designed with defense in depth. Below are the key security features built into the platform.",
+      "features": {
+        "0": {
+          "title": "JWT Authentication with Session Management",
+          "desc": "NextAuth v5 with JWT strategy provides stateless authentication. Sessions include user identity and role, are cryptographically signed, and expire automatically. All authenticated routes are protected by middleware."
+        },
+        "1": {
+          "title": "Role-Based Access Control (5 Roles)",
+          "desc": "Five granular roles — Owner, Admin, Finance, Sales, and Viewer — with 25+ resource-level permissions. Every API endpoint checks permissions before executing business logic using the canAccess() utility."
+        },
+        "2": {
+          "title": "Organization-Level Data Isolation",
+          "desc": "All database queries are scoped by organizationId, ensuring complete data isolation between tenants. Users can only access data belonging to their organization, enforced at the query level."
+        },
+        "3": {
+          "title": "Comprehensive Audit Logging",
+          "desc": "Every create, update, and delete operation is recorded in the AuditLog table with actor ID, action type, entity reference, timestamp, and metadata. Provides a tamper-evident compliance trail."
+        },
+        "4": {
+          "title": "Input Validation with Zod",
+          "desc": "All API request bodies and query parameters are validated using Zod schemas before processing. Invalid inputs are rejected with detailed error messages, preventing injection attacks and data corruption."
+        },
+        "5": {
+          "title": "Two-Factor Authentication (2FA)",
+          "desc": "Optional two-factor authentication support for user accounts, adding an extra layer of security for accessing sensitive financial and HR data."
+        },
+        "6": {
+          "title": "Password Policies",
+          "desc": "Enforced password requirements including minimum length, complexity rules (uppercase, lowercase, numbers, special characters), password history to prevent reuse, and configurable expiration policies."
+        },
+        "7": {
+          "title": "API Keys with Scoped Permissions",
+          "desc": "Enterprise plans support API key authentication with scoped permissions for programmatic access. Keys can be restricted to specific resources and actions, and are rotatable without downtime."
+        },
+        "8": {
+          "title": "Rate Limiting",
+          "desc": "API endpoints are protected with rate limiting to prevent abuse, brute-force attacks, and denial-of-service attempts. Limits are configurable per endpoint and per authentication level."
+        },
+        "9": {
+          "title": "Encryption at Rest and in Transit",
+          "desc": "All data is encrypted at rest using AES-256 encryption in the database layer. All communications use TLS 1.3 for encryption in transit, ensuring data is protected throughout its lifecycle."
+        }
+      }
+    },
+    "integrations": {
+      "intro": "BillingOps integrates with best-in-class third-party services to extend its capabilities across payments, communications, AI, and developer tools. All integrations are built with resilience, retry logic, and webhook verification.",
+      "items": {
+        "0": {
+          "name": "Stripe",
+          "desc": "Full payment infrastructure: checkout sessions, payment intents, refund processing, customer management, and real-time webhook events for payment confirmation and reconciliation."
+        },
+        "1": {
+          "name": "Resend",
+          "desc": "Transactional email delivery with 14 pre-built templates covering invoice delivery, payment confirmations, contract sharing, dunning reminders, onboarding sequences, and HR notifications."
+        },
+        "2": {
+          "name": "Slack",
+          "desc": "Internal team notifications for payment events, dunning escalations, contract signatures, milestone approvals, and system alerts. Configurable per channel with rich message formatting."
+        },
+        "3": {
+          "name": "Telegram",
+          "desc": "Payment reminders and client notifications delivered via Telegram bot. Supports payment confirmation alerts, overdue invoice notifications, and custom automated messages."
+        },
+        "4": {
+          "name": "OpenAI",
+          "desc": "AI-powered features including discovery session transcription (Whisper), meeting summary generation, intelligent dunning message composition, and automated monthly project report narratives."
+        },
+        "5": {
+          "name": "GitHub",
+          "desc": "Developer workflow integration linking project tasks to GitHub issues and pull requests. Track code changes, branch status, and deployment state directly from the project task board."
+        },
+        "6": {
+          "name": "Sentry",
+          "desc": "Error tracking and monitoring integration. Link production errors and performance issues directly to project tasks for triage, prioritization, and resolution tracking."
+        }
+      },
+      "erpTitle": "ERP Integrations (Enterprise)",
+      "erpDesc": "For businesses that already use a major ERP system, BillingOps integrates as the operational frontend — syncing financial data, invoices, payments, and chart of accounts with your existing ERP. Available on Enterprise plans.",
+      "erp": {
+        "0": {
+          "name": "SAP Business One / S/4HANA",
+          "desc": "Sync chart of accounts, journal entries, invoices, and payments via SAP Service Layer (REST/OData). Support for both SAP Business One and S/4HANA environments."
+        },
+        "1": {
+          "name": "Odoo",
+          "desc": "Bidirectional sync of contacts, invoices, journal entries, and products via Odoo XML-RPC / JSON-RPC API. Import existing chart of accounts and customer catalogs."
+        },
+        "2": {
+          "name": "QuickBooks Online",
+          "desc": "Export invoices, payments, and accounting entries to QuickBooks via OAuth 2.0 REST API. Import chart of accounts and vendor records."
+        },
+        "3": {
+          "name": "Xero",
+          "desc": "Sync invoices, payments, bank transactions, and contacts with Xero via REST API. Automatic reconciliation of exported transactions."
+        },
+        "4": {
+          "name": "Oracle NetSuite",
+          "desc": "Enterprise-grade integration via SuiteTalk REST API for syncing the full financial workflow: chart of accounts, journal entries, invoices, payments, and vendor bills."
+        }
+      }
+    },
+    "api": {
+      "intro": "The BillingOps API follows REST conventions with consistent authentication, authorization, validation, and response patterns across all endpoints. All routes are organized under the /api/ path and return JSON responses with standard HTTP status codes.",
+      "endpoints": "Sample Endpoints",
+      "routes": {
+        "0": {
+          "method": "GET",
+          "path": "/api/leads",
+          "desc": "List all leads with filtering and search"
+        },
+        "1": {
+          "method": "POST",
+          "path": "/api/leads",
+          "desc": "Create a new lead"
+        },
+        "2": {
+          "method": "POST",
+          "path": "/api/discovery/[id]/transcribe",
+          "desc": "AI-transcribe a discovery session"
+        },
+        "3": {
+          "method": "POST",
+          "path": "/api/proposals/[id]/generate-link",
+          "desc": "Generate a public share link"
+        },
+        "4": {
+          "method": "POST",
+          "path": "/api/contracts/[id]/sign",
+          "desc": "Client digital signature"
+        },
+        "5": {
+          "method": "GET",
+          "path": "/api/invoices",
+          "desc": "List invoices with status filtering"
+        },
+        "6": {
+          "method": "POST",
+          "path": "/api/invoices/[id]/send",
+          "desc": "Send invoice with Stripe checkout link"
+        },
+        "7": {
+          "method": "POST",
+          "path": "/api/payments",
+          "desc": "Record a payment (manual or webhook)"
+        },
+        "8": {
+          "method": "GET",
+          "path": "/api/finance/reports/profit-loss",
+          "desc": "Generate P&L report"
+        },
+        "9": {
+          "method": "POST",
+          "path": "/api/finance/journal-entries",
+          "desc": "Create a journal entry"
+        },
+        "10": {
+          "method": "GET",
+          "path": "/api/hr/employees",
+          "desc": "List employees with department filtering"
+        },
+        "11": {
+          "method": "POST",
+          "path": "/api/hr/payroll/run",
+          "desc": "Execute a payroll run"
+        },
+        "12": {
+          "method": "GET",
+          "path": "/api/projects",
+          "desc": "List projects with health status"
+        },
+        "13": {
+          "method": "POST",
+          "path": "/api/projects/[id]/milestones",
+          "desc": "Create a project milestone"
+        },
+        "14": {
+          "method": "POST",
+          "path": "/api/dunning",
+          "desc": "Trigger dunning workflow for overdue invoices"
+        }
+      },
+      "auth": "Authentication",
+      "authDesc": "All authenticated endpoints require a valid JWT session token provided via NextAuth. The session includes the user's ID and role, which are used for RBAC permission checks. Unauthenticated requests receive a 401 response, and requests with insufficient permissions receive a 403 response.",
+      "publicRoutes": "Public Routes",
+      "publicDesc": "Certain routes are accessible without authentication for client-facing workflows: proposal viewing (/api/proposals/public/[token]), contract signing (/api/contracts/public/[token]), invoice payment (/api/invoices/public/[id]), project portal (/api/projects/public/[token]), and webhook receivers (/api/webhooks/stripe, /api/webhooks/crypto)."
+    }
   }
 }
