@@ -43,40 +43,6 @@ export const PRICING_TIERS = [
   },
 ] as const
 
-export const FEATURES = [
-  {
-    id: 'leadToPay',
-    icon: 'Workflow',
-  },
-  {
-    id: 'accounting',
-    icon: 'BookOpen',
-  },
-  {
-    id: 'multiOrg',
-    icon: 'Building2',
-  },
-  {
-    id: 'invoicing',
-    icon: 'Receipt',
-  },
-  {
-    id: 'hrPayroll',
-    icon: 'Users',
-  },
-  {
-    id: 'reports',
-    icon: 'BarChart3',
-  },
-  {
-    id: 'taxCompliance',
-    icon: 'ShieldCheck',
-  },
-  {
-    id: 'clientPortal',
-    icon: 'Globe',
-  },
-] as const
 
 export const COMPANY_SIZES = [
   '1-10',

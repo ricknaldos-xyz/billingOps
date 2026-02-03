@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "BillingOps — Streamline Your Billing & Operations",
-    "description": "All-in-one platform for billing, accounting, HR, and client management. From leads to payments, automated."
+    "title": "BillingOps — All-in-One Billing, Accounting & HR Platform",
+    "description": "Manage leads, proposals, contracts, invoices, payments, accounting, HR and payroll from a single platform. Built for Latin America and the US."
   },
   "nav": {
     "features": "Features",
@@ -10,174 +10,340 @@
     "requestDemo": "Request a Demo"
   },
   "hero": {
-    "badge": "Built for modern businesses",
-    "title": "From Leads to Payments,",
-    "titleHighlight": "All in One Place",
-    "subtitle": "Stop juggling spreadsheets and disconnected tools. Manage your entire billing lifecycle, accounting, HR, and client relationships from a single platform.",
+    "badge": "The platform that grows with your business",
+    "title": "All-in-One Billing, Accounting & HR",
+    "titleHighlight": "for Growing Businesses",
+    "subtitle": "Stop switching between disconnected tools. Manage your complete business lifecycle — from the first lead to the last payment — in a single platform designed for Latin America and the US.",
+    "painPoint1": "Lead-to-payment automation",
+    "painPoint2": "Double-entry accounting",
+    "painPoint3": "HR, payroll & attendance",
+    "painPoint4": "SUNAT & IRS compliant",
     "cta": "Request a Demo",
-    "ctaSecondary": "See Features",
-    "trustedBy": "Trusted by forward-thinking companies"
+    "ctaVideo": "Watch Demo",
+    "metricCompanies": "Companies",
+    "metricUsers": "Users",
+    "metricTimeSaved": "Time saved on admin",
+    "metricUptime": "Uptime SLA",
+    "floatingPayment": "Payment received",
+    "floatingPaymentSub": "Invoice #1042 — $4,500",
+    "floatingRevenue": "Revenue +23%",
+    "floatingRevenueSub": "vs. last month"
+  },
+  "logoCloud": {
+    "title": "Trusted by forward-thinking companies across Latin America and the US"
   },
   "features": {
-    "sectionTitle": "Everything You Need",
-    "sectionSubtitle": "One platform to manage your entire business operations — from the first lead to the last payment.",
-    "leadToPay": {
+    "sectionLabel": "Platform",
+    "sectionTitle": "One Platform, Every Module",
+    "sectionSubtitle": "Four integrated modules that cover your entire operation. No more spreadsheets, no more data silos.",
+    "learnMore": "See pricing plans",
+    "tabs": {
+      "operations": "Operations & Billing",
+      "finance": "Accounting & Finance",
+      "hr": "HR & Payroll",
+      "projects": "Projects & Clients"
+    },
+    "operations": {
       "title": "Lead-to-Payment Pipeline",
-      "description": "Track leads, generate proposals, sign contracts, and collect payments — all in a single, automated flow."
+      "description": "Manage the complete sales cycle from initial contact to collected payment. Automate proposals, contracts, invoicing, and dunning — all connected.",
+      "features": {
+        "0": {
+          "title": "Lead Management",
+          "desc": "Track prospects with status pipeline, discovery sessions, and feasibility analysis."
+        },
+        "1": {
+          "title": "Proposals & Contracts",
+          "desc": "Generate proposals, share via secure links, collect digital signatures on contracts."
+        },
+        "2": {
+          "title": "Automated Invoicing",
+          "desc": "Create invoices from contracts, send payment links via email with one click."
+        },
+        "3": {
+          "title": "Payment Collection",
+          "desc": "Accept card, ACH, wire, and crypto (USDC) payments via Stripe integration."
+        },
+        "4": {
+          "title": "Dunning Automation",
+          "desc": "Automated reminders for overdue invoices via email, Slack, and in-app notifications."
+        },
+        "5": {
+          "title": "Client Portal",
+          "desc": "Branded portal for clients to view projects, invoices, contracts, and milestones."
+        }
+      }
     },
-    "accounting": {
+    "finance": {
       "title": "Double-Entry Accounting",
-      "description": "Full chart of accounts with support for PCGE (Peru) and US GAAP standards. Journal entries, fiscal periods, and trial balances."
+      "description": "Full accounting engine with support for PCGE (Peru) and US GAAP chart of accounts. Journal entries, fiscal periods, bank reconciliation, and real-time financial reports.",
+      "features": {
+        "0": {
+          "title": "Chart of Accounts",
+          "desc": "Pre-built PCGE and US GAAP templates, or create your own custom chart."
+        },
+        "1": {
+          "title": "Journal Entries",
+          "desc": "Manual and auto-generated entries from invoices, payments, and expenses."
+        },
+        "2": {
+          "title": "Financial Reports",
+          "desc": "P&L, balance sheet, cash flow, trial balance, general ledger, and aging reports."
+        },
+        "3": {
+          "title": "Bank Reconciliation",
+          "desc": "Import transactions, match against entries, reconcile your accounts."
+        },
+        "4": {
+          "title": "Multi-Currency",
+          "desc": "Handle PEN, USD, and more with automatic exchange rate management."
+        },
+        "5": {
+          "title": "Budgets & Fiscal Periods",
+          "desc": "Set budgets by account, track variance, and manage fiscal period closures."
+        }
+      }
     },
-    "multiOrg": {
-      "title": "Multi-Organization",
-      "description": "Manage multiple companies from one account. Separate books, shared reporting, unified dashboard."
+    "hr": {
+      "title": "HR & Payroll Management",
+      "description": "Complete people management for Peru and the US. Employee records, payroll processing, attendance tracking, document handling, and compliance out of the box.",
+      "features": {
+        "0": {
+          "title": "Employee Management",
+          "desc": "Centralized employee records with documents, contracts, and history."
+        },
+        "1": {
+          "title": "Payroll Processing",
+          "desc": "Automated payroll calculations for Peru (SUNAT) and US (IRS) compliance."
+        },
+        "2": {
+          "title": "Attendance & Time Off",
+          "desc": "Track work hours, manage PTO requests, handle sick days and holidays."
+        },
+        "3": {
+          "title": "Document Management",
+          "desc": "Digital document signing, storage, and compliance tracking."
+        },
+        "4": {
+          "title": "Contractor Management",
+          "desc": "Handle contractor records, tax forms, and payment tracking."
+        },
+        "5": {
+          "title": "Celebrations & Culture",
+          "desc": "Birthdays, work anniversaries, internal communications, and team events."
+        }
+      }
     },
-    "invoicing": {
-      "title": "Invoicing & Payments",
-      "description": "Generate and send invoices automatically. Accept card, ACH, wire, and crypto payments via Stripe integration."
-    },
-    "hrPayroll": {
-      "title": "HR & Payroll",
-      "description": "Employee management, payroll processing, attendance tracking, and document handling for Peru and USA compliance."
-    },
-    "reports": {
-      "title": "Financial Reports",
-      "description": "Profit & loss, balance sheet, cash flow, trial balance, general ledger, and aging reports — all in real time."
-    },
-    "taxCompliance": {
-      "title": "Tax Compliance",
-      "description": "Stay compliant with SUNAT (Peru) and IRS (USA) regulations. Automated tax calculations and filing support."
-    },
-    "clientPortal": {
-      "title": "Client Portal",
-      "description": "Give clients real-time visibility into projects, milestones, invoices, and contracts through a branded portal."
+    "projects": {
+      "title": "Project & Client Management",
+      "description": "From signed contracts to delivered projects. Track milestones, manage tasks, log time, and give clients full visibility through a branded portal.",
+      "features": {
+        "0": {
+          "title": "Project Tracking",
+          "desc": "Health dashboards, milestones, and deliverable tracking per project."
+        },
+        "1": {
+          "title": "Task Management",
+          "desc": "Create tasks, assign team members, integrate with GitHub and Sentry."
+        },
+        "2": {
+          "title": "Time Tracking",
+          "desc": "Log billable and non-billable hours per task and project."
+        },
+        "3": {
+          "title": "Client Portal",
+          "desc": "Clients can view project progress, approve milestones, and access documents."
+        },
+        "4": {
+          "title": "Reporting & Insights",
+          "desc": "Utilization reports, project profitability, and team performance dashboards."
+        }
+      }
     }
   },
   "howItWorks": {
-    "sectionTitle": "How It Works",
-    "sectionSubtitle": "Get up and running in four simple steps.",
+    "sectionTitle": "Up and Running in Minutes",
+    "sectionSubtitle": "Four simple steps to transform your operations.",
     "step1": {
       "title": "Sign Up & Configure",
-      "description": "Create your account and set up your organization. Configure your chart of accounts, currency, and team roles."
+      "description": "Create your account, set up your organization, define roles, and choose your chart of accounts."
     },
     "step2": {
       "title": "Manage Your Pipeline",
-      "description": "Capture leads, send proposals, sign contracts, and convert wins into active projects automatically."
+      "description": "Capture leads, send proposals, sign contracts, and convert wins into active projects and invoices."
     },
     "step3": {
       "title": "Automate Billing",
-      "description": "Generate invoices from contracts, send payment links, and track collections. Set up automated reminders for overdue payments."
+      "description": "Generate invoices from contracts, send Stripe payment links, and set up automated dunning reminders."
     },
     "step4": {
-      "title": "Get Insights",
-      "description": "Access real-time financial reports, monitor cash flow, and make informed decisions with up-to-date data."
+      "title": "Get Real-Time Insights",
+      "description": "Access financial reports, monitor cash flow, track team performance, and make data-driven decisions."
     }
   },
   "stats": {
-    "hoursWeek": "Hours saved per week on billing",
-    "compliant": "Tax compliant (SUNAT & IRS)",
-    "currencies": "Multi-currency support",
-    "roles": "Roles with granular RBAC"
+    "hoursWeek": "Hours saved weekly on admin tasks",
+    "compliant": "SUNAT & IRS compliant",
+    "currencies": "Multi-currency (PEN, USD & more)",
+    "roles": "Granular roles with full RBAC"
+  },
+  "testimonials": {
+    "sectionLabel": "Testimonials",
+    "sectionTitle": "Loved by Operations Teams",
+    "sectionSubtitle": "Hear from the companies that transformed their operations with our platform.",
+    "t1": {
+      "quote": "We went from juggling 5 different tools to having everything in one place. Invoicing that used to take us a full day now happens automatically. The accounting module with PCGE support was exactly what we needed.",
+      "name": "Maria Gonzales",
+      "role": "CFO",
+      "company": "Andean Digital Agency"
+    },
+    "t2": {
+      "quote": "The lead-to-payment pipeline is a game-changer. We can track a client from initial contact through proposal, contract, project delivery, and final payment — all in one system. Our collections improved by 40%.",
+      "name": "Juan Perez",
+      "role": "Operations Director",
+      "company": "Pacific Software Group"
+    },
+    "t3": {
+      "quote": "Managing payroll for employees in both Peru and the US used to be a nightmare. Now it's all handled in one platform with the right tax calculations for each country. The time we've saved is incredible.",
+      "name": "Laura Rodriguez",
+      "role": "HR Manager",
+      "company": "TechBridge Solutions"
+    }
+  },
+  "integrations": {
+    "sectionLabel": "Integrations",
+    "sectionTitle": "Connects with Your Favorite Tools",
+    "sectionSubtitle": "Powerful integrations that extend your workflow. Payment processing, communications, AI, and developer tools — all connected out of the box.",
+    "apiNote": "Open API available for custom integrations on Enterprise plans."
   },
   "pricing": {
+    "sectionLabel": "Pricing",
     "sectionTitle": "Simple, Transparent Pricing",
-    "sectionSubtitle": "Choose the plan that fits your business. No hidden fees, no surprises.",
+    "sectionSubtitle": "Choose the plan that fits your business. No hidden fees. Cancel anytime.",
     "monthly": "Monthly",
     "annual": "Annual",
     "annualSave": "Save 20%",
-    "perMonth": "/month",
+    "perMonth": "/mo",
+    "guarantee": "14-day free trial on all plans. No credit card required.",
     "starter": {
       "name": "Starter",
-      "description": "Perfect for freelancers and small teams getting started."
+      "description": "For freelancers and small teams getting started with billing automation."
     },
     "professional": {
       "name": "Professional",
-      "description": "For growing businesses that need full operations management.",
+      "description": "For growing businesses that need full operations, accounting, and HR.",
       "badge": "Most Popular"
     },
     "enterprise": {
       "name": "Enterprise",
-      "description": "For large organizations with custom requirements.",
+      "description": "For large organizations with custom requirements and dedicated support.",
       "price": "Custom"
     },
     "features": {
       "singleOrg": "1 Organization",
-      "basicAccounting": "Basic accounting",
-      "invoicing": "Invoicing",
+      "basicAccounting": "Basic accounting & reports",
+      "invoicing": "Invoicing & payment links",
       "upTo10Clients": "Up to 10 clients",
       "emailSupport": "Email support",
       "multiOrg": "Unlimited organizations",
-      "fullAccounting": "Full double-entry accounting",
-      "invoicingPayments": "Invoicing & payment automation",
-      "unlimitedClients": "Unlimited clients",
-      "hrPayroll": "HR & Payroll",
-      "financialReports": "All financial reports",
+      "fullAccounting": "Full double-entry accounting (PCGE & US GAAP)",
+      "invoicingPayments": "Invoicing, payments & dunning automation",
+      "unlimitedClients": "Unlimited clients & projects",
+      "hrPayroll": "HR & Payroll (Peru + USA)",
+      "financialReports": "All financial reports & dashboards",
       "prioritySupport": "Priority support",
       "everythingPro": "Everything in Professional",
-      "apiAccess": "API access",
+      "apiAccess": "API access & webhooks",
       "customIntegrations": "Custom integrations",
       "dedicatedManager": "Dedicated account manager",
-      "sla": "99.9% SLA",
-      "onboarding": "White-glove onboarding"
+      "sla": "99.9% uptime SLA",
+      "onboarding": "White-glove onboarding & migration"
     },
-    "cta": "Get Started",
+    "cta": "Start Free Trial",
     "ctaEnterprise": "Contact Sales"
+  },
+  "trust": {
+    "sectionLabel": "Security",
+    "sectionTitle": "Enterprise-Grade Security",
+    "sectionSubtitle": "Your data is protected with the same standards used by financial institutions.",
+    "encryption": {
+      "title": "End-to-End Encryption",
+      "description": "All data encrypted in transit (TLS 1.3) and at rest (AES-256). Your financial information never leaves our secure infrastructure."
+    },
+    "rbac": {
+      "title": "Role-Based Access Control",
+      "description": "5 granular roles (Owner, Admin, Finance, Sales, Viewer) with fine-grained permissions for every module."
+    },
+    "audit": {
+      "title": "Complete Audit Trail",
+      "description": "Every action is logged with timestamp, user, and details. Full compliance audit trail for financial operations."
+    },
+    "uptime": {
+      "title": "99.9% Uptime SLA",
+      "description": "Hosted on Vercel's edge network with automatic scaling. Enterprise plans include guaranteed SLA."
+    },
+    "privacy": {
+      "title": "Data Privacy",
+      "description": "Your data is never shared with third parties. Full GDPR compliance with data export and deletion capabilities."
+    },
+    "compliance": {
+      "title": "Tax Compliance",
+      "description": "Built-in compliance for SUNAT (Peru) and IRS (USA) regulations. Automated tax calculations and filing support."
+    }
   },
   "faq": {
     "sectionTitle": "Frequently Asked Questions",
     "sectionSubtitle": "Everything you need to know about our platform.",
     "q1": {
       "question": "What does the platform include?",
-      "answer": "Our platform covers the complete business lifecycle: lead management, proposals, contracts, invoicing, payments, accounting (double-entry), HR & payroll, project management, and financial reporting. Everything you need to run your operations in one place."
+      "answer": "Our platform covers the complete business lifecycle: lead management, proposals, contracts, invoicing, payments, double-entry accounting (PCGE & US GAAP), HR & payroll, project management with time tracking, and comprehensive financial reporting. Everything you need to run your operations in one place."
     },
     "q2": {
       "question": "Do you support Peruvian tax regulations (SUNAT)?",
-      "answer": "Yes. We fully support PCGE (Plan Contable General Empresarial) chart of accounts, Peruvian tax calculations, and SUNAT compliance reporting. Our system is designed for businesses operating in Peru."
+      "answer": "Yes. We fully support the Plan Contable General Empresarial (PCGE) chart of accounts, Peruvian tax calculations, and SUNAT compliance reporting. Our payroll module handles CTS, gratificaciones, and all mandatory contributions."
     },
     "q3": {
       "question": "Can I manage multiple companies?",
-      "answer": "Absolutely. With the Professional and Enterprise plans, you can create and manage multiple organizations from a single account, each with its own books, clients, and team members."
+      "answer": "Absolutely. With Professional and Enterprise plans, you can create and manage multiple organizations from a single account, each with its own books, chart of accounts, clients, employees, and team members."
     },
     "q4": {
-      "question": "How does the Stripe integration work?",
-      "answer": "We integrate directly with Stripe for payment processing. When you send an invoice, your client receives a secure payment link. We support credit cards, ACH transfers, and wire payments. Payments are automatically reconciled in your books."
+      "question": "How does payment processing work?",
+      "answer": "We integrate directly with Stripe. When you send an invoice, your client receives a secure payment link. We support credit/debit cards, ACH transfers, wire payments, and cryptocurrency (USDC). Payments are automatically reconciled and journal entries created."
     },
     "q5": {
       "question": "Do you offer data migration?",
-      "answer": "Yes. For Professional and Enterprise plans, we offer assisted data migration to help you import your existing chart of accounts, clients, and historical data. Enterprise plans include white-glove migration support."
+      "answer": "Yes. Professional plans include assisted migration for your chart of accounts, clients, and historical data. Enterprise plans include white-glove migration with dedicated support to ensure a smooth transition."
     },
     "q6": {
-      "question": "Is the platform available in Spanish?",
-      "answer": "Yes, the entire platform is fully bilingual (English and Spanish). You can switch languages at any time, and all reports and client-facing documents support both languages."
+      "question": "Is the platform bilingual?",
+      "answer": "Yes, the entire platform is fully bilingual (English and Spanish). You can switch languages at any time. All reports, invoices, and client-facing documents support both languages."
     },
     "q7": {
-      "question": "What payment methods do clients have?",
-      "answer": "Your clients can pay via credit/debit card, ACH bank transfer, wire transfer, and cryptocurrency (USDC). All payment methods are processed securely through Stripe."
+      "question": "How does the HR & Payroll module work?",
+      "answer": "Our HR module supports employee management, payroll processing, attendance tracking, PTO management, document handling, and contractor management. It's built for compliance in both Peru (SUNAT, EsSalud, AFP) and the US (IRS, W-2, 1099)."
     },
     "q8": {
-      "question": "How secure is my data?",
-      "answer": "We take security seriously. All data is encrypted in transit and at rest. We use role-based access control (RBAC) with 5 granular roles, audit logging for all sensitive operations, and regular security audits. Your financial data is never shared with third parties."
+      "question": "What kind of support do you offer?",
+      "answer": "Starter plans include email support. Professional plans get priority support with faster response times. Enterprise plans include a dedicated account manager, custom onboarding, and phone support."
     }
   },
   "cta": {
-    "title": "Ready to Streamline Your Operations?",
-    "subtitle": "Join businesses that have simplified their billing, accounting, and client management with our platform.",
+    "title": "Ready to Simplify Your Operations?",
+    "subtitle": "Join hundreds of companies that have unified their billing, accounting, HR, and client management in one platform.",
     "button": "Request a Demo"
   },
   "demo": {
     "title": "Request a Demo",
-    "subtitle": "See how our platform can transform your business operations. Fill out the form and we'll get in touch within 24 hours.",
+    "subtitle": "See how our platform can transform your business operations. Fill out the form and our team will reach out within 24 hours.",
     "fullName": "Full Name",
     "workEmail": "Work Email",
     "companyName": "Company Name",
     "companySize": "Company Size",
     "country": "Country",
     "message": "Message (optional)",
-    "messagePlaceholder": "Tell us about your needs...",
+    "messagePlaceholder": "Tell us about your current challenges...",
     "submit": "Request Demo",
     "submitting": "Sending...",
-    "success": "Thank you! We'll be in touch within 24 hours.",
+    "success": "Thank you! Our team will contact you within 24 hours.",
     "error": "Something went wrong. Please try again.",
     "selectSize": "Select company size",
     "selectCountry": "Select country",
@@ -189,7 +355,7 @@
     }
   },
   "footer": {
-    "tagline": "All-in-one billing and operations platform for modern businesses.",
+    "tagline": "All-in-one billing, accounting, and HR platform for businesses in Latin America and the US.",
     "product": "Product",
     "company": "Company",
     "legal": "Legal",

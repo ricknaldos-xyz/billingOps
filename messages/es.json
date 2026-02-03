@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "BillingOps — Simplifica tu Facturación y Operaciones",
-    "description": "Plataforma todo-en-uno para facturación, contabilidad, RRHH y gestión de clientes. De leads a pagos, automatizado."
+    "title": "BillingOps — Plataforma Todo-en-Uno de Facturación, Contabilidad y RRHH",
+    "description": "Gestiona leads, propuestas, contratos, facturas, pagos, contabilidad, RRHH y planilla desde una sola plataforma. Diseñada para Latinoamérica y EE.UU."
   },
   "nav": {
     "features": "Funcionalidades",
@@ -10,174 +10,340 @@
     "requestDemo": "Solicitar Demo"
   },
   "hero": {
-    "badge": "Diseñado para empresas modernas",
-    "title": "De Leads a Pagos,",
-    "titleHighlight": "Todo en un Solo Lugar",
-    "subtitle": "Deja de malabarear con hojas de cálculo y herramientas desconectadas. Gestiona todo tu ciclo de facturación, contabilidad, RRHH y relaciones con clientes desde una sola plataforma.",
+    "badge": "La plataforma que crece con tu negocio",
+    "title": "Facturación, Contabilidad y RRHH",
+    "titleHighlight": "Todo en una Sola Plataforma",
+    "subtitle": "Deja de saltar entre herramientas desconectadas. Gestiona todo el ciclo de tu negocio — desde el primer lead hasta el último pago — en una sola plataforma diseñada para Latinoamérica y EE.UU.",
+    "painPoint1": "Automatización lead-a-pago",
+    "painPoint2": "Contabilidad por partida doble",
+    "painPoint3": "RRHH, planilla y asistencia",
+    "painPoint4": "Cumplimiento SUNAT e IRS",
     "cta": "Solicitar Demo",
-    "ctaSecondary": "Ver Funcionalidades",
-    "trustedBy": "Empresas que confían en nosotros"
+    "ctaVideo": "Ver Demo",
+    "metricCompanies": "Empresas",
+    "metricUsers": "Usuarios",
+    "metricTimeSaved": "Tiempo ahorrado en admin",
+    "metricUptime": "SLA de disponibilidad",
+    "floatingPayment": "Pago recibido",
+    "floatingPaymentSub": "Factura #1042 — $4,500",
+    "floatingRevenue": "Ingresos +23%",
+    "floatingRevenueSub": "vs. mes anterior"
+  },
+  "logoCloud": {
+    "title": "Empresas innovadoras en Latinoamérica y EE.UU. confían en nosotros"
   },
   "features": {
-    "sectionTitle": "Todo lo que Necesitas",
-    "sectionSubtitle": "Una plataforma para gestionar todas tus operaciones — desde el primer lead hasta el último pago.",
-    "leadToPay": {
+    "sectionLabel": "Plataforma",
+    "sectionTitle": "Una Plataforma, Todos los Módulos",
+    "sectionSubtitle": "Cuatro módulos integrados que cubren toda tu operación. Sin más hojas de cálculo, sin más silos de datos.",
+    "learnMore": "Ver planes y precios",
+    "tabs": {
+      "operations": "Operaciones y Facturación",
+      "finance": "Contabilidad y Finanzas",
+      "hr": "RRHH y Planilla",
+      "projects": "Proyectos y Clientes"
+    },
+    "operations": {
       "title": "Pipeline Lead-a-Pago",
-      "description": "Gestiona leads, genera propuestas, firma contratos y cobra pagos — todo en un flujo automatizado."
+      "description": "Gestiona el ciclo completo de ventas desde el contacto inicial hasta el cobro. Automatiza propuestas, contratos, facturación y cobranza — todo conectado.",
+      "features": {
+        "0": {
+          "title": "Gestión de Leads",
+          "desc": "Seguimiento de prospectos con pipeline, sesiones de descubrimiento y análisis de factibilidad."
+        },
+        "1": {
+          "title": "Propuestas y Contratos",
+          "desc": "Genera propuestas, comparte por links seguros, recoge firmas digitales en contratos."
+        },
+        "2": {
+          "title": "Facturación Automática",
+          "desc": "Crea facturas desde contratos, envía links de pago por email con un click."
+        },
+        "3": {
+          "title": "Cobro de Pagos",
+          "desc": "Acepta tarjeta, ACH, transferencia y crypto (USDC) vía integración con Stripe."
+        },
+        "4": {
+          "title": "Automatización de Cobranza",
+          "desc": "Recordatorios automáticos para facturas vencidas por email, Slack y notificaciones in-app."
+        },
+        "5": {
+          "title": "Portal de Clientes",
+          "desc": "Portal personalizado para que tus clientes vean proyectos, facturas, contratos e hitos."
+        }
+      }
     },
-    "accounting": {
+    "finance": {
       "title": "Contabilidad por Partida Doble",
-      "description": "Plan de cuentas completo con soporte para PCGE (Perú) y US GAAP. Asientos contables, periodos fiscales y balances de comprobación."
+      "description": "Motor contable completo con soporte para PCGE (Perú) y US GAAP. Asientos contables, periodos fiscales, conciliación bancaria y reportes financieros en tiempo real.",
+      "features": {
+        "0": {
+          "title": "Plan de Cuentas",
+          "desc": "Plantillas pre-construidas PCGE y US GAAP, o crea tu propio plan personalizado."
+        },
+        "1": {
+          "title": "Asientos Contables",
+          "desc": "Asientos manuales y auto-generados desde facturas, pagos y gastos."
+        },
+        "2": {
+          "title": "Reportes Financieros",
+          "desc": "Estado de resultados, balance general, flujo de caja, balance de comprobación y libro mayor."
+        },
+        "3": {
+          "title": "Conciliación Bancaria",
+          "desc": "Importa transacciones, cruza contra asientos, concilia tus cuentas."
+        },
+        "4": {
+          "title": "Multi-Moneda",
+          "desc": "Maneja PEN, USD y más con gestión automática de tipos de cambio."
+        },
+        "5": {
+          "title": "Presupuestos y Periodos Fiscales",
+          "desc": "Define presupuestos por cuenta, rastrea variaciones y gestiona cierres fiscales."
+        }
+      }
     },
-    "multiOrg": {
-      "title": "Multi-Organización",
-      "description": "Administra múltiples empresas desde una sola cuenta. Libros separados, reportes compartidos, dashboard unificado."
+    "hr": {
+      "title": "Gestión de RRHH y Planilla",
+      "description": "Gestión completa de personas para Perú y EE.UU. Expedientes de empleados, procesamiento de planilla, control de asistencia, manejo de documentos y cumplimiento incluido.",
+      "features": {
+        "0": {
+          "title": "Gestión de Empleados",
+          "desc": "Expedientes centralizados con documentos, contratos e historial."
+        },
+        "1": {
+          "title": "Procesamiento de Planilla",
+          "desc": "Cálculos automáticos de planilla para cumplimiento SUNAT (Perú) e IRS (EE.UU.)."
+        },
+        "2": {
+          "title": "Asistencia y Permisos",
+          "desc": "Control de horas trabajadas, gestión de solicitudes de PTO, días de enfermedad y feriados."
+        },
+        "3": {
+          "title": "Gestión Documental",
+          "desc": "Firma digital de documentos, almacenamiento y seguimiento de cumplimiento."
+        },
+        "4": {
+          "title": "Gestión de Contratistas",
+          "desc": "Expedientes de contratistas, formularios tributarios y seguimiento de pagos."
+        },
+        "5": {
+          "title": "Celebraciones y Cultura",
+          "desc": "Cumpleaños, aniversarios laborales, comunicaciones internas y eventos de equipo."
+        }
+      }
     },
-    "invoicing": {
-      "title": "Facturación y Pagos",
-      "description": "Genera y envía facturas automáticamente. Acepta pagos con tarjeta, ACH, transferencia y crypto vía integración con Stripe."
-    },
-    "hrPayroll": {
-      "title": "RRHH y Planilla",
-      "description": "Gestión de empleados, procesamiento de planilla, control de asistencia y manejo de documentos para cumplimiento en Perú y USA."
-    },
-    "reports": {
-      "title": "Reportes Financieros",
-      "description": "Estado de resultados, balance general, flujo de caja, balance de comprobación, libro mayor y reportes de antigüedad — todo en tiempo real."
-    },
-    "taxCompliance": {
-      "title": "Cumplimiento Tributario",
-      "description": "Mantente al día con las regulaciones de SUNAT (Perú) e IRS (USA). Cálculos de impuestos automatizados y soporte para declaraciones."
-    },
-    "clientPortal": {
-      "title": "Portal de Clientes",
-      "description": "Da a tus clientes visibilidad en tiempo real de proyectos, hitos, facturas y contratos a través de un portal personalizado."
+    "projects": {
+      "title": "Gestión de Proyectos y Clientes",
+      "description": "Desde contratos firmados hasta proyectos entregados. Rastrea hitos, gestiona tareas, registra tiempo y da a tus clientes visibilidad completa a través de un portal personalizado.",
+      "features": {
+        "0": {
+          "title": "Seguimiento de Proyectos",
+          "desc": "Dashboards de salud, hitos y seguimiento de entregables por proyecto."
+        },
+        "1": {
+          "title": "Gestión de Tareas",
+          "desc": "Crea tareas, asigna miembros del equipo, integra con GitHub y Sentry."
+        },
+        "2": {
+          "title": "Registro de Tiempo",
+          "desc": "Registra horas facturables y no facturables por tarea y proyecto."
+        },
+        "3": {
+          "title": "Portal de Clientes",
+          "desc": "Los clientes pueden ver progreso, aprobar hitos y acceder a documentos."
+        },
+        "4": {
+          "title": "Reportes e Insights",
+          "desc": "Reportes de utilización, rentabilidad de proyectos y dashboards de rendimiento."
+        }
+      }
     }
   },
   "howItWorks": {
-    "sectionTitle": "Cómo Funciona",
-    "sectionSubtitle": "Empieza en cuatro simples pasos.",
+    "sectionTitle": "Listo en Minutos",
+    "sectionSubtitle": "Cuatro simples pasos para transformar tus operaciones.",
     "step1": {
       "title": "Regístrate y Configura",
-      "description": "Crea tu cuenta y configura tu organización. Define tu plan de cuentas, moneda y roles de equipo."
+      "description": "Crea tu cuenta, configura tu organización, define roles y elige tu plan de cuentas."
     },
     "step2": {
       "title": "Gestiona tu Pipeline",
-      "description": "Captura leads, envía propuestas, firma contratos y convierte ventas en proyectos activos automáticamente."
+      "description": "Captura leads, envía propuestas, firma contratos y convierte ventas en proyectos y facturas."
     },
     "step3": {
       "title": "Automatiza la Facturación",
-      "description": "Genera facturas desde contratos, envía links de pago y gestiona cobranzas. Configura recordatorios automáticos para pagos vencidos."
+      "description": "Genera facturas desde contratos, envía links de pago Stripe y configura recordatorios automáticos."
     },
     "step4": {
-      "title": "Obtén Insights",
-      "description": "Accede a reportes financieros en tiempo real, monitorea el flujo de caja y toma decisiones informadas con datos actualizados."
+      "title": "Obtén Insights en Tiempo Real",
+      "description": "Accede a reportes financieros, monitorea flujo de caja, rastrea rendimiento del equipo y toma decisiones informadas."
     }
   },
   "stats": {
-    "hoursWeek": "Horas ahorradas por semana en facturación",
-    "compliant": "Cumplimiento tributario (SUNAT e IRS)",
-    "currencies": "Soporte multi-moneda",
-    "roles": "Roles con RBAC granular"
+    "hoursWeek": "Horas ahorradas semanalmente en admin",
+    "compliant": "Cumplimiento SUNAT e IRS",
+    "currencies": "Multi-moneda (PEN, USD y más)",
+    "roles": "Roles granulares con RBAC completo"
+  },
+  "testimonials": {
+    "sectionLabel": "Testimonios",
+    "sectionTitle": "Amado por Equipos de Operaciones",
+    "sectionSubtitle": "Escucha a las empresas que transformaron sus operaciones con nuestra plataforma.",
+    "t1": {
+      "quote": "Pasamos de malabarear con 5 herramientas diferentes a tener todo en un solo lugar. La facturación que nos tomaba un día completo ahora sucede automáticamente. El módulo de contabilidad con soporte PCGE era exactamente lo que necesitábamos.",
+      "name": "María Gonzales",
+      "role": "Directora Financiera",
+      "company": "Andean Digital Agency"
+    },
+    "t2": {
+      "quote": "El pipeline lead-a-pago es un cambio total. Podemos rastrear a un cliente desde el contacto inicial hasta la propuesta, contrato, entrega del proyecto y pago final — todo en un solo sistema. Nuestras cobranzas mejoraron un 40%.",
+      "name": "Juan Pérez",
+      "role": "Director de Operaciones",
+      "company": "Pacific Software Group"
+    },
+    "t3": {
+      "quote": "Gestionar la planilla para empleados en Perú y EE.UU. era una pesadilla. Ahora todo se maneja en una plataforma con los cálculos tributarios correctos para cada país. El tiempo que hemos ahorrado es increíble.",
+      "name": "Laura Rodríguez",
+      "role": "Gerente de RRHH",
+      "company": "TechBridge Solutions"
+    }
+  },
+  "integrations": {
+    "sectionLabel": "Integraciones",
+    "sectionTitle": "Se Conecta con tus Herramientas Favoritas",
+    "sectionSubtitle": "Integraciones potentes que extienden tu flujo de trabajo. Procesamiento de pagos, comunicaciones, IA y herramientas de desarrollo — todo conectado desde el inicio.",
+    "apiNote": "API abierta disponible para integraciones personalizadas en planes Enterprise."
   },
   "pricing": {
+    "sectionLabel": "Precios",
     "sectionTitle": "Precios Simples y Transparentes",
-    "sectionSubtitle": "Elige el plan que se ajuste a tu negocio. Sin cargos ocultos, sin sorpresas.",
+    "sectionSubtitle": "Elige el plan que se ajuste a tu negocio. Sin cargos ocultos. Cancela cuando quieras.",
     "monthly": "Mensual",
     "annual": "Anual",
     "annualSave": "Ahorra 20%",
     "perMonth": "/mes",
+    "guarantee": "Prueba gratuita de 14 días en todos los planes. Sin tarjeta de crédito.",
     "starter": {
       "name": "Starter",
-      "description": "Perfecto para freelancers y equipos pequeños que están empezando."
+      "description": "Para freelancers y equipos pequeños que inician con automatización de facturación."
     },
     "professional": {
       "name": "Professional",
-      "description": "Para empresas en crecimiento que necesitan gestión completa de operaciones.",
+      "description": "Para empresas en crecimiento que necesitan operaciones completas, contabilidad y RRHH.",
       "badge": "Más Popular"
     },
     "enterprise": {
       "name": "Enterprise",
-      "description": "Para organizaciones grandes con requerimientos personalizados.",
+      "description": "Para organizaciones grandes con requerimientos personalizados y soporte dedicado.",
       "price": "Personalizado"
     },
     "features": {
       "singleOrg": "1 Organización",
-      "basicAccounting": "Contabilidad básica",
-      "invoicing": "Facturación",
+      "basicAccounting": "Contabilidad básica y reportes",
+      "invoicing": "Facturación y links de pago",
       "upTo10Clients": "Hasta 10 clientes",
       "emailSupport": "Soporte por email",
       "multiOrg": "Organizaciones ilimitadas",
-      "fullAccounting": "Contabilidad por partida doble completa",
-      "invoicingPayments": "Facturación y automatización de pagos",
-      "unlimitedClients": "Clientes ilimitados",
-      "hrPayroll": "RRHH y Planilla",
-      "financialReports": "Todos los reportes financieros",
+      "fullAccounting": "Contabilidad por partida doble completa (PCGE y US GAAP)",
+      "invoicingPayments": "Facturación, pagos y automatización de cobranza",
+      "unlimitedClients": "Clientes y proyectos ilimitados",
+      "hrPayroll": "RRHH y Planilla (Perú + EE.UU.)",
+      "financialReports": "Todos los reportes financieros y dashboards",
       "prioritySupport": "Soporte prioritario",
       "everythingPro": "Todo lo de Professional",
-      "apiAccess": "Acceso a API",
+      "apiAccess": "Acceso a API y webhooks",
       "customIntegrations": "Integraciones personalizadas",
       "dedicatedManager": "Gerente de cuenta dedicado",
-      "sla": "SLA 99.9%",
-      "onboarding": "Onboarding personalizado"
+      "sla": "SLA 99.9% de disponibilidad",
+      "onboarding": "Onboarding y migración personalizada"
     },
-    "cta": "Comenzar",
+    "cta": "Iniciar Prueba Gratis",
     "ctaEnterprise": "Contactar Ventas"
+  },
+  "trust": {
+    "sectionLabel": "Seguridad",
+    "sectionTitle": "Seguridad de Nivel Empresarial",
+    "sectionSubtitle": "Tus datos están protegidos con los mismos estándares utilizados por instituciones financieras.",
+    "encryption": {
+      "title": "Encriptación de Extremo a Extremo",
+      "description": "Todos los datos encriptados en tránsito (TLS 1.3) y en reposo (AES-256). Tu información financiera nunca sale de nuestra infraestructura segura."
+    },
+    "rbac": {
+      "title": "Control de Acceso Basado en Roles",
+      "description": "5 roles granulares (Owner, Admin, Finance, Sales, Viewer) con permisos detallados para cada módulo."
+    },
+    "audit": {
+      "title": "Registro de Auditoría Completo",
+      "description": "Cada acción se registra con timestamp, usuario y detalles. Trazabilidad completa para operaciones financieras."
+    },
+    "uptime": {
+      "title": "SLA 99.9% de Disponibilidad",
+      "description": "Alojado en la red edge de Vercel con escalamiento automático. Los planes Enterprise incluyen SLA garantizado."
+    },
+    "privacy": {
+      "title": "Privacidad de Datos",
+      "description": "Tus datos nunca se comparten con terceros. Cumplimiento GDPR completo con exportación y eliminación de datos."
+    },
+    "compliance": {
+      "title": "Cumplimiento Tributario",
+      "description": "Cumplimiento integrado para regulaciones SUNAT (Perú) e IRS (EE.UU.). Cálculos automáticos de impuestos y soporte para declaraciones."
+    }
   },
   "faq": {
     "sectionTitle": "Preguntas Frecuentes",
     "sectionSubtitle": "Todo lo que necesitas saber sobre nuestra plataforma.",
     "q1": {
       "question": "¿Qué incluye la plataforma?",
-      "answer": "Nuestra plataforma cubre el ciclo completo del negocio: gestión de leads, propuestas, contratos, facturación, pagos, contabilidad (partida doble), RRHH y planilla, gestión de proyectos y reportes financieros. Todo lo que necesitas para manejar tus operaciones en un solo lugar."
+      "answer": "Nuestra plataforma cubre el ciclo completo del negocio: gestión de leads, propuestas, contratos, facturación, pagos, contabilidad por partida doble (PCGE y US GAAP), RRHH y planilla, gestión de proyectos con registro de tiempo y reportes financieros completos. Todo lo que necesitas para manejar tus operaciones en un solo lugar."
     },
     "q2": {
       "question": "¿Soportan las regulaciones tributarias peruanas (SUNAT)?",
-      "answer": "Sí. Soportamos completamente el Plan Contable General Empresarial (PCGE), cálculos de impuestos peruanos y reportes de cumplimiento SUNAT. Nuestro sistema está diseñado para empresas que operan en Perú."
+      "answer": "Sí. Soportamos completamente el Plan Contable General Empresarial (PCGE), cálculos de impuestos peruanos y reportes de cumplimiento SUNAT. Nuestro módulo de planilla maneja CTS, gratificaciones y todas las contribuciones obligatorias."
     },
     "q3": {
       "question": "¿Puedo administrar múltiples empresas?",
-      "answer": "Por supuesto. Con los planes Professional y Enterprise, puedes crear y administrar múltiples organizaciones desde una sola cuenta, cada una con sus propios libros, clientes y miembros de equipo."
+      "answer": "Por supuesto. Con los planes Professional y Enterprise, puedes crear y administrar múltiples organizaciones desde una sola cuenta, cada una con sus propios libros, plan de cuentas, clientes, empleados y miembros de equipo."
     },
     "q4": {
-      "question": "¿Cómo funciona la integración con Stripe?",
-      "answer": "Nos integramos directamente con Stripe para el procesamiento de pagos. Cuando envías una factura, tu cliente recibe un link de pago seguro. Soportamos tarjetas de crédito, transferencias ACH y transferencias bancarias. Los pagos se concilian automáticamente en tus libros."
+      "question": "¿Cómo funciona el procesamiento de pagos?",
+      "answer": "Nos integramos directamente con Stripe. Cuando envías una factura, tu cliente recibe un link de pago seguro. Soportamos tarjetas de crédito/débito, transferencias ACH, transferencias bancarias y criptomoneda (USDC). Los pagos se concilian automáticamente y se crean asientos contables."
     },
     "q5": {
       "question": "¿Ofrecen migración de datos?",
-      "answer": "Sí. Para los planes Professional y Enterprise, ofrecemos migración asistida para ayudarte a importar tu plan de cuentas existente, clientes y datos históricos. Los planes Enterprise incluyen soporte de migración personalizado."
+      "answer": "Sí. Los planes Professional incluyen migración asistida para tu plan de cuentas, clientes y datos históricos. Los planes Enterprise incluyen migración personalizada con soporte dedicado para asegurar una transición fluida."
     },
     "q6": {
-      "question": "¿La plataforma está disponible en español?",
-      "answer": "Sí, toda la plataforma es completamente bilingüe (inglés y español). Puedes cambiar de idioma en cualquier momento, y todos los reportes y documentos para clientes soportan ambos idiomas."
+      "question": "¿La plataforma es bilingüe?",
+      "answer": "Sí, toda la plataforma es completamente bilingüe (inglés y español). Puedes cambiar de idioma en cualquier momento. Todos los reportes, facturas y documentos para clientes soportan ambos idiomas."
     },
     "q7": {
-      "question": "¿Qué métodos de pago tienen mis clientes?",
-      "answer": "Tus clientes pueden pagar con tarjeta de crédito/débito, transferencia bancaria ACH, transferencia bancaria y criptomoneda (USDC). Todos los métodos de pago se procesan de forma segura a través de Stripe."
+      "question": "¿Cómo funciona el módulo de RRHH y Planilla?",
+      "answer": "Nuestro módulo de RRHH soporta gestión de empleados, procesamiento de planilla, control de asistencia, gestión de PTO, manejo de documentos y gestión de contratistas. Está construido para cumplimiento en Perú (SUNAT, EsSalud, AFP) y EE.UU. (IRS, W-2, 1099)."
     },
     "q8": {
-      "question": "¿Qué tan seguros están mis datos?",
-      "answer": "Nos tomamos la seguridad muy en serio. Todos los datos están encriptados en tránsito y en reposo. Usamos control de acceso basado en roles (RBAC) con 5 roles granulares, registro de auditoría para todas las operaciones sensibles y auditorías de seguridad regulares. Tus datos financieros nunca se comparten con terceros."
+      "question": "¿Qué tipo de soporte ofrecen?",
+      "answer": "Los planes Starter incluyen soporte por email. Los planes Professional obtienen soporte prioritario con tiempos de respuesta más rápidos. Los planes Enterprise incluyen un gerente de cuenta dedicado, onboarding personalizado y soporte telefónico."
     }
   },
   "cta": {
     "title": "¿Listo para Simplificar tus Operaciones?",
-    "subtitle": "Únete a las empresas que han simplificado su facturación, contabilidad y gestión de clientes con nuestra plataforma.",
+    "subtitle": "Únete a cientos de empresas que han unificado su facturación, contabilidad, RRHH y gestión de clientes en una sola plataforma.",
     "button": "Solicitar Demo"
   },
   "demo": {
     "title": "Solicitar una Demo",
-    "subtitle": "Descubre cómo nuestra plataforma puede transformar las operaciones de tu negocio. Completa el formulario y te contactaremos en 24 horas.",
+    "subtitle": "Descubre cómo nuestra plataforma puede transformar las operaciones de tu negocio. Completa el formulario y nuestro equipo te contactará en 24 horas.",
     "fullName": "Nombre Completo",
     "workEmail": "Email de Trabajo",
     "companyName": "Nombre de la Empresa",
     "companySize": "Tamaño de la Empresa",
     "country": "País",
     "message": "Mensaje (opcional)",
-    "messagePlaceholder": "Cuéntanos sobre tus necesidades...",
+    "messagePlaceholder": "Cuéntanos sobre tus desafíos actuales...",
     "submit": "Solicitar Demo",
     "submitting": "Enviando...",
-    "success": "¡Gracias! Te contactaremos en 24 horas.",
+    "success": "¡Gracias! Nuestro equipo te contactará en 24 horas.",
     "error": "Algo salió mal. Por favor intenta de nuevo.",
     "selectSize": "Selecciona tamaño",
     "selectCountry": "Selecciona país",
@@ -189,7 +355,7 @@
     }
   },
   "footer": {
-    "tagline": "Plataforma todo-en-uno de facturación y operaciones para empresas modernas.",
+    "tagline": "Plataforma todo-en-uno de facturación, contabilidad y RRHH para empresas en Latinoamérica y EE.UU.",
     "product": "Producto",
     "company": "Empresa",
     "legal": "Legal",
