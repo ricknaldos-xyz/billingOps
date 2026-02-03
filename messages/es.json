@@ -1,0 +1,209 @@
+{
+  "metadata": {
+    "title": "BillingOps — Simplifica tu Facturación y Operaciones",
+    "description": "Plataforma todo-en-uno para facturación, contabilidad, RRHH y gestión de clientes. De leads a pagos, automatizado."
+  },
+  "nav": {
+    "features": "Funcionalidades",
+    "pricing": "Precios",
+    "faq": "FAQ",
+    "requestDemo": "Solicitar Demo"
+  },
+  "hero": {
+    "badge": "Diseñado para empresas modernas",
+    "title": "De Leads a Pagos,",
+    "titleHighlight": "Todo en un Solo Lugar",
+    "subtitle": "Deja de malabarear con hojas de cálculo y herramientas desconectadas. Gestiona todo tu ciclo de facturación, contabilidad, RRHH y relaciones con clientes desde una sola plataforma.",
+    "cta": "Solicitar Demo",
+    "ctaSecondary": "Ver Funcionalidades",
+    "trustedBy": "Empresas que confían en nosotros"
+  },
+  "features": {
+    "sectionTitle": "Todo lo que Necesitas",
+    "sectionSubtitle": "Una plataforma para gestionar todas tus operaciones — desde el primer lead hasta el último pago.",
+    "leadToPay": {
+      "title": "Pipeline Lead-a-Pago",
+      "description": "Gestiona leads, genera propuestas, firma contratos y cobra pagos — todo en un flujo automatizado."
+    },
+    "accounting": {
+      "title": "Contabilidad por Partida Doble",
+      "description": "Plan de cuentas completo con soporte para PCGE (Perú) y US GAAP. Asientos contables, periodos fiscales y balances de comprobación."
+    },
+    "multiOrg": {
+      "title": "Multi-Organización",
+      "description": "Administra múltiples empresas desde una sola cuenta. Libros separados, reportes compartidos, dashboard unificado."
+    },
+    "invoicing": {
+      "title": "Facturación y Pagos",
+      "description": "Genera y envía facturas automáticamente. Acepta pagos con tarjeta, ACH, transferencia y crypto vía integración con Stripe."
+    },
+    "hrPayroll": {
+      "title": "RRHH y Planilla",
+      "description": "Gestión de empleados, procesamiento de planilla, control de asistencia y manejo de documentos para cumplimiento en Perú y USA."
+    },
+    "reports": {
+      "title": "Reportes Financieros",
+      "description": "Estado de resultados, balance general, flujo de caja, balance de comprobación, libro mayor y reportes de antigüedad — todo en tiempo real."
+    },
+    "taxCompliance": {
+      "title": "Cumplimiento Tributario",
+      "description": "Mantente al día con las regulaciones de SUNAT (Perú) e IRS (USA). Cálculos de impuestos automatizados y soporte para declaraciones."
+    },
+    "clientPortal": {
+      "title": "Portal de Clientes",
+      "description": "Da a tus clientes visibilidad en tiempo real de proyectos, hitos, facturas y contratos a través de un portal personalizado."
+    }
+  },
+  "howItWorks": {
+    "sectionTitle": "Cómo Funciona",
+    "sectionSubtitle": "Empieza en cuatro simples pasos.",
+    "step1": {
+      "title": "Regístrate y Configura",
+      "description": "Crea tu cuenta y configura tu organización. Define tu plan de cuentas, moneda y roles de equipo."
+    },
+    "step2": {
+      "title": "Gestiona tu Pipeline",
+      "description": "Captura leads, envía propuestas, firma contratos y convierte ventas en proyectos activos automáticamente."
+    },
+    "step3": {
+      "title": "Automatiza la Facturación",
+      "description": "Genera facturas desde contratos, envía links de pago y gestiona cobranzas. Configura recordatorios automáticos para pagos vencidos."
+    },
+    "step4": {
+      "title": "Obtén Insights",
+      "description": "Accede a reportes financieros en tiempo real, monitorea el flujo de caja y toma decisiones informadas con datos actualizados."
+    }
+  },
+  "stats": {
+    "hoursWeek": "Horas ahorradas por semana en facturación",
+    "compliant": "Cumplimiento tributario (SUNAT e IRS)",
+    "currencies": "Soporte multi-moneda",
+    "roles": "Roles con RBAC granular"
+  },
+  "pricing": {
+    "sectionTitle": "Precios Simples y Transparentes",
+    "sectionSubtitle": "Elige el plan que se ajuste a tu negocio. Sin cargos ocultos, sin sorpresas.",
+    "monthly": "Mensual",
+    "annual": "Anual",
+    "annualSave": "Ahorra 20%",
+    "perMonth": "/mes",
+    "starter": {
+      "name": "Starter",
+      "description": "Perfecto para freelancers y equipos pequeños que están empezando."
+    },
+    "professional": {
+      "name": "Professional",
+      "description": "Para empresas en crecimiento que necesitan gestión completa de operaciones.",
+      "badge": "Más Popular"
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "description": "Para organizaciones grandes con requerimientos personalizados.",
+      "price": "Personalizado"
+    },
+    "features": {
+      "singleOrg": "1 Organización",
+      "basicAccounting": "Contabilidad básica",
+      "invoicing": "Facturación",
+      "upTo10Clients": "Hasta 10 clientes",
+      "emailSupport": "Soporte por email",
+      "multiOrg": "Organizaciones ilimitadas",
+      "fullAccounting": "Contabilidad por partida doble completa",
+      "invoicingPayments": "Facturación y automatización de pagos",
+      "unlimitedClients": "Clientes ilimitados",
+      "hrPayroll": "RRHH y Planilla",
+      "financialReports": "Todos los reportes financieros",
+      "prioritySupport": "Soporte prioritario",
+      "everythingPro": "Todo lo de Professional",
+      "apiAccess": "Acceso a API",
+      "customIntegrations": "Integraciones personalizadas",
+      "dedicatedManager": "Gerente de cuenta dedicado",
+      "sla": "SLA 99.9%",
+      "onboarding": "Onboarding personalizado"
+    },
+    "cta": "Comenzar",
+    "ctaEnterprise": "Contactar Ventas"
+  },
+  "faq": {
+    "sectionTitle": "Preguntas Frecuentes",
+    "sectionSubtitle": "Todo lo que necesitas saber sobre nuestra plataforma.",
+    "q1": {
+      "question": "¿Qué incluye la plataforma?",
+      "answer": "Nuestra plataforma cubre el ciclo completo del negocio: gestión de leads, propuestas, contratos, facturación, pagos, contabilidad (partida doble), RRHH y planilla, gestión de proyectos y reportes financieros. Todo lo que necesitas para manejar tus operaciones en un solo lugar."
+    },
+    "q2": {
+      "question": "¿Soportan las regulaciones tributarias peruanas (SUNAT)?",
+      "answer": "Sí. Soportamos completamente el Plan Contable General Empresarial (PCGE), cálculos de impuestos peruanos y reportes de cumplimiento SUNAT. Nuestro sistema está diseñado para empresas que operan en Perú."
+    },
+    "q3": {
+      "question": "¿Puedo administrar múltiples empresas?",
+      "answer": "Por supuesto. Con los planes Professional y Enterprise, puedes crear y administrar múltiples organizaciones desde una sola cuenta, cada una con sus propios libros, clientes y miembros de equipo."
+    },
+    "q4": {
+      "question": "¿Cómo funciona la integración con Stripe?",
+      "answer": "Nos integramos directamente con Stripe para el procesamiento de pagos. Cuando envías una factura, tu cliente recibe un link de pago seguro. Soportamos tarjetas de crédito, transferencias ACH y transferencias bancarias. Los pagos se concilian automáticamente en tus libros."
+    },
+    "q5": {
+      "question": "¿Ofrecen migración de datos?",
+      "answer": "Sí. Para los planes Professional y Enterprise, ofrecemos migración asistida para ayudarte a importar tu plan de cuentas existente, clientes y datos históricos. Los planes Enterprise incluyen soporte de migración personalizado."
+    },
+    "q6": {
+      "question": "¿La plataforma está disponible en español?",
+      "answer": "Sí, toda la plataforma es completamente bilingüe (inglés y español). Puedes cambiar de idioma en cualquier momento, y todos los reportes y documentos para clientes soportan ambos idiomas."
+    },
+    "q7": {
+      "question": "¿Qué métodos de pago tienen mis clientes?",
+      "answer": "Tus clientes pueden pagar con tarjeta de crédito/débito, transferencia bancaria ACH, transferencia bancaria y criptomoneda (USDC). Todos los métodos de pago se procesan de forma segura a través de Stripe."
+    },
+    "q8": {
+      "question": "¿Qué tan seguros están mis datos?",
+      "answer": "Nos tomamos la seguridad muy en serio. Todos los datos están encriptados en tránsito y en reposo. Usamos control de acceso basado en roles (RBAC) con 5 roles granulares, registro de auditoría para todas las operaciones sensibles y auditorías de seguridad regulares. Tus datos financieros nunca se comparten con terceros."
+    }
+  },
+  "cta": {
+    "title": "¿Listo para Simplificar tus Operaciones?",
+    "subtitle": "Únete a las empresas que han simplificado su facturación, contabilidad y gestión de clientes con nuestra plataforma.",
+    "button": "Solicitar Demo"
+  },
+  "demo": {
+    "title": "Solicitar una Demo",
+    "subtitle": "Descubre cómo nuestra plataforma puede transformar las operaciones de tu negocio. Completa el formulario y te contactaremos en 24 horas.",
+    "fullName": "Nombre Completo",
+    "workEmail": "Email de Trabajo",
+    "companyName": "Nombre de la Empresa",
+    "companySize": "Tamaño de la Empresa",
+    "country": "País",
+    "message": "Mensaje (opcional)",
+    "messagePlaceholder": "Cuéntanos sobre tus necesidades...",
+    "submit": "Solicitar Demo",
+    "submitting": "Enviando...",
+    "success": "¡Gracias! Te contactaremos en 24 horas.",
+    "error": "Algo salió mal. Por favor intenta de nuevo.",
+    "selectSize": "Selecciona tamaño",
+    "selectCountry": "Selecciona país",
+    "sizes": {
+      "1-10": "1-10 empleados",
+      "11-50": "11-50 empleados",
+      "51-200": "51-200 empleados",
+      "200+": "200+ empleados"
+    }
+  },
+  "footer": {
+    "tagline": "Plataforma todo-en-uno de facturación y operaciones para empresas modernas.",
+    "product": "Producto",
+    "company": "Empresa",
+    "legal": "Legal",
+    "features": "Funcionalidades",
+    "pricing": "Precios",
+    "demo": "Solicitar Demo",
+    "about": "Nosotros",
+    "blog": "Blog",
+    "careers": "Carreras",
+    "contact": "Contacto",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "cookies": "Política de Cookies",
+    "builtBy": "Construido por Vertek.",
+    "rights": "Todos los derechos reservados."
+  }
+}
