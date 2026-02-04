@@ -1146,10 +1146,10 @@
     "operations": {
       "label": "Ventas y Cobranzas",
       "heroTitle": "De la Cotización al Cobro",
-      "heroSubtitle": "Gestiona todo el ciclo de ventas: desde el primer contacto hasta que el dinero entra a tu cuenta. Cotizaciones, contratos, facturas electrónicas y cobranza — todo conectado.",
+      "heroSubtitle": "Gestiona todo el ciclo de ventas: desde el primer contacto hasta que el dinero entra a tu cuenta. Embudo de prospectos, discovery con IA, cotizaciones con tracking, contratos con firma legal, facturación y cobranza automática.",
       "workflow": {
         "lead": "Prospectos",
-        "discovery": "Discovery",
+        "discovery": "Discovery + Factibilidad",
         "proposal": "Cotizaciones",
         "contract": "Contratos",
         "invoice": "Facturación",
@@ -1157,190 +1157,190 @@
       },
       "highlights": {
         "0": {
-          "stat": "6 etapas",
-          "label": "Ciclo completo de prospecto a cobro"
+          "stat": "Tracking",
+          "label": "Sabes cuándo tu cliente abre la cotización"
         },
         "1": {
-          "stat": "1-click",
-          "label": "Genera facturas desde contratos"
+          "stat": "Doble firma",
+          "label": "Tú firmas primero, tu cliente firma por link"
         },
         "2": {
           "stat": "4 métodos",
-          "label": "Tarjeta, ACH, transferencia y crypto"
+          "label": "Tarjeta, ACH, transferencia y USDC"
         },
         "3": {
-          "stat": "Auto",
-          "label": "Recordatorios automáticos de cobranza"
+          "stat": "D+0, D+2, D+5",
+          "label": "Escalamiento automático de cobranza"
         }
       },
       "featuresTitle": "Todo lo que Necesitas para Cerrar Negocios",
-      "featuresSubtitle": "Desde el primer contacto hasta el cobro final, cada paso está registrado y automatizado.",
+      "featuresSubtitle": "Desde el primer contacto hasta el cobro final. Cada paso registrado, cada oportunidad rastreada.",
       "detailedFeatures": {
         "0": {
           "tag": "CRM",
-          "title": "Gestión de Prospectos y Embudo",
-          "description": "Captura y da seguimiento a prospectos en un embudo visual. Realiza sesiones de discovery, análisis de factibilidad y califica oportunidades antes de comprometer recursos.",
+          "title": "Embudo de Prospectos con Discovery",
+          "description": "Captura prospectos y dales seguimiento en un embudo visual (Nuevo → Contactado → Calificado → Cotización Enviada → Ganado/Perdido). Graba reuniones de discovery y deja que la IA transcriba y extraiga los puntos clave.",
           "bullets": {
-            "0": "Embudo visual con etapas personalizables",
-            "1": "Grabaciones de sesiones discovery con transcripción IA",
-            "2": "Análisis de factibilidad técnica y de capacidad"
+            "0": "Embudo visual con 6 estados de prospecto",
+            "1": "Sesiones de discovery con transcripción IA automática",
+            "2": "Análisis de factibilidad antes de cotizar"
           }
         },
         "1": {
           "tag": "Ventas",
-          "title": "Cotizaciones y Firma de Contratos",
-          "description": "Genera cotizaciones profesionales desde plantillas, compártelas vía links seguros y convierte las aceptadas en contratos con firmas digitales.",
+          "title": "Cotizaciones con Tracking de Vistas",
+          "description": "Genera cotizaciones profesionales desde plantillas y compártelas por link seguro. Sabrás exactamente cuándo tu cliente la abre, cuántas veces la ve y cuánto tiempo pasa en ella — para llamar en el momento justo.",
           "bullets": {
-            "0": "Cotizaciones basadas en plantillas con precios personalizados",
-            "1": "Links seguros con seguimiento de visualización",
-            "2": "Firmas digitales duales (tu equipo + cliente)"
+            "0": "Plantillas de cotización con precios personalizados",
+            "1": "Notificación cuando el cliente abre tu cotización",
+            "2": "Historial de vistas: fecha, hora y duración"
           }
         },
         "2": {
-          "tag": "Facturación",
-          "title": "Facturación Electrónica",
-          "description": "Crea facturas directamente desde contratos firmados. Envía el link de pago por email con un solo clic y ve el estado del pago en tiempo real.",
+          "tag": "Legal",
+          "title": "Contratos con Doble Firma Digital",
+          "description": "Convierte cotizaciones aceptadas en contratos legales. Tú pre-firmas el contrato, luego envías el link a tu cliente para que firme desde cualquier dispositivo. Ambas firmas quedan registradas con fecha y hora.",
           "bullets": {
-            "0": "Genera facturas desde hitos del contrato",
-            "1": "Links de pago Stripe en cada email",
-            "2": "Seguimiento de estado de pagos en tiempo real"
+            "0": "Flujo de firma: tú primero, cliente después",
+            "1": "Firma desde celular, tablet o computadora",
+            "2": "Registro legal con timestamps y capturas de firma"
           }
         },
         "3": {
-          "tag": "Pagos",
-          "title": "Cobro Multi-Método",
-          "description": "Acepta pagos con tarjeta de crédito, transferencia ACH, transferencia bancaria y crypto (USDC). Todo potenciado por Stripe con conciliación automática.",
+          "tag": "Facturación",
+          "title": "Facturas desde Contratos",
+          "description": "Genera facturas directamente desde contratos firmados con ítems, montos y términos pre-llenados. Envía el link de pago por email con un solo clic. El pago se registra automáticamente.",
           "bullets": {
-            "0": "Tarjeta de crédito y ACH vía Stripe Checkout",
-            "1": "Soporte para transferencia bancaria y crypto (USDC)",
-            "2": "Registro y conciliación automática de pagos"
+            "0": "Facturas auto-generadas desde hitos del contrato",
+            "1": "Link de pago Stripe incluido en cada factura",
+            "2": "Estados en tiempo real: Enviada, Vista, Pagada"
           }
         },
         "4": {
           "tag": "Cobranza",
-          "title": "Cobranza Automática",
-          "description": "No persigas pagos manualmente nunca más. Configura secuencias automáticas de recordatorios para facturas vencidas por email, Slack y notificaciones en el sistema.",
+          "title": "Cobranza con Escalamiento Automático",
+          "description": "Configura recordatorios automáticos: día del vencimiento (D+0), seguimiento (D+2), escalamiento (D+5), aviso final (D+10). Notificaciones por email, Slack y en el sistema — sin que muevas un dedo.",
           "bullets": {
-            "0": "Programación configurable (antes, en y después del vencimiento)",
-            "1": "Multi-canal: email, Slack y notificaciones en el sistema",
-            "2": "Flujos de escalamiento para morosos"
+            "0": "Secuencia D+0, D+2, D+5, D+10 configurable",
+            "1": "Mensajes de cobranza generados por IA",
+            "2": "Multi-canal: email, Slack y notificaciones in-app"
           }
         },
         "5": {
           "tag": "Portal",
-          "title": "Portal para tus Clientes",
-          "description": "Dale a tus clientes un portal personalizado donde ven el avance de sus proyectos, aprueban entregables, acceden a documentos y pagan — todo sin necesitar una cuenta.",
+          "title": "Portal Unificado para Clientes",
+          "description": "Tu cliente accede a un solo portal donde ve cotizaciones, firma contratos, paga facturas y monitorea el avance de sus proyectos. Sin crear cuenta — acceso instantáneo por link seguro.",
           "bullets": {
-            "0": "Portal personalizado vía token seguro",
-            "1": "Aprobación de hitos y acceso a documentos",
-            "2": "Sin cuenta requerida — acceso instantáneo por link"
+            "0": "Un solo link para todo: cotización, contrato, factura, proyecto",
+            "1": "Aprobación de entregables y descarga de documentos",
+            "2": "Historial completo de la relación comercial"
           }
         }
       },
-      "ctaTitle": "¿Listo para Ordenar tus Ventas y Cobranzas?",
-      "ctaSubtitle": "De prospectos a pagos — gestiona todo en un solo lugar."
+      "ctaTitle": "¿Listo para Cerrar más Negocios?",
+      "ctaSubtitle": "De prospecto a cobro — con tracking de cada paso."
     },
     "finance": {
       "label": "Contabilidad",
-      "heroTitle": "Contabilidad Completa con PCGE",
-      "heroSubtitle": "Sistema contable de partida doble con el Plan Contable General Empresarial listo para usar. Asientos, conciliación bancaria, soles y dólares, reportes y cierre fiscal — todo al día con SUNAT.",
+      "heroTitle": "Contabilidad PCGE Lista para Usar",
+      "heroSubtitle": "Motor contable de partida doble con el Plan Contable General Empresarial peruano ya configurado. Asientos automáticos desde facturas y pagos, conciliación bancaria, soles y dólares, 7 reportes financieros y cierre fiscal.",
       "workflow": {
         "accounts": "Plan de Cuentas",
         "journals": "Asientos",
         "reconciliation": "Conciliación",
         "reports": "Reportes",
         "budgets": "Presupuestos",
-        "compliance": "Cumplimiento"
+        "compliance": "Proveedores"
       },
       "highlights": {
         "0": {
-          "stat": "PCGE + GAAP",
-          "label": "Plan de cuentas listo para usar"
+          "stat": "PCGE listo",
+          "label": "30+ cuentas pre-configuradas"
         },
         "1": {
           "stat": "7 reportes",
-          "label": "Estado de resultados, balance y más"
+          "label": "P&L, Balance, Flujo de Caja, Libro Mayor..."
         },
         "2": {
-          "stat": "Soles y dólares",
-          "label": "Tipo de cambio automático"
+          "stat": "Auto-asientos",
+          "label": "Se generan desde facturas, pagos y planilla"
         },
         "3": {
-          "stat": "Auto-asientos",
-          "label": "Desde facturas y pagos"
+          "stat": "Soles + USD",
+          "label": "Tipo de cambio SUNAT automático"
         }
       },
-      "featuresTitle": "Gestión Contable Completa",
-      "featuresSubtitle": "Todo lo que tu contador necesita — desde la contabilidad diaria hasta los reportes de cierre.",
+      "featuresTitle": "Contabilidad que Tu Contador Va a Agradecer",
+      "featuresSubtitle": "Todo lo que necesitas para mantener tus libros al día — desde el asiento diario hasta el cierre anual.",
       "detailedFeatures": {
         "0": {
           "tag": "Base",
-          "title": "Plan de Cuentas PCGE",
-          "description": "Comienza con el PCGE peruano ya configurado, o crea tu propio plan si también operas en EE.UU. (US GAAP). Organiza cuentas por tipo, categoría y sub-cuentas.",
+          "title": "Plan de Cuentas PCGE Pre-Configurado",
+          "description": "No empieces de cero. El sistema viene con el Plan Contable General Empresarial peruano ya configurado con 30+ cuentas listas para usar. Si también operas en EE.UU., tenemos plantilla US GAAP.",
           "bullets": {
-            "0": "PCGE peruano y US GAAP incluidos",
-            "1": "Cuentas personalizadas con sub-niveles ilimitados",
-            "2": "Tipos: activos, pasivos, patrimonio, ingresos, gastos"
+            "0": "PCGE peruano con cuentas 10, 12, 40, 42, 70, etc.",
+            "1": "Plantilla US GAAP para operaciones en EE.UU.",
+            "2": "Sub-cuentas ilimitadas para detallar tu plan"
           }
         },
         "1": {
-          "tag": "Contabilidad",
-          "title": "Asientos Contables",
-          "description": "Crea asientos manuales o deja que el sistema los genere automáticamente desde facturas, pagos y gastos. Cada transacción cumple con partida doble.",
+          "tag": "Automatización",
+          "title": "Asientos Automáticos desde Transacciones",
+          "description": "Cada vez que generas una factura, registras un pago, procesas planilla o apruebas un gasto, el sistema crea el asiento contable automáticamente. Tu contador solo valida y publica.",
           "bullets": {
-            "0": "Asientos manuales y automáticos",
-            "1": "Flujo de borrador, publicar y anular",
-            "2": "Validación automática de balance"
+            "0": "Asiento automático al emitir factura de venta",
+            "1": "Asiento automático al recibir pago (Stripe, transferencia)",
+            "2": "Asiento automático desde planilla y gastos aprobados"
           }
         },
         "2": {
           "tag": "Reportes",
-          "title": "Reportes Financieros",
-          "description": "Genera estado de resultados, balance general, flujo de caja, balance de comprobación, libro mayor y reportes de antigüedad — listos para tu contador.",
+          "title": "7 Reportes Financieros Estándar",
+          "description": "Estado de Resultados (P&L), Balance General, Estado de Flujo de Efectivo, Balance de Comprobación, Libro Mayor, Antigüedad de Cuentas por Cobrar y Antigüedad de Cuentas por Pagar. Listos para SUNAT.",
           "bullets": {
-            "0": "7 reportes financieros estándar",
-            "1": "Filtros por rango de fechas y periodo",
-            "2": "Exportación a PDF y CSV"
+            "0": "P&L, Balance y Flujo de Caja",
+            "1": "Balance de Comprobación y Libro Mayor",
+            "2": "Antigüedad de CxC y CxP para gestionar cobranza"
           }
         },
         "3": {
           "tag": "Bancario",
           "title": "Conciliación Bancaria",
-          "description": "Importa los movimientos de tu banco, crúzalos con tus asientos y concilia tus cuentas. Identifica diferencias y resuélvelas rápidamente.",
+          "description": "Importa los movimientos de tu banco, crúzalos automáticamente con asientos contables y concilia tus cuentas. Identifica diferencias al instante.",
           "bullets": {
-            "0": "Importación de movimientos bancarios",
-            "1": "Cruce automático contra asientos contables",
-            "2": "Detección y resolución de diferencias"
+            "0": "Importación de estados de cuenta bancarios",
+            "1": "Match automático contra asientos existentes",
+            "2": "Reporte de transacciones no conciliadas"
           }
         },
         "4": {
-          "tag": "Internacional",
-          "title": "Soles y Dólares",
-          "description": "Trabaja en PEN y USD sin complicaciones. El tipo de cambio se actualiza automáticamente para conversiones y reportes precisos.",
+          "tag": "Multi-moneda",
+          "title": "Soles y Dólares con Tipo de Cambio SUNAT",
+          "description": "Trabaja en PEN y USD sin complicaciones. El tipo de cambio se actualiza automáticamente desde fuentes oficiales. Las diferencias de cambio se registran en las cuentas correspondientes.",
           "bullets": {
-            "0": "Soles, dólares y más de 150 monedas",
-            "1": "Actualización diaria automática del tipo de cambio",
-            "2": "Seguimiento de diferencia de cambio"
+            "0": "Tipo de cambio actualizado diariamente",
+            "1": "Conversión automática en reportes consolidados",
+            "2": "Registro de diferencia de cambio (ganancia/pérdida)"
           }
         },
         "5": {
-          "tag": "Planificación",
-          "title": "Presupuestos y Cierre Fiscal",
-          "description": "Define presupuestos por área, compara lo real vs. lo presupuestado y cierra tus periodos fiscales ordenadamente.",
+          "tag": "Gestión",
+          "title": "Proveedores, Gastos y Préstamos",
+          "description": "Directorio de proveedores con términos de pago, registro de gastos con flujo de aprobación, facturas de compra con control de vencimiento, y préstamos con cronograma de pagos.",
           "bullets": {
-            "0": "Presupuesto por cuenta y departamento",
-            "1": "Seguimiento de variaciones (real vs. presupuesto)",
-            "2": "Gestión y cierre de periodos fiscales"
+            "0": "Directorio de proveedores con historial de pagos",
+            "1": "Gastos con aprobación y asiento automático",
+            "2": "Préstamos con cálculo de intereses y amortización"
           }
         }
       },
       "ctaTitle": "Ordena tu Contabilidad",
-      "ctaSubtitle": "Contabilidad PCGE de partida doble que funciona para empresas peruanas."
+      "ctaSubtitle": "PCGE pre-configurado, asientos automáticos y 7 reportes listos para SUNAT."
     },
     "hr": {
       "label": "Planilla y RRHH",
-      "heroTitle": "Planilla y Gestión de Personas",
-      "heroSubtitle": "Todo lo que necesitas para gestionar a tu equipo en Perú (y EE.UU. si tienes operaciones allá). Expedientes, planilla, asistencia, boletas y cumplimiento SUNAT incluido.",
+      "heroTitle": "Planilla Peruana con Cálculo Automático",
+      "heroSubtitle": "Ingresa el sueldo base y nosotros calculamos todo: AFP (Integra, Habitat, Prima, Profuturo), ONP, EsSalud, CTS en mayo y noviembre, gratificaciones en julio y diciembre, y 5ta categoría con tablas SUNAT 2026. Soporte para los 3 regímenes laborales.",
       "workflow": {
         "employees": "Colaboradores",
         "payroll": "Planilla",
@@ -1351,205 +1351,205 @@
       },
       "highlights": {
         "0": {
-          "stat": "2 países",
-          "label": "Cumplimiento SUNAT (Perú) e IRS (EE.UU.)"
+          "stat": "4 AFP",
+          "label": "Integra, Habitat, Prima, Profuturo"
         },
         "1": {
-          "stat": "Auto-cálculo",
-          "label": "Planilla con AFP, CTS, gratificaciones"
+          "stat": "3 regímenes",
+          "label": "General, Pequeña Empresa, Microempresa"
         },
         "2": {
-          "stat": "Self-service",
-          "label": "Portal del colaborador para boletas y permisos"
+          "stat": "Auto en jul/dic",
+          "label": "Gratificaciones calculadas automáticamente"
         },
         "3": {
-          "stat": "360°",
-          "label": "Evaluaciones con feedback de compañeros"
+          "stat": "Auto en may/nov",
+          "label": "CTS calculada automáticamente"
         }
       },
-      "featuresTitle": "Todo lo que tu Equipo de RRHH Necesita",
-      "featuresSubtitle": "Desde la contratación hasta la planilla y evaluaciones de desempeño — gestiona a todo tu equipo en un solo lugar.",
+      "featuresTitle": "Planilla Peruana de Verdad",
+      "featuresSubtitle": "No es un sistema genérico adaptado. Es un motor de planilla construido desde cero para la normativa peruana — con tasas actualizadas 2026.",
       "detailedFeatures": {
         "0": {
-          "tag": "RRHH Core",
+          "tag": "Core",
           "title": "Expedientes de Colaboradores",
-          "description": "Toda la información de cada colaborador en un solo lugar: documentos, contratos, historial salarial y asignaciones organizacionales. Una sola fuente de verdad para tu equipo.",
+          "description": "Toda la información de cada colaborador en un solo lugar: datos personales, documentos, contratos, historial salarial, sistema de pensiones (AFP u ONP) y régimen laboral.",
           "bullets": {
-            "0": "Expedientes completos con almacenamiento de documentos",
-            "1": "Historial de compensación y contratos",
-            "2": "Organigrama y gestión de departamentos"
+            "0": "Datos fiscales: AFP/ONP, CUSPP, régimen laboral",
+            "1": "Historial de compensaciones y movimientos",
+            "2": "Documentos almacenados con control de versiones"
           }
         },
         "1": {
           "tag": "Planilla",
-          "title": "Cálculo de Planilla",
-          "description": "AFP, EsSalud, ONP, CTS, gratificaciones — todo calculado automáticamente según la normativa peruana. Si tienes colaboradores en EE.UU., también calculamos sus impuestos.",
+          "title": "Cálculo Automático de Planilla",
+          "description": "Ingresa el sueldo base. El sistema calcula automáticamente: AFP al 10% + seguro + comisión (según proveedor), ONP al 13%, EsSalud al 9% (aporte patronal), asignación familiar (10% de RMV), y 5ta categoría con tablas SUNAT progresivas.",
           "bullets": {
-            "0": "Perú: AFP, EsSalud, ONP, CTS, Gratificaciones",
-            "1": "EE.UU.: Impuestos federal/estatal, Social Security, Medicare",
-            "2": "Generación y distribución automática de boletas"
+            "0": "AFP: Integra, Habitat, Prima, Profuturo (tasas 2026)",
+            "1": "5ta categoría con UIT S/ 5,500 y brackets SUNAT",
+            "2": "Asignación familiar automática: 10% de RMV S/ 1,130"
           }
         },
         "2": {
-          "tag": "Tiempo y Permisos",
-          "title": "Asistencia y Vacaciones",
-          "description": "Control de entrada/salida, gestión de vacaciones, permisos y licencias. Tus colaboradores solicitan permisos y sus jefes aprueban con un clic.",
+          "tag": "Beneficios",
+          "title": "CTS y Gratificaciones Automáticas",
+          "description": "En julio y diciembre, el sistema calcula gratificaciones según tu régimen laboral. En mayo y noviembre, calcula CTS. No tienes que acordarte — el sistema lo hace por ti.",
           "bullets": {
-            "0": "Control de entrada/salida diaria",
-            "1": "Gestión de saldos con reglas de acumulación",
-            "2": "Calendarios de feriados por país y oficina"
+            "0": "Gratificaciones: julio y diciembre (+ bonificación 9%)",
+            "1": "CTS: depósito mayo y noviembre",
+            "2": "Ajuste automático por régimen (General, MYPE, Micro)"
           }
         },
         "3": {
-          "tag": "Cumplimiento",
-          "title": "Documentos y Firmas",
-          "description": "Contratos, constancias y documentos con firma digital. Almacenados de forma segura y siempre accesibles.",
+          "tag": "Regímenes",
+          "title": "3 Regímenes Laborales Peruanos",
+          "description": "Configura cada colaborador según su régimen: Régimen General (30 días vacaciones, CTS y gratificaciones completas), Pequeña Empresa MYPE (beneficios reducidos 50%), o Microempresa (beneficios mínimos según ley).",
           "bullets": {
-            "0": "Flujo de firma digital de documentos",
-            "1": "Almacenamiento seguro en la nube con historial de versiones",
-            "2": "Seguimiento de cumplimiento con alertas de vencimiento"
+            "0": "Régimen General: CTS 1 sueldo, gratif. 2 sueldos/año",
+            "1": "Pequeña Empresa: CTS 0.5 sueldo, gratif. 1 sueldo/año",
+            "2": "Microempresa: sin CTS ni gratificaciones"
           }
         },
         "4": {
-          "tag": "Self-Service",
-          "title": "Portal del Colaborador",
-          "description": "Cada colaborador ve sus boletas, solicita vacaciones, descarga documentos y completa encuestas — sin pedírtelo a ti.",
+          "tag": "Boletas",
+          "title": "Boletas con Firma Digital",
+          "description": "Genera boletas de pago detalladas con todos los conceptos. Tus colaboradores las reciben, las revisan y las firman digitalmente desde su portal. Tú también firmas. Todo queda registrado.",
           "bullets": {
-            "0": "Visualización y descarga de boletas",
-            "1": "Solicitudes de permisos con flujo de aprobación",
-            "2": "Acceso a documentos y firma digital"
+            "0": "Boletas quincenales o mensuales",
+            "1": "Firma digital del colaborador y del empleador",
+            "2": "Historial de boletas siempre accesible"
           }
         },
         "5": {
-          "tag": "Desempeño",
-          "title": "Evaluaciones de Desempeño",
-          "description": "Organiza ciclos de evaluación con autoevaluaciones, feedback del jefe y opiniones de compañeros (360°). Rastrea objetivos, competencias y planes de desarrollo.",
+          "tag": "Self-Service",
+          "title": "Portal del Colaborador",
+          "description": "Cada colaborador accede a su portal donde ve sus boletas, solicita vacaciones, consulta su saldo de días, descarga documentos y firma digitalmente — sin pedírtelo a ti.",
           "bullets": {
-            "0": "Ciclos y plantillas de evaluación configurables",
-            "1": "Autoevaluaciones, del jefe y 360° de compañeros",
-            "2": "Seguimiento de objetivos y planes de desarrollo"
+            "0": "Consulta de boletas actuales e históricas",
+            "1": "Solicitud de vacaciones con flujo de aprobación",
+            "2": "Firma de documentos desde el portal"
           }
         },
         "6": {
-          "tag": "Reclutamiento",
-          "title": "Reclutamiento y Onboarding",
-          "description": "Publica vacantes, gestiona postulantes y recibe a los nuevos colaboradores con checklists de ingreso. Desde la primera postulación hasta el primer día.",
+          "tag": "Tiempo",
+          "title": "Asistencia, Vacaciones y Permisos",
+          "description": "Control de entrada/salida, gestión de saldos de vacaciones según régimen (30 o 15 días), permisos con aprobación y calendario de feriados peruanos.",
           "bullets": {
-            "0": "Publicación de vacantes y seguimiento de postulantes",
-            "1": "Pipeline de contratación con etapas personalizables",
-            "2": "Checklists de onboarding con asignación de tareas"
+            "0": "Vacaciones: 30 días (General) o 15 días (MYPE/Micro)",
+            "1": "Permisos con flujo de aprobación del jefe directo",
+            "2": "Feriados peruanos pre-configurados"
           }
         },
         "7": {
-          "tag": "Locadores",
-          "title": "Locadores de Servicios",
-          "description": "Gestiona a tus trabajadores independientes: expedientes, recibos por honorarios y formularios tributarios. Mantén todo organizado junto a tus colaboradores.",
+          "tag": "4ta Cat",
+          "title": "Locadores de Servicios (4ta Categoría)",
+          "description": "Gestiona a tus trabajadores independientes: expedientes, órdenes de servicio, recibos por honorarios y retención de 4ta categoría. Si tienes locadores en EE.UU., generamos formularios 1099.",
           "bullets": {
-            "0": "Expedientes de locadores y seguimiento de pagos",
-            "1": "Generación de formularios 1099 (EE.UU.)",
-            "2": "Resúmenes de pagos acumulados del año"
+            "0": "Expedientes de locadores con RUC y datos fiscales",
+            "1": "Retención de 4ta categoría cuando corresponda",
+            "2": "Formularios 1099 para locadores en EE.UU."
           }
         }
       },
-      "ctaTitle": "Ordena tu Gestión de Personas",
-      "ctaSubtitle": "Planilla y RRHH con cumplimiento SUNAT e IRS — en una sola plataforma."
+      "ctaTitle": "Olvídate del Excel para tu Planilla",
+      "ctaSubtitle": "AFP, CTS, gratificaciones, 5ta categoría — todo calculado automáticamente con tasas SUNAT 2026."
     },
     "projects": {
       "label": "Proyectos",
-      "heroTitle": "Gestión de Proyectos",
-      "heroSubtitle": "Del contrato firmado al proyecto entregado. Organiza hitos, asigna tareas, registra horas y mantén a tus clientes informados con un portal donde ven todo el avance.",
+      "heroTitle": "Gestión de Proyectos para Agencias",
+      "heroSubtitle": "Del contrato firmado al proyecto entregado. Dashboard de salud con semáforo visual, hitos con aprobación del cliente, Kanban de tareas, integración GitHub + Sentry, registro de horas facturables, y reportes mensuales con narrativa escrita por IA.",
       "workflow": {
-        "setup": "Setup del Proyecto",
+        "setup": "Setup",
         "milestones": "Hitos",
-        "tasks": "Tareas",
-        "timeTracking": "Registro de Horas",
-        "portal": "Portal del Cliente",
+        "tasks": "Kanban",
+        "timeTracking": "Horas",
+        "portal": "Portal Cliente",
         "reports": "Reportes IA"
       },
       "highlights": {
         "0": {
-          "stat": "End-to-end",
-          "label": "De contrato a entrega"
+          "stat": "🔵🟢🟡🔴",
+          "label": "Semáforo de salud por proyecto"
         },
         "1": {
-          "stat": "GitHub + Sentry",
-          "label": "Integraciones con herramientas dev"
+          "stat": "GitHub",
+          "label": "Vincula commits y PRs a tareas"
         },
         "2": {
-          "stat": "Horas facturables",
-          "label": "Registro de tiempo por tarea y proyecto"
+          "stat": "Sentry",
+          "label": "Convierte errores en tareas automáticamente"
         },
         "3": {
-          "stat": "Con IA",
-          "label": "Reportes de proyecto automáticos"
+          "stat": "IA narrativa",
+          "label": "Reportes con análisis escrito por IA"
         }
       },
-      "featuresTitle": "Entrega Proyectos a Tiempo, Siempre",
-      "featuresSubtitle": "Gestión completa de proyectos con visibilidad para tus clientes e integraciones con herramientas de desarrollo.",
+      "featuresTitle": "Gestión de Proyectos para Equipos de Software",
+      "featuresSubtitle": "No es un Trello genérico. Es gestión de proyectos conectada a GitHub, Sentry, facturación y tu cliente.",
       "detailedFeatures": {
         "0": {
-          "tag": "Vista General",
-          "title": "Dashboard de Salud del Proyecto",
-          "description": "Un dashboard por proyecto con el estado de salud, hitos completados y lo que falta por entregar. Identifica proyectos en riesgo antes de que sean problemas.",
+          "tag": "Dashboard",
+          "title": "Semáforo de Salud del Proyecto",
+          "description": "Cada proyecto tiene un estado de salud visual: 🔵 Nuevo, 🟢 En camino, 🟡 En riesgo, 🔴 Crítico. Ve de un vistazo cuáles proyectos necesitan atención antes de que exploten.",
           "bullets": {
-            "0": "Dashboard de salud con indicadores de progreso",
-            "1": "Seguimiento de presupuesto y velocidad de gasto",
-            "2": "Visibilidad de utilización y carga del equipo"
+            "0": "4 estados visuales: Nuevo, En camino, En riesgo, Crítico",
+            "1": "Seguimiento de presupuesto consumido vs. restante",
+            "2": "Carga del equipo y horas registradas"
           }
         },
         "1": {
           "tag": "Hitos",
-          "title": "Gestión de Hitos",
-          "description": "Divide proyectos en hitos con entregables, fechas límite y flujos de aprobación. Tus clientes aprueban hitos desde el portal, disparando la generación de facturas.",
+          "title": "Hitos con Aprobación del Cliente",
+          "description": "Divide el proyecto en hitos con entregables y fechas. Tu cliente aprueba cada hito desde su portal. Cuando aprueba, se genera la factura automáticamente. Todo conectado.",
           "bullets": {
-            "0": "Estructura de proyecto basada en hitos",
-            "1": "Flujo de aprobación del cliente vía portal",
-            "2": "Generación de facturas al aprobar hitos"
+            "0": "3 vistas: Grid, Timeline y Lista",
+            "1": "Filtros: pendientes de aprobación, aprobados, vencidos",
+            "2": "Facturación automática al aprobar hito"
           }
         },
         "2": {
-          "tag": "Tareas",
-          "title": "Tareas y Asignaciones",
-          "description": "Crea tareas, asígnalas a tu equipo y conéctalas con GitHub o Sentry si trabajas en desarrollo. Mantén el trabajo de desarrollo conectado a los hitos.",
+          "tag": "Dev",
+          "title": "Kanban con GitHub y Sentry",
+          "description": "Tablero Kanban con 6 estados (Backlog → Done). Vincula tareas a issues de GitHub para ver commits y PRs. Conecta Sentry para que los errores de producción se conviertan en tareas automáticamente.",
           "bullets": {
-            "0": "Asignación de tareas con prioridad y fechas límite",
-            "1": "Integración GitHub para vincular commits y PRs",
-            "2": "Integración Sentry para tracking de bug-a-tarea"
+            "0": "Vincula tarea → issue de GitHub → commits y PRs",
+            "1": "Errores de Sentry se convierten en tareas",
+            "2": "Drag-and-drop entre columnas del Kanban"
           }
         },
         "3": {
           "tag": "Tiempo",
-          "title": "Registro de Horas",
-          "description": "Tu equipo registra las horas por tarea. Distingue entre horas facturables y no facturables. Genera reportes de tiempo para facturación y análisis de rentabilidad.",
+          "title": "Registro de Horas Facturables",
+          "description": "Tu equipo registra horas por tarea. Marca cuáles son facturables y cuáles no. Genera reportes de tiempo para facturación y analiza la rentabilidad real de cada proyecto.",
           "bullets": {
-            "0": "Registro de tiempo por tarea y proyecto",
-            "1": "Categorización facturable vs. no facturable",
-            "2": "Reportes de tiempo para facturación y análisis"
+            "0": "Horas por tarea y por miembro del equipo",
+            "1": "Facturable vs. no facturable",
+            "2": "Reportes de utilización para pricing futuro"
           }
         },
         "4": {
           "tag": "Portal",
-          "title": "Portal para el Cliente",
-          "description": "Tu cliente entra al portal, ve el avance, aprueba entregables y descarga documentos — todo sin llamarte. Dale a tus clientes visibilidad total sin que te quiten tiempo.",
+          "title": "Portal del Cliente con Wiki",
+          "description": "Tu cliente accede por link seguro (sin crear cuenta) y ve: avance del proyecto, hitos pendientes de aprobar, documentos compartidos y feedback visual sobre entregables. También hay un wiki para documentación del proyecto.",
           "bullets": {
-            "0": "Portal personalizado vía link seguro",
-            "1": "Feedback visual punto-y-click en entregables",
-            "2": "Compartir documentos y aprobación de hitos"
+            "0": "Acceso sin cuenta — solo link seguro",
+            "1": "Feedback visual: clic en el entregable para comentar",
+            "2": "Wiki de proyecto para documentación compartida"
           }
         },
         "5": {
           "tag": "IA",
-          "title": "Reportes Automáticos con IA",
-          "description": "Genera reportes mensuales para tu cliente con un resumen escrito por IA: avance, riesgos e hitos cumplidos. Comparte con clientes o stakeholders en un clic.",
+          "title": "Reportes Mensuales con Narrativa IA",
+          "description": "Cada mes, genera un reporte completo: métricas de GitHub (commits, PRs), uptime de Sentry, y un análisis narrativo escrito por IA con resumen ejecutivo, logros, riesgos identificados y recomendaciones. Listo para enviar a tu cliente.",
           "bullets": {
-            "0": "Resúmenes narrativos generados por IA",
-            "1": "Cobertura de progreso, riesgos e hitos",
-            "2": "Compartir con clientes en un clic"
+            "0": "Resumen ejecutivo de 2-3 párrafos escrito por IA",
+            "1": "Highlights: qué salió bien este mes",
+            "2": "Riesgos y recomendaciones de próximos pasos"
           }
         }
       },
-      "ctaTitle": "Entrega Proyectos con Confianza",
-      "ctaSubtitle": "Hitos, tareas y portal del cliente — todo en un solo lugar."
+      "ctaTitle": "Gestión de Proyectos que Entiende el Software",
+      "ctaSubtitle": "GitHub, Sentry, horas facturables, portal del cliente y reportes con IA — todo conectado."
     }
   }
 }

@@ -238,7 +238,7 @@
     "operations": {
       "label": "Business Development",
       "heroTitle": "Lead-to-Payment Pipeline",
-      "heroSubtitle": "Manage the entire sales lifecycle from initial contact to final payment. Automate proposals, contracts, invoicing, and collections — all connected in a single workflow.",
+      "heroSubtitle": "Manage the entire sales lifecycle from initial contact to final payment. Automate proposals with view tracking, dual-signature contracts, invoicing, and intelligent dunning — all connected in a single workflow.",
       "workflow": {
         "lead": "Lead Capture",
         "discovery": "Discovery Sessions",
@@ -253,16 +253,16 @@
           "label": "Complete lead-to-payment pipeline"
         },
         "1": {
-          "stat": "1-click",
-          "label": "Generate invoices from contracts"
+          "stat": "View tracking",
+          "label": "Know when clients open proposals"
         },
         "2": {
-          "stat": "4 methods",
-          "label": "Card, ACH, wire & crypto payments"
+          "stat": "Dual signature",
+          "label": "Company pre-signs, client completes"
         },
         "3": {
-          "stat": "Auto",
-          "label": "Dunning reminders for overdue invoices"
+          "stat": "D+0 to D+10",
+          "label": "4-stage automated dunning escalation"
         }
       },
       "featuresTitle": "Everything You Need to Close Deals",
@@ -280,45 +280,55 @@
         },
         "1": {
           "tag": "Sales",
-          "title": "Proposals & Contract Signing",
-          "description": "Generate professional proposals from templates, share them via secure links, and convert accepted proposals into legally binding contracts with digital signatures.",
+          "title": "Proposals with View Analytics",
+          "description": "Generate professional proposals from templates and share via secure links. Track every open with real-time analytics: when, how many times, and how long they viewed each section.",
           "bullets": {
             "0": "Template-based proposals with custom pricing",
-            "1": "Secure share links with view tracking",
-            "2": "Dual digital signatures (your team + client)"
+            "1": "Real-time view tracking: opens, view count, duration",
+            "2": "Follow-up timing based on engagement data"
           }
         },
         "2": {
-          "tag": "Billing",
-          "title": "Automated Invoicing",
-          "description": "Create invoices directly from signed contracts. Send payment links via email with a single click, and track payment status in real-time.",
+          "tag": "Legal",
+          "title": "Dual-Signature Contracts",
+          "description": "Convert accepted proposals into contracts. Your company pre-signs first, then sends a secure link for the client's digital signature. Both signatures are captured with timestamps for compliance.",
           "bullets": {
-            "0": "Auto-generate invoices from contract milestones",
-            "1": "Stripe-powered payment links in every email",
-            "2": "Real-time payment status tracking"
+            "0": "Company pre-signature before client sees the contract",
+            "1": "Secure link for client digital signature",
+            "2": "Timestamped signatures with audit trail"
           }
         },
         "3": {
-          "tag": "Payments",
-          "title": "Multi-Method Payment Collection",
-          "description": "Accept payments via credit card, ACH bank transfer, wire transfer, and cryptocurrency (USDC). All powered by Stripe with automatic reconciliation.",
+          "tag": "Billing",
+          "title": "Automated Invoicing",
+          "description": "Create invoices directly from signed contracts. Send payment links via email with a single click, powered by Stripe Checkout.",
           "bullets": {
-            "0": "Credit card and ACH via Stripe Checkout",
-            "1": "Wire transfer and crypto (USDC) support",
-            "2": "Automatic payment recording and reconciliation"
+            "0": "Auto-generate invoices from contracts",
+            "1": "Stripe Checkout links in every email",
+            "2": "Real-time payment status tracking"
           }
         },
         "4": {
-          "tag": "Collections",
-          "title": "Dunning Automation",
-          "description": "Never chase payments manually again. Set up automated reminder sequences for overdue invoices via email, Slack, and in-app notifications.",
+          "tag": "Payments",
+          "title": "Multi-Method Payment Collection",
+          "description": "Accept payments via credit card, ACH bank transfer, wire transfer, and cryptocurrency (USDC). All powered by Stripe with automatic reconciliation and journal entry creation.",
           "bullets": {
-            "0": "Configurable reminder schedules (before, on, after due date)",
-            "1": "Multi-channel: email, Slack, and in-app notifications",
-            "2": "Escalation workflows for chronic late payers"
+            "0": "Credit card and ACH via Stripe Checkout",
+            "1": "Wire transfer and crypto (USDC) support",
+            "2": "Automatic journal entries in accounting"
           }
         },
         "5": {
+          "tag": "Collections",
+          "title": "Intelligent Dunning Escalation",
+          "description": "4-stage automated escalation for overdue invoices: reminder on due date (D+0), first follow-up (D+2), escalation (D+5), and final notice (D+10). Multi-channel delivery with AI-composed messages.",
+          "bullets": {
+            "0": "D+0: Friendly reminder on due date",
+            "1": "D+2, D+5, D+10: Automated escalation sequence",
+            "2": "Email, Slack, and in-app notifications"
+          }
+        },
+        "6": {
           "tag": "Portal",
           "title": "Client Portal & Visibility",
           "description": "Give clients a branded portal where they can view project progress, approve milestones, access documents, and make payments — all without needing an account.",
@@ -335,7 +345,7 @@
     "finance": {
       "label": "Finance & Accounting",
       "heroTitle": "Double-Entry Accounting, Simplified",
-      "heroSubtitle": "A full accounting engine built for Latin America and the US. PCGE and US GAAP chart of accounts, journal entries, bank reconciliation, multi-currency, and real-time financial reports.",
+      "heroSubtitle": "A full accounting engine built for Latin America and the US. Pre-configured PCGE chart of accounts, automatic journal entries from business transactions, 7 financial report types, and multi-currency support.",
       "workflow": {
         "accounts": "Chart of Accounts",
         "journals": "Journal Entries",
@@ -346,20 +356,20 @@
       },
       "highlights": {
         "0": {
-          "stat": "PCGE + GAAP",
-          "label": "Pre-built chart of accounts templates"
+          "stat": "PCGE ready",
+          "label": "Pre-configured Peruvian chart of accounts"
         },
         "1": {
           "stat": "7 reports",
-          "label": "P&L, balance sheet, cash flow & more"
+          "label": "P&L, Balance, Cash Flow, Ledger, Aging & more"
         },
         "2": {
-          "stat": "Multi-currency",
-          "label": "PEN, USD with auto exchange rates"
+          "stat": "Auto-journal",
+          "label": "Invoices, payments, payroll create entries"
         },
         "3": {
-          "stat": "Auto-journal",
-          "label": "Entries from invoices and payments"
+          "stat": "Multi-currency",
+          "label": "PEN, USD with auto exchange rates"
         }
       },
       "featuresTitle": "Complete Financial Management",
@@ -367,32 +377,32 @@
       "detailedFeatures": {
         "0": {
           "tag": "Foundation",
-          "title": "Chart of Accounts",
-          "description": "Start with pre-built PCGE (Peru) or US GAAP chart of accounts templates, or create your own custom chart. Organize accounts by type, category, and sub-accounts.",
+          "title": "Pre-Configured Chart of Accounts",
+          "description": "Start immediately with the complete PCGE (Plan Contable General Empresarial) pre-loaded. Also supports US GAAP standard. Create custom accounts with unlimited sub-levels.",
           "bullets": {
-            "0": "PCGE and US GAAP templates included",
-            "1": "Custom accounts with unlimited sub-levels",
-            "2": "Account types: assets, liabilities, equity, revenue, expenses"
+            "0": "Complete PCGE pre-configured and ready to use",
+            "1": "US GAAP templates also included",
+            "2": "Custom accounts with unlimited hierarchy depth"
           }
         },
         "1": {
-          "tag": "Bookkeeping",
-          "title": "Journal Entries",
-          "description": "Create manual journal entries or let the system auto-generate them from invoices, payments, and expenses. Every transaction is double-entry compliant.",
+          "tag": "Automation",
+          "title": "Automatic Journal Entries",
+          "description": "The system automatically creates journal entries from business transactions: invoices, payments, payroll runs, approved expenses, and bill payments. Manual entries also supported.",
           "bullets": {
-            "0": "Manual and auto-generated entries",
-            "1": "Draft, post, and void workflow",
-            "2": "Automatic balancing validation"
+            "0": "Auto-entries from invoices and payments",
+            "1": "Auto-entries from payroll and expenses",
+            "2": "Draft, post, and void workflow"
           }
         },
         "2": {
           "tag": "Reporting",
-          "title": "Financial Reports",
-          "description": "Generate profit & loss, balance sheet, cash flow statement, trial balance, general ledger, and aging reports. Filter by date range, account, and period.",
+          "title": "7 Financial Report Types",
+          "description": "Generate all the reports your accountant needs: Profit & Loss, Balance Sheet, Cash Flow Statement, Trial Balance, General Ledger, Accounts Receivable Aging, and Accounts Payable Aging.",
           "bullets": {
-            "0": "7 standard financial reports",
-            "1": "Date range and period filtering",
-            "2": "Export to PDF and CSV"
+            "0": "P&L, Balance Sheet, Cash Flow Statement",
+            "1": "Trial Balance, General Ledger",
+            "2": "AR Aging, AP Aging — export to PDF/CSV"
           }
         },
         "3": {
@@ -408,7 +418,7 @@
         "4": {
           "tag": "International",
           "title": "Multi-Currency Support",
-          "description": "Handle transactions in PEN, USD, and other currencies. Automatic exchange rate updates ensure accurate conversions and reporting across currencies.",
+          "description": "Handle transactions in PEN, USD, and other currencies. Automatic exchange rate updates from SUNAT/ECB ensure accurate conversions and reporting.",
           "bullets": {
             "0": "PEN, USD, and 150+ currencies supported",
             "1": "Automatic daily exchange rate updates",
@@ -432,7 +442,7 @@
     "hr": {
       "label": "People Operations",
       "heroTitle": "HR & Payroll for Peru and the US",
-      "heroSubtitle": "Complete people management with payroll processing, attendance tracking, document handling, employee portals, performance reviews, recruitment, and contractor management — all compliant with SUNAT and IRS regulations.",
+      "heroSubtitle": "Complete people management with automated payroll: 4 AFP providers, 3 labor regimes, automatic CTS and Gratificaciones, 5ta Categoría calculation. Plus employee portals, performance reviews, and contractor management.",
       "workflow": {
         "employees": "Employees",
         "payroll": "Payroll",
@@ -443,20 +453,20 @@
       },
       "highlights": {
         "0": {
-          "stat": "2 countries",
-          "label": "Peru (SUNAT) and US (IRS) compliance"
+          "stat": "4 AFPs",
+          "label": "Integra, Habitat, Prima, Profuturo"
         },
         "1": {
-          "stat": "Auto-calc",
-          "label": "Payroll with tax deductions"
+          "stat": "3 regimes",
+          "label": "General, Small Business (MYPE), Micro"
         },
         "2": {
-          "stat": "Self-service",
-          "label": "Employee portal for payslips & PTO"
+          "stat": "Auto CTS",
+          "label": "May and Nov deposits calculated"
         },
         "3": {
-          "stat": "360°",
-          "label": "Performance reviews with peer feedback"
+          "stat": "5ta Cat.",
+          "label": "SUNAT income tax brackets applied"
         }
       },
       "featuresTitle": "Everything Your HR Team Needs",
@@ -473,36 +483,56 @@
           }
         },
         "1": {
-          "tag": "Payroll",
-          "title": "Payroll Processing",
-          "description": "Automated payroll calculations for Peru (SUNAT) and US (IRS) compliance. Handle gross-to-net calculations, tax withholdings, social contributions, and payslip generation.",
+          "tag": "AFP",
+          "title": "4 AFP Providers with 2026 Rates",
+          "description": "Automatic calculation of AFP contributions with updated rates: Integra (1.55%), Habitat (1.47%), Prima (1.60%), Profuturo (1.69%). Plus the mandatory 10% contribution and insurance.",
           "bullets": {
-            "0": "Peru: AFP, EsSalud, ONP, CTS, Gratificaciones",
-            "1": "US: Federal/state tax, Social Security, Medicare",
-            "2": "Automatic payslip generation and distribution"
+            "0": "Integra, Habitat, Prima, Profuturo supported",
+            "1": "2026 rates pre-configured (updated annually)",
+            "2": "ONP (13%) for employees not in AFP"
           }
         },
         "2": {
-          "tag": "Time & Leave",
-          "title": "Attendance & Time Off",
-          "description": "Track daily attendance, manage PTO balances, handle sick days, and configure company holidays. Employees can request time off and managers approve with one click.",
+          "tag": "Regimes",
+          "title": "3 Labor Regimes",
+          "description": "Support for all Peruvian labor regimes with their different benefits: General Regime (100%), Small Business / MYPE (reduced CTS and Gratificaciones), and Microenterprise (no CTS/Grat).",
           "bullets": {
-            "0": "Daily check-in/check-out tracking",
-            "1": "PTO balance management with accrual rules",
-            "2": "Holiday calendars per country and office"
+            "0": "General Regime: full benefits",
+            "1": "Small Business (MYPE): 50% CTS, 50% Grat",
+            "2": "Microenterprise: excluded from CTS/Grat"
           }
         },
         "3": {
-          "tag": "Compliance",
-          "title": "Document Management",
-          "description": "Handle employment contracts, NDAs, tax forms, and compliance documents. Digital signature workflows ensure everything is signed and stored securely.",
+          "tag": "Benefits",
+          "title": "Automatic CTS and Gratificaciones",
+          "description": "The system automatically calculates legal deposits: CTS (May and November), Gratificaciones (July and December). Based on computable salary and time worked.",
           "bullets": {
-            "0": "Digital document signing workflow",
-            "1": "Secure cloud storage with version history",
-            "2": "Compliance tracking with expiration alerts"
+            "0": "CTS: May 15 and Nov 15 automatic calculation",
+            "1": "Gratificaciones: July and December with bonus",
+            "2": "EsSalud (9%) calculated automatically"
           }
         },
         "4": {
+          "tag": "Taxes",
+          "title": "5ta Categoría (Income Tax)",
+          "description": "Automatic calculation of 5ta Categoría income tax with SUNAT brackets: 8%, 14%, 17%, 20%, 30%. Uses UIT 2026 (S/ 5,500) and applies 7 UIT exemption.",
+          "bullets": {
+            "0": "Progressive brackets: 8% to 30%",
+            "1": "7 UIT exemption applied automatically",
+            "2": "RMV 2026 (S/ 1,130) for calculations"
+          }
+        },
+        "5": {
+          "tag": "USA",
+          "title": "US Payroll Compliance",
+          "description": "Full US payroll support: Federal income tax, state withholding, Social Security (6.2%), Medicare (1.45%), and 1099 generation for contractors.",
+          "bullets": {
+            "0": "Federal and state tax withholding",
+            "1": "Social Security and Medicare (FICA)",
+            "2": "W-2 and 1099-NEC generation"
+          }
+        },
+        "6": {
           "tag": "Self-Service",
           "title": "Employee Portal",
           "description": "Employees access their own payslips, request time off, view and sign documents, complete surveys, and update personal information — all from a self-service portal.",
@@ -512,7 +542,7 @@
             "2": "Document access and digital signing"
           }
         },
-        "5": {
+        "7": {
           "tag": "Performance",
           "title": "Performance Reviews",
           "description": "Run structured review cycles with self-assessments, manager evaluations, and 360-degree peer feedback. Track goals, competencies, and development plans.",
@@ -522,24 +552,14 @@
             "2": "Goal tracking and development plans"
           }
         },
-        "6": {
-          "tag": "Recruitment",
-          "title": "Recruitment & Onboarding",
-          "description": "Post job openings, track candidates through your hiring pipeline, and onboard new hires with automated task checklists. From first application to first day.",
-          "bullets": {
-            "0": "Job posting and applicant tracking",
-            "1": "Hiring pipeline with customizable stages",
-            "2": "Onboarding checklists with task assignments"
-          }
-        },
-        "7": {
+        "8": {
           "tag": "Contractors",
           "title": "Contractor Management",
-          "description": "Manage contractor records, track payments, and handle tax documentation (1099 forms for US). Keep contractor relationships organized alongside your full-time employees.",
+          "description": "Manage contractor records, track payments, and handle tax documentation. Support for Peru (4ta Categoría) and US (1099-NEC).",
           "bullets": {
-            "0": "Contractor profiles and payment tracking",
-            "1": "1099 form generation and filing",
-            "2": "Year-to-date payment summaries"
+            "0": "Peru: 4ta Categoría tax records",
+            "1": "USA: 1099-NEC generation and filing",
+            "2": "Year-to-date payment tracking"
           }
         }
       },
@@ -549,7 +569,7 @@
     "projects": {
       "label": "Projects & Delivery",
       "heroTitle": "Project Management That Delivers",
-      "heroSubtitle": "From signed contracts to delivered projects. Track milestones, manage tasks, log time, integrate with developer tools, and give clients full visibility through a branded portal.",
+      "heroSubtitle": "From signed contracts to delivered projects. Health semaphore dashboard, GitHub/Sentry integrations, billable time tracking, and AI-generated monthly reports with narratives that write themselves.",
       "workflow": {
         "setup": "Project Setup",
         "milestones": "Milestones",
@@ -560,33 +580,33 @@
       },
       "highlights": {
         "0": {
-          "stat": "End-to-end",
-          "label": "Contract to delivery tracking"
+          "stat": "🔵🟢🟡🔴",
+          "label": "Health semaphore: New, On Track, At Risk, Critical"
         },
         "1": {
-          "stat": "GitHub + Sentry",
-          "label": "Developer tool integrations"
+          "stat": "GitHub",
+          "label": "Issues and PRs linked to tasks"
         },
         "2": {
-          "stat": "Billable hours",
-          "label": "Time tracking per task and project"
+          "stat": "Sentry",
+          "label": "Production errors linked to tasks"
         },
         "3": {
-          "stat": "AI-powered",
-          "label": "Auto-generated project reports"
+          "stat": "AI narrative",
+          "label": "Monthly reports with auto-generated text"
         }
       },
       "featuresTitle": "Deliver Projects On Time, Every Time",
       "featuresSubtitle": "Complete project management with client visibility and developer tool integrations.",
       "detailedFeatures": {
         "0": {
-          "tag": "Overview",
-          "title": "Project Tracking & Health",
-          "description": "Monitor project health with dashboards showing progress, milestones, budget consumption, and team utilization. Identify at-risk projects before they become problems.",
+          "tag": "Health",
+          "title": "Health Semaphore Dashboard",
+          "description": "At-a-glance project health with 4 statuses: 🔵 New (just started), 🟢 On Track (healthy), 🟡 At Risk (needs attention), 🔴 Critical (immediate action). Based on budget, timeline, and milestones.",
           "bullets": {
-            "0": "Health dashboard with progress indicators",
-            "1": "Budget tracking and burn rate monitoring",
-            "2": "Team utilization and workload visibility"
+            "0": "4-level visual health indicator",
+            "1": "Automatic status based on metrics",
+            "2": "Alerts when status degrades"
           }
         },
         "1": {
@@ -600,18 +620,28 @@
           }
         },
         "2": {
-          "tag": "Tasks",
-          "title": "Task Management & Integrations",
-          "description": "Create and assign tasks to team members. Integrate with GitHub for code-linked tasks and Sentry for bug tracking. Keep development work connected to project milestones.",
+          "tag": "GitHub",
+          "title": "GitHub Integration",
+          "description": "Link tasks to GitHub issues and pull requests. See commit history, PR status, and code changes directly from the task view. Keep development work connected to deliverables.",
           "bullets": {
-            "0": "Task assignment with priority and due dates",
-            "1": "GitHub integration for commit and PR linking",
-            "2": "Sentry integration for bug-to-task tracking"
+            "0": "Link tasks to GitHub issues",
+            "1": "See PR status and commit history",
+            "2": "Automatic task updates from GitHub events"
           }
         },
         "3": {
+          "tag": "Sentry",
+          "title": "Sentry Integration",
+          "description": "Connect Sentry error tracking to create tasks from production errors. Track bug resolution and ensure issues are assigned and prioritized within the project context.",
+          "bullets": {
+            "0": "Create tasks from Sentry errors",
+            "1": "Link existing tasks to Sentry issues",
+            "2": "Track resolution within project timeline"
+          }
+        },
+        "4": {
           "tag": "Time",
-          "title": "Time Tracking",
+          "title": "Billable Time Tracking",
           "description": "Log billable and non-billable hours per task and project. Generate time reports for invoicing, team utilization analysis, and project profitability tracking.",
           "bullets": {
             "0": "Per-task and per-project time logging",
@@ -619,8 +649,8 @@
             "2": "Time reports for invoicing and analysis"
           }
         },
-        "4": {
-          "tag": "Client Portal",
+        "5": {
+          "tag": "Portal",
           "title": "Client Portal & Feedback",
           "description": "Give clients a branded portal to view project progress, approve milestones, leave visual feedback on deliverables, and access documents — all without needing an account.",
           "bullets": {
@@ -629,13 +659,13 @@
             "2": "Document sharing and milestone approvals"
           }
         },
-        "5": {
+        "6": {
           "tag": "AI",
-          "title": "AI-Powered Project Reports",
-          "description": "Generate comprehensive monthly project reports with AI-written summaries covering progress, risks, milestones achieved, and next steps. Share with clients or stakeholders.",
+          "title": "AI-Generated Monthly Reports",
+          "description": "Generate comprehensive monthly reports with AI-written narratives: executive summary, key highlights, concerns and risks, and actionable recommendations. No manual writing required.",
           "bullets": {
-            "0": "AI-generated narrative summaries",
-            "1": "Progress, risks, and milestone coverage",
+            "0": "Executive summary auto-generated",
+            "1": "Highlights, concerns, and recommendations",
             "2": "One-click sharing with clients"
           }
         }
