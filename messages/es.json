@@ -1,512 +1,512 @@
 {
   "metadata": {
-    "title": "BillingOps — Plataforma Todo-en-Uno de Facturación, Contabilidad y RRHH",
-    "description": "Gestiona leads, propuestas, contratos, facturas, pagos, contabilidad, RRHH y planilla desde una sola plataforma. Diseñada para Latinoamérica y EE.UU."
+    "title": "BillingOps — Sistema de Facturación, Contabilidad y Planilla para Empresas Peruanas",
+    "description": "Gestiona cotizaciones, contratos, facturas electrónicas, contabilidad PCGE, planilla y proyectos desde un solo sistema. Cumple con SUNAT sin complicaciones."
   },
   "nav": {
-    "features": "Funcionalidades",
-    "pricing": "Precios",
-    "faq": "FAQ",
-    "docs": "Docs",
-    "requestDemo": "Solicitar Demo"
+    "features": "Módulos",
+    "pricing": "Planes",
+    "faq": "Preguntas",
+    "docs": "Documentación",
+    "requestDemo": "Agenda tu Demo"
   },
   "hero": {
-    "badge": "La plataforma que crece con tu negocio",
-    "title": "Facturación, Contabilidad y RRHH",
-    "titleHighlight": "Todo en una Sola Plataforma",
-    "subtitle": "Deja de saltar entre herramientas desconectadas. Gestiona todo el ciclo de tu negocio — desde el primer lead hasta el último pago — en una sola plataforma diseñada para Latinoamérica y EE.UU.",
-    "painPoint1": "Automatización lead-a-pago",
-    "painPoint2": "Contabilidad por partida doble",
-    "painPoint3": "RRHH, planilla y asistencia",
-    "painPoint4": "Cumplimiento SUNAT e IRS",
-    "cta": "Solicitar Demo",
-    "ctaVideo": "Ver Demo",
+    "badge": "El sistema que usan las empresas peruanas que crecen ordenadas",
+    "title": "Facturación, Contabilidad y Planilla",
+    "titleHighlight": "Todo Conectado en un Solo Sistema",
+    "subtitle": "Olvídate del Excel y los sistemas que no se hablan entre sí. Con BillingOps gestionas desde la primera cotización hasta el último cobro, cumpliendo con SUNAT sin complicaciones.",
+    "painPoint1": "De la cotización al cobro, todo automático",
+    "painPoint2": "Contabilidad PCGE lista para usar",
+    "painPoint3": "Planilla, asistencia y boletas",
+    "painPoint4": "Al día con SUNAT (e IRS si operas en EE.UU.)",
+    "cta": "Agenda tu Demo Gratis",
+    "ctaVideo": "Mira cómo funciona",
     "metricCompanies": "Empresas",
-    "metricUsers": "Usuarios",
-    "metricTimeSaved": "Tiempo ahorrado en admin",
-    "metricUptime": "SLA de disponibilidad (Enterprise)",
+    "metricUsers": "Colaboradores",
+    "metricTimeSaved": "Menos tiempo en tareas administrativas",
+    "metricUptime": "Disponibilidad garantizada (Enterprise)",
     "floatingPayment": "Pago recibido",
-    "floatingPaymentSub": "Factura #1042 — $4,500",
-    "floatingRevenue": "Ingresos +23%",
+    "floatingPaymentSub": "Factura #1042 — S/ 16,200",
+    "floatingRevenue": "Ventas +23%",
     "floatingRevenueSub": "vs. mes anterior"
   },
   "logoCloud": {
-    "title": "Empresas innovadoras en Latinoamérica y EE.UU. confían en nosotros"
+    "title": "Empresas peruanas que ya simplifican sus operaciones con BillingOps"
   },
   "features": {
-    "sectionLabel": "Plataforma",
-    "sectionTitle": "Una Plataforma, Todos los Módulos",
-    "sectionSubtitle": "Cuatro módulos integrados que cubren toda tu operación. Sin más hojas de cálculo, sin más silos de datos.",
-    "learnMore": "Saber más",
+    "sectionLabel": "Módulos",
+    "sectionTitle": "Un Solo Sistema, Todo Conectado",
+    "sectionSubtitle": "Cuatro módulos que cubren toda tu operación. Olvídate de las hojas de Excel y los datos dispersos.",
+    "learnMore": "Conoce más",
     "tabs": {
-      "operations": "Desarrollo de Negocios",
-      "finance": "Finanzas y Contabilidad",
-      "hr": "RRHH y Planilla",
-      "projects": "Proyectos y Entrega"
+      "operations": "Ventas y Cobranzas",
+      "finance": "Contabilidad",
+      "hr": "Planilla y RRHH",
+      "projects": "Proyectos"
     },
     "operations": {
-      "title": "Pipeline Lead-a-Pago",
-      "description": "Gestiona el ciclo completo de ventas desde el contacto inicial hasta el cobro. Automatiza propuestas, contratos, facturación y cobranza — todo conectado.",
+      "title": "De la Cotización al Cobro",
+      "description": "Gestiona todo el ciclo de ventas: desde el primer contacto hasta que el dinero entra a tu cuenta. Cotizaciones, contratos, facturas electrónicas y cobranza — todo conectado.",
       "features": {
         "0": {
-          "title": "Gestión de Leads",
-          "desc": "Seguimiento de prospectos con pipeline, sesiones de descubrimiento y análisis de factibilidad."
+          "title": "Gestión de Prospectos",
+          "desc": "Organiza tus oportunidades en un embudo visual. Registra reuniones y evalúa si vale la pena cotizar."
         },
         "1": {
-          "title": "Propuestas y Contratos",
-          "desc": "Genera propuestas, comparte por links seguros, recoge firmas digitales en contratos."
+          "title": "Cotizaciones y Contratos",
+          "desc": "Crea cotizaciones profesionales, compártelas por link y convierte las aceptadas en contratos con firma digital."
         },
         "2": {
-          "title": "Facturación Automática",
-          "desc": "Crea facturas desde contratos, envía links de pago por email con un click."
+          "title": "Facturación Electrónica",
+          "desc": "Genera facturas y boletas desde tus contratos. Envía el link de pago al cliente con un solo clic."
         },
         "3": {
           "title": "Cobro de Pagos",
-          "desc": "Acepta tarjeta, ACH, transferencia y crypto (USDC) vía integración con Stripe."
+          "desc": "Acepta tarjeta, transferencia bancaria y otros métodos vía Stripe. El pago se registra automáticamente."
         },
         "4": {
-          "title": "Automatización de Cobranza",
-          "desc": "Recordatorios automáticos para facturas vencidas por email, Slack y notificaciones in-app."
+          "title": "Cobranza Automática",
+          "desc": "Configura recordatorios automáticos para facturas vencidas. Por email, Slack o notificación en el sistema."
         },
         "5": {
-          "title": "Portal de Clientes",
-          "desc": "Portal personalizado para que tus clientes vean progreso de proyectos, aprueben hitos y accedan a documentos."
+          "title": "Portal para tus Clientes",
+          "desc": "Tus clientes ven el avance de su proyecto, aprueban entregables y descargan documentos — sin llamarte."
         }
       }
     },
     "finance": {
-      "title": "Contabilidad por Partida Doble",
-      "description": "Motor contable completo con soporte para PCGE (Perú) y US GAAP. Asientos contables, periodos fiscales, conciliación bancaria y reportes financieros en tiempo real.",
+      "title": "Contabilidad Completa con PCGE",
+      "description": "Sistema contable de partida doble con el Plan Contable General Empresarial listo para usar. Asientos, conciliación bancaria, reportes y cierre fiscal — todo al día con SUNAT.",
       "features": {
         "0": {
-          "title": "Plan de Cuentas",
-          "desc": "Plantillas pre-construidas PCGE y US GAAP, o crea tu propio plan personalizado."
+          "title": "Plan de Cuentas PCGE",
+          "desc": "Comienza con el PCGE peruano ya configurado, o crea tu propio plan si también operas en EE.UU. (US GAAP)."
         },
         "1": {
           "title": "Asientos Contables",
-          "desc": "Asientos manuales y auto-generados desde facturas, pagos y gastos."
+          "desc": "Crea asientos manualmente o deja que el sistema los genere automáticamente desde facturas y pagos."
         },
         "2": {
           "title": "Reportes Financieros",
-          "desc": "Estado de resultados, balance general, flujo de caja, balance de comprobación y libro mayor."
+          "desc": "Estado de resultados, balance general, flujo de caja, balance de comprobación y libro mayor — listos para tu contador."
         },
         "3": {
           "title": "Conciliación Bancaria",
-          "desc": "Importa transacciones, cruza contra asientos, concilia tus cuentas."
+          "desc": "Importa los movimientos de tu banco y crúzalos con tus asientos. Identifica diferencias rápidamente."
         },
         "4": {
-          "title": "Multi-Moneda",
-          "desc": "Maneja PEN, USD y más con gestión automática de tipos de cambio."
+          "title": "Soles y Dólares",
+          "desc": "Trabaja en PEN y USD sin complicaciones. El tipo de cambio se actualiza automáticamente."
         },
         "5": {
-          "title": "Presupuestos y Periodos Fiscales",
-          "desc": "Define presupuestos por cuenta, rastrea variaciones y gestiona cierres fiscales."
+          "title": "Presupuestos y Cierre Fiscal",
+          "desc": "Define presupuestos por área, compara lo real vs. lo presupuestado y cierra tus periodos fiscales ordenadamente."
         }
       }
     },
     "hr": {
-      "title": "Gestión de RRHH y Planilla",
-      "description": "Gestión completa de personas para Perú y EE.UU. Expedientes de empleados, procesamiento de planilla, control de asistencia, manejo de documentos y cumplimiento incluido.",
+      "title": "Planilla y Gestión de Personas",
+      "description": "Todo lo que necesitas para gestionar a tu equipo en Perú (y EE.UU. si tienes operaciones allá). Expedientes, planilla, asistencia, boletas y cumplimiento con SUNAT incluido.",
       "features": {
         "0": {
-          "title": "Gestión de Empleados",
-          "desc": "Expedientes centralizados con documentos, contratos e historial."
+          "title": "Expedientes de Colaboradores",
+          "desc": "Toda la información de cada colaborador en un solo lugar: documentos, contratos, historial salarial."
         },
         "1": {
-          "title": "Procesamiento de Planilla",
-          "desc": "Cálculos automáticos de planilla para cumplimiento SUNAT (Perú) e IRS (EE.UU.)."
+          "title": "Cálculo de Planilla",
+          "desc": "AFP, EsSalud, ONP, CTS, gratificaciones — todo calculado automáticamente según la normativa peruana."
         },
         "2": {
-          "title": "Asistencia y Permisos",
-          "desc": "Control de horas trabajadas, gestión de solicitudes de PTO, días de enfermedad y feriados."
+          "title": "Asistencia y Vacaciones",
+          "desc": "Control de entrada/salida, gestión de vacaciones, permisos y licencias. Todo en un solo lugar."
         },
         "3": {
-          "title": "Gestión Documental",
-          "desc": "Firma digital de documentos, almacenamiento y seguimiento de cumplimiento."
+          "title": "Documentos y Firmas",
+          "desc": "Contratos, constancias y documentos con firma digital. Almacenados de forma segura y siempre accesibles."
         },
         "4": {
-          "title": "Portal Self-Service para Empleados",
-          "desc": "Empleados ven boletas de pago, solicitan permisos, acceden a documentos y completan encuestas."
+          "title": "Portal del Colaborador",
+          "desc": "Cada colaborador ve sus boletas, solicita vacaciones, descarga documentos y completa encuestas — sin pedírtelo a ti."
         },
         "5": {
-          "title": "Evaluaciones de Desempeno",
-          "desc": "Ciclos estructurados de evaluacion con auto-evaluaciones, evaluaciones de gerentes y feedback 360 grados."
+          "title": "Evaluaciones de Desempeño",
+          "desc": "Organiza ciclos de evaluación con autoevaluaciones, feedback del jefe y opiniones de compañeros (360°)."
         },
         "6": {
           "title": "Reclutamiento y Onboarding",
-          "desc": "Publica vacantes, rastrea candidatos en el pipeline de contratacion y onboardea nuevos empleados con checklists."
+          "desc": "Publica vacantes, gestiona postulantes y recibe a los nuevos colaboradores con checklists de ingreso."
         },
         "7": {
-          "title": "Gestion de Contratistas",
-          "desc": "Expedientes de contratistas, formularios tributarios (1099) y seguimiento de pagos."
+          "title": "Locadores de Servicios",
+          "desc": "Gestiona a tus trabajadores independientes: expedientes, recibos por honorarios y formularios tributarios."
         }
       }
     },
     "projects": {
-      "title": "Gestión de Proyectos y Entrega",
-      "description": "Desde contratos firmados hasta proyectos entregados. Rastrea hitos, gestiona tareas, registra tiempo y da a tus clientes visibilidad completa a través de un portal personalizado.",
+      "title": "Gestión de Proyectos",
+      "description": "Del contrato firmado al proyecto entregado. Organiza hitos, asigna tareas, registra horas y mantén a tus clientes informados con un portal donde ven todo el avance.",
       "features": {
         "0": {
-          "title": "Seguimiento de Proyectos",
-          "desc": "Dashboards de salud, hitos y seguimiento de entregables por proyecto."
+          "title": "Vista General del Proyecto",
+          "desc": "Un dashboard por proyecto con el estado de salud, hitos completados y lo que falta por entregar."
         },
         "1": {
-          "title": "Gestión de Tareas",
-          "desc": "Crea tareas, asigna miembros del equipo, integra con GitHub y Sentry."
+          "title": "Tareas y Asignaciones",
+          "desc": "Crea tareas, asígnalas a tu equipo y conéctalas con GitHub o Sentry si trabajas en desarrollo."
         },
         "2": {
-          "title": "Registro de Tiempo",
-          "desc": "Registra horas facturables y no facturables por tarea y proyecto."
+          "title": "Registro de Horas",
+          "desc": "Tu equipo registra las horas por tarea. Distingue entre horas facturables y no facturables."
         },
         "3": {
-          "title": "Portal de Clientes",
-          "desc": "Los clientes pueden ver progreso, aprobar hitos y acceder a documentos."
+          "title": "Portal para el Cliente",
+          "desc": "Tu cliente entra al portal, ve el avance, aprueba entregables y descarga documentos — todo sin llamarte."
         },
         "4": {
-          "title": "Feedback Visual y Anotaciones",
-          "desc": "Los clientes dejan feedback punto-y-clic directamente en entregables, vinculado a tareas para resolucion."
+          "title": "Comentarios Visuales",
+          "desc": "El cliente hace clic directamente sobre el entregable para dejar su feedback. Se convierte en tarea automáticamente."
         },
         "5": {
-          "title": "Reportes con IA",
-          "desc": "Genera reportes mensuales del proyecto con resumenes escritos por IA cubriendo progreso, riesgos e hitos."
+          "title": "Reportes Automáticos con IA",
+          "desc": "Genera reportes mensuales para tu cliente con un resumen escrito por IA: avance, riesgos e hitos cumplidos."
         }
       }
     }
   },
   "howItWorks": {
-    "sectionTitle": "Listo en Minutos",
-    "sectionSubtitle": "Cuatro simples pasos para transformar tus operaciones.",
+    "sectionTitle": "Empieza en Minutos",
+    "sectionSubtitle": "Cuatro pasos para ordenar tus operaciones de una vez por todas.",
     "step1": {
-      "title": "Regístrate y Configura",
-      "description": "Crea tu cuenta, configura tu organización, define roles y elige tu plan de cuentas."
+      "title": "Crea tu Cuenta",
+      "description": "Regístrate, configura tu empresa, asigna roles a tu equipo y elige tu plan de cuentas (PCGE viene listo)."
     },
     "step2": {
-      "title": "Gestiona tu Pipeline",
-      "description": "Captura leads, envía propuestas, firma contratos y convierte ventas en proyectos y facturas."
+      "title": "Gestiona tus Ventas",
+      "description": "Registra prospectos, envía cotizaciones, firma contratos y convierte cada venta cerrada en factura y proyecto."
     },
     "step3": {
-      "title": "Automatiza la Facturación",
-      "description": "Genera facturas desde contratos, envía links de pago Stripe y configura recordatorios automáticos."
+      "title": "Automatiza la Cobranza",
+      "description": "Genera facturas electrónicas, envía el link de pago a tu cliente y deja que el sistema le recuerde si no paga."
     },
     "step4": {
-      "title": "Obtén Insights en Tiempo Real",
-      "description": "Accede a reportes financieros, monitorea flujo de caja, rastrea rendimiento del equipo y toma decisiones informadas."
+      "title": "Toma Decisiones con Datos",
+      "description": "Revisa tus reportes financieros, monitorea el flujo de caja y entiende cómo va tu negocio — en tiempo real."
     }
   },
   "stats": {
-    "hoursWeek": "Horas ahorradas semanalmente en admin",
-    "compliant": "Cumplimiento SUNAT e IRS",
-    "currencies": "Multi-moneda (PEN, USD y más)",
-    "roles": "Roles granulares con RBAC completo"
+    "hoursWeek": "Horas menos a la semana en tareas administrativas",
+    "compliant": "Al día con SUNAT (e IRS si operas en EE.UU.)",
+    "currencies": "Trabaja en soles y dólares sin complicaciones",
+    "roles": "Controla quién ve y hace qué en el sistema"
   },
   "testimonials": {
-    "sectionLabel": "Testimonios",
-    "sectionTitle": "Amado por Equipos de Operaciones",
-    "sectionSubtitle": "Escucha a las empresas que transformaron sus operaciones con nuestra plataforma.",
+    "sectionLabel": "Lo que dicen nuestros clientes",
+    "sectionTitle": "Empresas que ya Ordenaron sus Operaciones",
+    "sectionSubtitle": "Conoce cómo otras empresas peruanas simplificaron su día a día con BillingOps.",
     "t1": {
-      "quote": "Pasamos de malabarear con 5 herramientas diferentes a tener todo en un solo lugar. La facturación que nos tomaba un día completo ahora sucede automáticamente. El módulo de contabilidad con soporte PCGE era exactamente lo que necesitábamos.",
+      "quote": "Antes usábamos 5 herramientas diferentes y nada se conectaba. Ahora todo está en un solo sistema. La facturación que nos tomaba un día entero ahora sale automática. Y tener el PCGE listo para usar fue clave para nosotros.",
       "name": "María Gonzales",
-      "role": "Directora Financiera",
-      "company": "Andean Digital Agency"
+      "role": "Gerente de Finanzas",
+      "company": "Agencia Digital Andina"
     },
     "t2": {
-      "quote": "El pipeline lead-a-pago es un cambio total. Podemos rastrear a un cliente desde el contacto inicial hasta la propuesta, contrato, entrega del proyecto y pago final — todo en un solo sistema. Nuestras cobranzas mejoraron un 40%.",
+      "quote": "Poder seguir a un cliente desde que nos contacta hasta que nos paga — todo en el mismo sistema — cambió nuestra forma de trabajar. Las cobranzas mejoraron un 40% porque ya no se nos escapa ninguna factura vencida.",
       "name": "Juan Pérez",
-      "role": "Director de Operaciones",
+      "role": "Gerente de Operaciones",
       "company": "Pacific Software Group"
     },
     "t3": {
-      "quote": "Gestionar la planilla para empleados en Perú y EE.UU. era una pesadilla. Ahora todo se maneja en una plataforma con los cálculos tributarios correctos para cada país. El tiempo que hemos ahorrado es increíble.",
+      "quote": "Hacer la planilla para colaboradores en Perú y en EE.UU. era un dolor de cabeza. Ahora todo se calcula solo con los impuestos correctos para cada país. El tiempo que ahorramos cada mes es impresionante.",
       "name": "Laura Rodríguez",
-      "role": "Gerente de RRHH",
+      "role": "Jefa de Gestión Humana",
       "company": "TechBridge Solutions"
     }
   },
   "integrations": {
     "sectionLabel": "Integraciones",
-    "sectionTitle": "Se Conecta con tus Herramientas Favoritas",
-    "sectionSubtitle": "Integraciones potentes que extienden tu flujo de trabajo. Procesamiento de pagos, comunicaciones, IA y herramientas de desarrollo — todo conectado desde el inicio.",
-    "apiNote": "API abierta disponible para integraciones personalizadas en planes Enterprise.",
-    "erpLabel": "Integraciones ERP (Enterprise)"
+    "sectionTitle": "Se Conecta con las Herramientas que ya Usas",
+    "sectionSubtitle": "Pagos, comunicaciones, inteligencia artificial y herramientas de desarrollo — todo conectado desde el primer día.",
+    "apiNote": "API disponible para conectar con tus propios sistemas (planes Enterprise).",
+    "erpLabel": "Integraciones con ERPs (Enterprise)"
   },
   "pricing": {
-    "sectionLabel": "Precios",
-    "sectionTitle": "Precios Simples y Transparentes",
-    "sectionSubtitle": "Elige el plan que se ajuste a tu negocio. Sin cargos ocultos. Cancela cuando quieras.",
+    "sectionLabel": "Planes",
+    "sectionTitle": "Planes Claros, Sin Sorpresas",
+    "sectionSubtitle": "Elige el plan que se ajuste a tu empresa. Sin costos ocultos. Cancela cuando quieras.",
     "monthly": "Mensual",
     "annual": "Anual",
     "annualSave": "Ahorra 15%",
     "perMonth": "/mes",
-    "perEmployee": "+ ${price}/empleado/mes adicional a los 15 incluidos",
-    "guarantee": "Prueba gratuita de 14 días en todos los planes. Sin tarjeta de crédito.",
+    "perEmployee": "+ ${price}/colaborador/mes adicional a los 15 incluidos",
+    "guarantee": "Prueba gratis por 14 días en todos los planes. Sin poner tarjeta.",
     "starter": {
       "name": "Starter",
-      "description": "Para freelancers y equipos pequeños que inician con automatización de facturación."
+      "description": "Para freelancers y equipos pequeños que quieren ordenar su facturación."
     },
     "professional": {
       "name": "Professional",
-      "description": "Para empresas en crecimiento que necesitan operaciones completas, contabilidad y RRHH.",
-      "badge": "Más Popular"
+      "description": "Para empresas en crecimiento que necesitan contabilidad, planilla y gestión completa.",
+      "badge": "El más elegido"
     },
     "enterprise": {
       "name": "Enterprise",
-      "description": "Para organizaciones grandes con requerimientos personalizados y soporte dedicado.",
-      "price": "Personalizado"
+      "description": "Para organizaciones grandes que necesitan configuraciones a medida y soporte dedicado.",
+      "price": "Conversemos"
     },
     "features": {
-      "singleOrg": "1 Organización",
+      "singleOrg": "1 empresa",
       "basicAccounting": "Contabilidad básica y reportes",
-      "invoicing": "Facturación y links de pago",
+      "invoicing": "Facturación electrónica y links de pago",
       "upTo10Users": "Hasta 10 usuarios",
-      "emailSupport": "Soporte por email",
-      "multiOrg": "Organizaciones ilimitadas",
-      "fullAccounting": "Contabilidad por partida doble completa (PCGE y US GAAP)",
-      "invoicingPayments": "Facturación, pagos y automatización de cobranza",
+      "emailSupport": "Soporte por correo",
+      "multiOrg": "Empresas ilimitadas",
+      "fullAccounting": "Contabilidad completa con PCGE (y US GAAP si lo necesitas)",
+      "invoicingPayments": "Facturación, cobros y recordatorios automáticos",
       "unlimitedClients": "Clientes y proyectos ilimitados",
-      "hrPayroll": "RRHH y Planilla (Perú + EE.UU.)",
-      "includedEmployees": "15 empleados incluidos",
-      "financialReports": "Todos los reportes financieros y dashboards",
-      "dataMigration": "Migracion de datos asistida",
+      "hrPayroll": "Planilla completa (Perú + EE.UU.)",
+      "includedEmployees": "15 colaboradores incluidos",
+      "financialReports": "Todos los reportes financieros",
+      "dataMigration": "Te ayudamos a migrar tus datos",
       "prioritySupport": "Soporte prioritario",
       "everythingPro": "Todo lo de Professional",
-      "unlimitedEmployees": "Empleados ilimitados",
-      "apiAccess": "Acceso a API y webhooks",
-      "customIntegrations": "Integraciones personalizadas",
-      "dedicatedManager": "Gerente de cuenta dedicado",
-      "sla": "SLA 99.9% de disponibilidad",
-      "onboarding": "Onboarding y migración personalizada"
+      "unlimitedEmployees": "Colaboradores ilimitados",
+      "apiAccess": "API y webhooks para conectar tus sistemas",
+      "customIntegrations": "Integraciones a medida",
+      "dedicatedManager": "Ejecutivo de cuenta dedicado",
+      "sla": "Disponibilidad garantizada 99.9%",
+      "onboarding": "Implementación y migración personalizada"
     },
-    "cta": "Iniciar Prueba Gratis",
-    "ctaEnterprise": "Contactar Ventas"
+    "cta": "Empieza tu Prueba Gratis",
+    "ctaEnterprise": "Conversemos"
   },
   "trust": {
     "sectionLabel": "Seguridad",
-    "sectionTitle": "Seguridad de Nivel Empresarial",
-    "sectionSubtitle": "Tus datos están protegidos con los mismos estándares utilizados por instituciones financieras.",
+    "sectionTitle": "Tu Información Está Segura",
+    "sectionSubtitle": "Protegemos tus datos con los mismos estándares que usan los bancos.",
     "encryption": {
-      "title": "Encriptación de Extremo a Extremo",
-      "description": "Todos los datos encriptados en tránsito (TLS 1.3) y en reposo (AES-256). Tu información financiera nunca sale de nuestra infraestructura segura."
+      "title": "Datos Encriptados",
+      "description": "Toda tu información viaja encriptada (TLS 1.3) y se almacena de forma segura (AES-256). Tu data financiera nunca sale de nuestra infraestructura protegida."
     },
     "rbac": {
-      "title": "Control de Acceso Basado en Roles",
-      "description": "5 roles granulares (Owner, Admin, Finance, Sales, Viewer) con permisos detallados para cada módulo."
+      "title": "Controla Quién Accede a Qué",
+      "description": "5 roles diferentes (Dueño, Admin, Finanzas, Ventas, Solo lectura) con permisos específicos para cada módulo."
     },
     "audit": {
-      "title": "Registro de Auditoría Completo",
-      "description": "Cada acción se registra con timestamp, usuario y detalles. Trazabilidad completa para operaciones financieras."
+      "title": "Historial Completo de Cambios",
+      "description": "Cada acción queda registrada: quién la hizo, cuándo y qué modificó. Trazabilidad total para tus operaciones financieras."
     },
     "uptime": {
-      "title": "SLA 99.9% de Disponibilidad",
-      "description": "Alojado en la red edge de Vercel con escalamiento automático. Los planes Enterprise incluyen SLA garantizado."
+      "title": "Sistema Siempre Disponible",
+      "description": "Infraestructura en la nube con escalamiento automático. Los planes Enterprise incluyen garantía de disponibilidad 99.9%."
     },
     "privacy": {
-      "title": "Privacidad de Datos",
-      "description": "Tus datos nunca se comparten con terceros. Exportacion y eliminacion completa de datos con aislamiento a nivel de organizacion."
+      "title": "Tus Datos Son Tuyos",
+      "description": "No compartimos tu información con nadie. Puedes exportar o eliminar todos tus datos cuando quieras."
     },
     "compliance": {
-      "title": "Cumplimiento Tributario",
-      "description": "Cumplimiento integrado para regulaciones SUNAT (Peru) e IRS (EE.UU.). Calculos automaticos de impuestos, retenciones y declaracion electronica SUNAT."
+      "title": "Al Día con SUNAT",
+      "description": "Cálculos automáticos de impuestos y retenciones según normativa peruana. También cumplimos con IRS si tienes operaciones en EE.UU."
     }
   },
   "faq": {
     "sectionTitle": "Preguntas Frecuentes",
-    "sectionSubtitle": "Todo lo que necesitas saber sobre nuestra plataforma.",
+    "sectionSubtitle": "Las dudas más comunes sobre BillingOps.",
     "q1": {
-      "question": "¿Qué incluye la plataforma?",
-      "answer": "Nuestra plataforma cubre el ciclo completo del negocio: gestión de leads, propuestas, contratos, facturación, pagos, contabilidad por partida doble (PCGE y US GAAP), RRHH y planilla, gestión de proyectos con registro de tiempo y reportes financieros completos. Todo lo que necesitas para manejar tus operaciones en un solo lugar."
+      "question": "¿Qué incluye el sistema?",
+      "answer": "BillingOps cubre todo el ciclo de tu negocio: gestión de prospectos, cotizaciones, contratos, facturación electrónica, cobranza, contabilidad con PCGE, planilla, gestión de proyectos y reportes financieros. Todo en un solo sistema, todo conectado."
     },
     "q2": {
-      "question": "¿Soportan las regulaciones tributarias peruanas (SUNAT)?",
-      "answer": "Sí. Soportamos completamente el Plan Contable General Empresarial (PCGE), cálculos de impuestos peruanos y reportes de cumplimiento SUNAT. Nuestro módulo de planilla maneja CTS, gratificaciones y todas las contribuciones obligatorias."
+      "question": "¿Cumple con las normas de SUNAT?",
+      "answer": "Sí. El sistema viene con el Plan Contable General Empresarial (PCGE) listo para usar, calcula los impuestos peruanos automáticamente y genera los reportes que necesitas para SUNAT. El módulo de planilla maneja CTS, gratificaciones, AFP, EsSalud y todas las contribuciones obligatorias."
     },
     "q3": {
-      "question": "¿Puedo administrar múltiples empresas?",
-      "answer": "Por supuesto. Con los planes Professional y Enterprise, puedes crear y administrar múltiples organizaciones desde una sola cuenta, cada una con sus propios libros, plan de cuentas, clientes, empleados y miembros de equipo."
+      "question": "¿Puedo manejar varias empresas?",
+      "answer": "Claro. Con los planes Professional y Enterprise puedes crear y administrar varias empresas desde una sola cuenta. Cada empresa tiene su propia contabilidad, clientes, colaboradores y equipo de trabajo — completamente separadas."
     },
     "q4": {
-      "question": "¿Cómo funciona el procesamiento de pagos?",
-      "answer": "Nos integramos directamente con Stripe. Cuando envías una factura, tu cliente recibe un link de pago seguro. Soportamos tarjetas de crédito/débito, transferencias ACH, transferencias bancarias y criptomoneda (USDC). Los pagos se concilian automáticamente y se crean asientos contables."
+      "question": "¿Cómo cobro a mis clientes?",
+      "answer": "Cuando envías una factura, tu cliente recibe un link de pago seguro (vía Stripe). Puede pagar con tarjeta de crédito, débito o transferencia. El pago se registra automáticamente y se genera el asiento contable — sin que hagas nada."
     },
     "q5": {
-      "question": "¿Ofrecen migración de datos?",
-      "answer": "Sí. Los planes Professional incluyen migración asistida para tu plan de cuentas, clientes y datos históricos. Los planes Enterprise incluyen migración personalizada con soporte dedicado para asegurar una transición fluida."
+      "question": "¿Me ayudan a migrar mis datos?",
+      "answer": "Sí. En los planes Professional te ayudamos a migrar tu plan de cuentas, clientes y datos históricos. En Enterprise hacemos una implementación completa con soporte dedicado para que la transición sea ordenada."
     },
     "q6": {
-      "question": "¿La plataforma es bilingüe?",
-      "answer": "Sí, toda la plataforma es completamente bilingüe (inglés y español). Puedes cambiar de idioma en cualquier momento. Todos los reportes, facturas y documentos para clientes soportan ambos idiomas."
+      "question": "¿El sistema está en español?",
+      "answer": "Sí, todo está en español e inglés. Puedes cambiar de idioma cuando quieras. Las facturas, reportes y documentos para clientes también soportan ambos idiomas."
     },
     "q7": {
-      "question": "¿Cómo funciona el módulo de RRHH y Planilla?",
-      "answer": "Nuestro módulo de RRHH soporta gestión de empleados, procesamiento de planilla, control de asistencia, gestión de PTO, manejo de documentos y gestión de contratistas. Está construido para cumplimiento en Perú (SUNAT, EsSalud, AFP) y EE.UU. (IRS, W-2, 1099)."
+      "question": "¿Cómo funciona el módulo de planilla?",
+      "answer": "Gestionas expedientes de colaboradores, calculas la planilla automáticamente (AFP, EsSalud, ONP, CTS, gratificaciones), controlas asistencia y vacaciones, manejas documentos con firma digital y generas boletas. Todo según la normativa peruana. Si también tienes colaboradores en EE.UU., el sistema calcula los impuestos de allá también."
     },
     "q8": {
-      "question": "¿Qué tipo de soporte ofrecen?",
-      "answer": "Los planes Starter incluyen soporte por email. Los planes Professional obtienen soporte prioritario con tiempos de respuesta más rápidos. Los planes Enterprise incluyen un gerente de cuenta dedicado, onboarding personalizado y soporte telefónico."
+      "question": "¿Qué soporte tienen?",
+      "answer": "El plan Starter incluye soporte por correo. Professional tiene soporte prioritario con respuesta más rápida. Enterprise incluye un ejecutivo de cuenta dedicado, implementación personalizada y soporte telefónico."
     }
   },
   "cta": {
-    "title": "¿Listo para Simplificar tus Operaciones?",
-    "subtitle": "Unifica tu facturacion, contabilidad, RRHH y gestion de proyectos en una plataforma disenada para America Latina y EE.UU.",
-    "button": "Solicitar Demo"
+    "title": "¿Listo para Ordenar tu Negocio?",
+    "subtitle": "Facturación, contabilidad, planilla y proyectos — todo en un solo sistema diseñado para empresas peruanas.",
+    "button": "Agenda tu Demo Gratis"
   },
   "demo": {
-    "title": "Solicitar una Demo",
-    "subtitle": "Descubre cómo nuestra plataforma puede transformar las operaciones de tu negocio. Completa el formulario y nuestro equipo te contactará en 24 horas.",
-    "fullName": "Nombre Completo",
-    "workEmail": "Email de Trabajo",
-    "companyName": "Nombre de la Empresa",
-    "companySize": "Tamaño de la Empresa",
+    "title": "Agenda tu Demo Gratis",
+    "subtitle": "Te mostramos cómo BillingOps puede ordenar tu facturación, contabilidad y planilla. Déjanos tus datos y te contactamos en menos de 24 horas.",
+    "fullName": "Tu nombre completo",
+    "workEmail": "Tu correo de trabajo",
+    "companyName": "Nombre de tu empresa",
+    "companySize": "¿Cuántas personas trabajan contigo?",
     "country": "País",
-    "message": "Mensaje (opcional)",
-    "messagePlaceholder": "Cuéntanos sobre tus desafíos actuales...",
-    "submit": "Solicitar Demo",
+    "message": "Cuéntanos más (opcional)",
+    "messagePlaceholder": "¿Qué problemas quieres resolver? ¿Qué sistema usas actualmente?",
+    "submit": "Agendar mi Demo",
     "submitting": "Enviando...",
-    "success": "¡Gracias! Nuestro equipo te contactará en 24 horas.",
+    "success": "¡Listo! Te contactamos en menos de 24 horas para coordinar tu demo.",
     "error": "Algo salió mal. Por favor intenta de nuevo.",
-    "selectSize": "Selecciona tamaño",
-    "selectCountry": "Selecciona país",
+    "selectSize": "Selecciona",
+    "selectCountry": "Selecciona tu país",
     "sizes": {
-      "1-10": "1-10 empleados",
-      "11-50": "11-50 empleados",
-      "51-200": "51-200 empleados",
-      "200+": "200+ empleados"
+      "1-10": "1-10 colaboradores",
+      "11-50": "11-50 colaboradores",
+      "51-200": "51-200 colaboradores",
+      "200+": "Más de 200 colaboradores"
     }
   },
   "footer": {
-    "tagline": "Plataforma todo-en-uno de facturación, contabilidad y RRHH para empresas en Latinoamérica y EE.UU.",
+    "tagline": "Sistema de facturación, contabilidad PCGE y planilla para empresas peruanas con operaciones en EE.UU.",
     "product": "Producto",
-    "company": "Empresa",
+    "company": "Nosotros",
     "legal": "Legal",
-    "features": "Funcionalidades",
-    "pricing": "Precios",
-    "docs": "Documentacion",
-    "demo": "Solicitar Demo",
-    "about": "Nosotros",
+    "features": "Módulos",
+    "pricing": "Planes",
+    "docs": "Documentación",
+    "demo": "Agenda tu Demo",
+    "about": "Quiénes Somos",
     "blog": "Blog",
-    "careers": "Carreras",
+    "careers": "Trabaja con Nosotros",
     "contact": "Contacto",
-    "privacy": "Política de Privacidad",
-    "terms": "Términos de Servicio",
-    "cookies": "Política de Cookies",
-    "builtBy": "Construido por Vertek.",
+    "privacy": "Privacidad",
+    "terms": "Términos de Uso",
+    "cookies": "Cookies",
+    "builtBy": "Desarrollado por Vertek.",
     "rights": "Todos los derechos reservados."
   },
   "docs": {
     "backToHome": "Volver al Inicio",
-    "title": "Documentacion de la Plataforma",
-    "subtitle": "Documentacion tecnica y de producto completa para BillingOps — la plataforma todo-en-uno de facturacion, contabilidad, RRHH y operaciones construida por Vertek.",
+    "title": "Documentación de la Plataforma",
+    "subtitle": "Documentación técnica y de producto para BillingOps — el sistema de facturación, contabilidad PCGE y planilla diseñado para empresas peruanas.",
     "nav": {
-      "overview": "Vision General",
-      "bmc": "Business Model Canvas",
-      "modules": "Modulos",
-      "bd": "Desarrollo de Negocios",
-      "finance": "Finanzas y Contabilidad",
-      "hr": "RRHH y Nomina",
-      "projects": "Proyectos y Entrega",
-      "architecture": "Arquitectura Tecnica",
+      "overview": "Visión General",
+      "bmc": "Modelo de Negocio",
+      "modules": "Módulos",
+      "bd": "Ventas y Cobranzas",
+      "finance": "Contabilidad",
+      "hr": "Planilla y RRHH",
+      "projects": "Proyectos",
+      "architecture": "Arquitectura Técnica",
       "dataModel": "Modelo de Datos",
       "security": "Seguridad",
       "integrations": "Integraciones",
       "api": "Referencia API"
     },
     "overview": {
-      "intro": "BillingOps es una plataforma todo-en-uno de facturacion, contabilidad, RRHH y operaciones construida por Vertek para empresas que operan en America Latina y Estados Unidos. Reemplaza el mosaico de herramientas desconectadas — hojas de calculo, apps de facturacion independientes, sistemas de RRHH separados y software basico de contabilidad — con una unica plataforma integrada que cubre todo el ciclo de vida del negocio desde el primer lead hasta el ultimo pago y mas alla.",
+      "intro": "BillingOps es un sistema de facturación, contabilidad y planilla diseñado para empresas peruanas que también operan en Estados Unidos. Reemplaza el Excel, las apps de facturación separadas, los sistemas de planilla independientes y el software contable básico con una sola plataforma integrada que cubre todo el ciclo de tu negocio: desde el primer prospecto hasta el cobro del último sol.",
       "mission": {
-        "title": "Mision",
-        "desc": "Empoderar a pequenas y medianas empresas en America Latina y EE.UU. con una plataforma unificada que automatiza facturacion, contabilidad, RRHH y gestion de proyectos — eliminando la complejidad operativa para que los equipos se enfoquen en crecer."
+        "title": "Misión",
+        "desc": "Ayudar a PYMEs peruanas y latinoamericanas a ordenar sus operaciones con una plataforma que automatiza facturación, contabilidad PCGE, planilla y gestión de proyectos — para que tu equipo se enfoque en crecer, no en tareas administrativas."
       },
       "market": {
         "title": "Mercado Objetivo",
-        "desc": "PYMEs, agencias, firmas de consultoria y empresas de tecnologia en Peru y Estados Unidos que necesitan una plataforma bilingue, multi-moneda con cumplimiento para las regulaciones de SUNAT (Peru) e IRS (EE.UU.)."
+        "desc": "PYMEs, agencias, consultoras y empresas de tecnología en Perú que necesitan un sistema bilingüe, multi-moneda (soles y dólares), con cumplimiento SUNAT e IRS para operaciones en ambos países."
       },
       "value": {
         "title": "Propuesta de Valor",
-        "desc": "Una plataforma que reemplaza cinco o mas herramientas desconectadas. Automatiza el pipeline completo de lead-a-pago, ejecuta contabilidad de partida doble con soporte PCGE y US GAAP, gestiona RRHH y nomina entre paises, y entrega proyectos con visibilidad completa del cliente."
+        "desc": "Una plataforma que reemplaza cinco o más herramientas desconectadas. Automatiza el ciclo completo de prospecto-a-cobro, ejecuta contabilidad de partida doble con PCGE y US GAAP, gestiona planilla en Perú y EE.UU., y entrega proyectos con visibilidad total para tus clientes."
       },
       "differentiator": {
         "title": "Diferenciador Clave",
-        "desc": "Construida especificamente para el corredor America Latina-EE.UU. Soporte bilingue nativo (ingles y espanol), manejo multi-moneda (PEN, USD y mas), y cumplimiento integrado para regulaciones fiscales peruanas y estadounidenses — algo que ninguna otra plataforma ofrece."
+        "desc": "Construida específicamente para empresas peruanas con operaciones en EE.UU. Soporte bilingüe nativo (español e inglés), manejo de soles y dólares, y cumplimiento integrado con SUNAT e IRS — algo que ninguna otra plataforma ofrece."
       },
-      "coreProblem": "Problemas Centrales que Resuelve",
-      "coreProblemDesc": "BillingOps fue creada para abordar cinco puntos criticos que las empresas en nuestro mercado objetivo enfrentan cada dia:",
+      "coreProblem": "Problemas que Resuelve",
+      "coreProblemDesc": "BillingOps fue creada para resolver cinco problemas que las empresas peruanas enfrentan todos los días:",
       "problems": {
-        "0": "Herramientas desconectadas: Los equipos manejan apps separadas para CRM, facturacion, contabilidad, RRHH y gestion de proyectos, generando silos de datos y re-ingreso manual.",
-        "1": "Sin contabilidad para LATAM: La mayoria de herramientas cloud de contabilidad carecen de soporte para el Plan Contable General Empresarial (PCGE) peruano y cumplimiento fiscal local.",
-        "2": "Facturacion y cobranza manual: Crear facturas, enviar links de pago y perseguir pagos vencidos consume tiempo y es propenso a errores sin automatizacion.",
-        "3": "RRHH y nomina dispersos: Gestionar empleados en Peru y EE.UU. requiere manejar dos conjuntos diferentes de leyes laborales, calculos fiscales y requisitos de cumplimiento.",
-        "4": "Sin visibilidad de operaciones: Sin un sistema unificado, los duenos de negocios carecen de dashboards y reportes en tiempo real para tomar decisiones informadas sobre flujo de caja, salud de proyectos y rendimiento del equipo."
+        "0": "Herramientas desconectadas: Los equipos usan apps separadas para CRM, facturación, contabilidad, planilla y proyectos. Eso genera silos de datos y re-digitación manual.",
+        "1": "Sin contabilidad para Perú: La mayoría de sistemas contables cloud no soportan el Plan Contable General Empresarial (PCGE) ni el cumplimiento fiscal peruano.",
+        "2": "Facturación y cobranza manual: Crear facturas, enviar links de pago y perseguir facturas vencidas consume tiempo y está lleno de errores sin automatización.",
+        "3": "Planilla dispersa: Gestionar colaboradores en Perú y EE.UU. requiere manejar dos conjuntos diferentes de leyes laborales, cálculos fiscales y requisitos de cumplimiento.",
+        "4": "Sin visibilidad de operaciones: Sin un sistema unificado, los dueños de negocio no tienen dashboards ni reportes en tiempo real para tomar decisiones sobre flujo de caja, proyectos y equipo."
       }
     },
     "bmc": {
-      "intro": "El Business Model Canvas describe como BillingOps crea, entrega y captura valor. Cada bloque representa un pilar estrategico del negocio.",
+      "intro": "El Modelo de Negocio describe cómo BillingOps crea, entrega y captura valor. Cada bloque representa un pilar estratégico del producto.",
       "customerSegments": {
         "title": "Segmentos de Clientes",
         "items": {
-          "0": "Pequenas y medianas empresas en America Latina (especialmente Peru) y EE.UU.",
-          "1": "Agencias digitales y firmas de consultoria gestionando multiples proyectos de clientes",
-          "2": "Empresas de tecnologia con equipos distribuidos en LATAM y EE.UU.",
-          "3": "Operaciones multi-pais que necesitan facturacion y cumplimiento unificados",
-          "4": "Freelancers y operadores independientes escalando a equipos pequenos"
+          "0": "PYMEs peruanas y latinoamericanas con operaciones en EE.UU.",
+          "1": "Agencias digitales y consultoras gestionando múltiples proyectos de clientes",
+          "2": "Empresas de tecnología con equipos distribuidos en Perú y EE.UU.",
+          "3": "Operaciones multi-país que necesitan facturación y cumplimiento unificados",
+          "4": "Freelancers y profesionales independientes creciendo hacia equipos pequeños"
         }
       },
       "valuePropositions": {
         "title": "Propuestas de Valor",
         "items": {
-          "0": "Plataforma todo-en-uno que reemplaza 5+ herramientas desconectadas",
-          "1": "Estandares duales de contabilidad: PCGE (Peru) y US GAAP en un sistema",
-          "2": "Automatizacion completa de lead-a-pago con integracion Stripe",
-          "3": "Soporte multi-organizacion con aislamiento completo de datos",
-          "4": "Totalmente bilingue (ingles y espanol) en toda la plataforma"
+          "0": "Sistema todo-en-uno que reemplaza 5+ herramientas desconectadas",
+          "1": "Contabilidad dual: PCGE (Perú) y US GAAP en un solo sistema",
+          "2": "Automatización completa de prospecto-a-cobro con integración Stripe",
+          "3": "Multi-empresa con aislamiento completo de datos",
+          "4": "Totalmente bilingüe (español e inglés) en toda la plataforma"
         }
       },
       "channels": {
         "title": "Canales",
         "items": {
           "0": "Ventas directas con demos personalizadas y onboarding",
-          "1": "Sitio web del producto con registro self-service y prueba gratuita",
+          "1": "Sitio web con registro self-service y prueba gratuita de 14 días",
           "2": "Programa de referidos con clientes y socios existentes",
-          "3": "Marketing de contenidos: posts de blog, casos de estudio y webinars",
-          "4": "Alianzas estrategicas con firmas contables y consultores de RRHH"
+          "3": "Marketing de contenidos: blog, casos de éxito y webinars",
+          "4": "Alianzas con estudios contables y consultoras de RRHH"
         }
       },
       "customerRelationships": {
         "title": "Relaciones con Clientes",
         "items": {
-          "0": "Gerentes dedicados de exito del cliente para planes Professional y Enterprise",
-          "1": "Documentacion self-service, base de conocimiento y tutoriales en video",
-          "2": "Onboarding guiado con asistencia de migracion de datos",
-          "3": "Foro comunitario para soporte entre pares y solicitudes de funcionalidades",
+          "0": "Ejecutivo de cuenta dedicado para planes Professional y Enterprise",
+          "1": "Documentación self-service, base de conocimiento y tutoriales en video",
+          "2": "Onboarding guiado con migración de datos incluida",
+          "3": "Comunidad para soporte entre usuarios y solicitudes de funcionalidades",
           "4": "Revisiones trimestrales de negocio para clientes Enterprise"
         }
       },
       "revenueStreams": {
         "title": "Fuentes de Ingreso",
         "items": {
-          "0": "Suscripciones SaaS mensuales: Starter ($49/mes), Professional ($149/mes), Enterprise (personalizado)",
-          "1": "Planes anuales con 20% de descuento por compromiso anticipado",
-          "2": "Tarifas de implementacion y migracion de datos para clientes Enterprise",
-          "3": "Desarrollo de integraciones personalizadas para consumidores de API y webhooks",
+          "0": "Suscripciones SaaS mensuales: Starter ($69/mes), Professional ($199/mes), Enterprise (a medida)",
+          "1": "Planes anuales con 15% de descuento",
+          "2": "Implementación y migración de datos para clientes Enterprise",
+          "3": "Desarrollo de integraciones personalizadas vía API y webhooks",
           "4": "Paquetes de soporte premium con tiempos de respuesta garantizados"
         }
       },
       "keyResources": {
         "title": "Recursos Clave",
         "items": {
-          "0": "Equipo de ingenieria full-stack con experiencia en Next.js, TypeScript y PostgreSQL",
+          "0": "Equipo de ingeniería full-stack con experiencia en Next.js, TypeScript y PostgreSQL",
           "1": "Infraestructura cloud en Vercel con PostgreSQL serverless de Neon",
-          "2": "Alianza estrategica con Stripe para procesamiento global de pagos",
-          "3": "Experiencia profunda en contabilidad y cumplimiento fiscal de America Latina y EE.UU.",
-          "4": "Modelos propietarios de IA para transcripcion de discovery, analisis de documentos y automatizacion"
+          "2": "Alianza con Stripe para procesamiento global de pagos",
+          "3": "Conocimiento profundo de contabilidad y cumplimiento fiscal peruano y estadounidense",
+          "4": "Modelos de IA para transcripción, análisis de documentos y automatización"
         }
       },
       "keyActivities": {
         "title": "Actividades Clave",
         "items": {
           "0": "Desarrollo continuo de la plataforma con lanzamientos quincenales",
-          "1": "Exito del cliente y onboarding para nuevas cuentas",
-          "2": "Actualizaciones de impuestos y cumplimiento para regulaciones de Peru (SUNAT) y EE.UU. (IRS)",
-          "3": "Construccion y mantenimiento de integraciones con terceros",
-          "4": "Auditorias de seguridad, pruebas de penetracion y trabajo de cumplimiento SOC 2"
+          "1": "Éxito del cliente y onboarding para nuevas cuentas",
+          "2": "Actualizaciones de impuestos y cumplimiento para SUNAT (Perú) e IRS (EE.UU.)",
+          "3": "Construcción y mantenimiento de integraciones con terceros",
+          "4": "Auditorías de seguridad y trabajo de cumplimiento SOC 2"
         }
       },
       "keyPartners": {
@@ -514,496 +514,496 @@
         "items": {
           "0": "Stripe — procesamiento de pagos, checkout e infraestructura financiera",
           "1": "Vercel — hosting, despliegue edge y funciones serverless",
-          "2": "Resend — entrega de email transaccional para facturas y notificaciones",
-          "3": "OpenAI — transcripcion, resumenes y automatizacion potenciados por IA",
-          "4": "Firmas contables y consultores de RRHH — socios de implementacion y referidos"
+          "2": "Resend — envío de emails transaccionales para facturas y notificaciones",
+          "3": "OpenAI — transcripción, resúmenes y automatización potenciados por IA",
+          "4": "Estudios contables y consultoras de RRHH — socios de implementación y referidos"
         }
       },
       "costStructure": {
         "title": "Estructura de Costos",
         "items": {
-          "0": "Salarios del equipo de ingenieria (mayor centro de costos)",
+          "0": "Salarios del equipo de ingeniería (mayor centro de costos)",
           "1": "Hosting cloud e infraestructura (Vercel, Neon, almacenamiento)",
-          "2": "Tarifas de procesamiento de pagos (costos por transaccion de Stripe)",
-          "3": "Equipo de soporte y exito del cliente",
+          "2": "Comisiones de procesamiento de pagos (Stripe)",
+          "3": "Equipo de soporte y éxito del cliente",
           "4": "Costos de APIs de terceros (OpenAI, Resend, Slack, Sentry)"
         }
       }
     },
     "modules": {
-      "intro": "BillingOps esta organizada en cuatro modulos integrados, cada uno cubriendo un area critica de operaciones empresariales. Todos los modulos comparten una base de datos unificada con 80+ modelos, asegurando que los datos fluyan sin problemas entre ellos sin re-ingreso manual ni sincronizacion.",
+      "intro": "BillingOps está organizada en cuatro módulos integrados, cada uno cubriendo un área crítica de tus operaciones. Todos comparten una base de datos unificada con 80+ modelos, asegurando que los datos fluyan sin problemas entre ellos — sin re-digitación ni sincronización manual.",
       "bd": {
-        "title": "Desarrollo de Negocios",
-        "desc": "Pipeline completo de lead-a-pago cubriendo captura de leads, sesiones de discovery potenciadas por IA, analisis de factibilidad, generacion de propuestas, contratos con doble firma, facturacion automatizada, cobro de pagos con Stripe y automatizacion de cobranza."
+        "title": "Ventas y Cobranzas",
+        "desc": "Ciclo completo de prospecto-a-cobro: captura de prospectos, sesiones de discovery con IA, análisis de factibilidad, cotizaciones, contratos con doble firma, facturación electrónica, cobro de pagos con Stripe y recordatorios automáticos de cobranza."
       },
       "finance": {
-        "title": "Finanzas y Contabilidad",
-        "desc": "Motor contable completo de partida doble con plan de cuentas PCGE y US GAAP, asientos contables (manuales y auto-generados), siete tipos de reportes, conciliacion bancaria, soporte multi-moneda, presupuestos, periodos fiscales y cumplimiento tributario."
+        "title": "Contabilidad",
+        "desc": "Motor contable de partida doble con plan de cuentas PCGE y US GAAP, asientos contables (manuales y automáticos), siete tipos de reportes, conciliación bancaria, soles y dólares, presupuestos, periodos fiscales y cumplimiento tributario."
       },
       "hr": {
-        "title": "RRHH y Nomina",
-        "desc": "Operaciones de personas integrales cubriendo gestion de empleados, nomina especifica por pais (Peru y EE.UU.), seguimiento de asistencia, flujos de PTO, firma de documentos, evaluaciones de desempeno, reclutamiento, onboarding, beneficios y gestion de contratistas."
+        "title": "Planilla y RRHH",
+        "desc": "Gestión de colaboradores completa: expedientes, planilla específica por país (Perú y EE.UU.), asistencia, vacaciones, documentos con firma digital, evaluaciones de desempeño, reclutamiento, onboarding, beneficios y locadores de servicios."
       },
       "projects": {
-        "title": "Proyectos y Entrega",
-        "desc": "Gestion de proyectos de principio a fin con dashboards de salud, flujos de aprobacion de hitos, tableros de tareas, seguimiento de tiempo, portal de cliente con verificacion de email, anotaciones de feedback visual, integracion con GitHub y Sentry, y reportes mensuales potenciados por IA."
+        "title": "Proyectos",
+        "desc": "Gestión de proyectos de principio a fin: dashboards de salud, aprobación de hitos, tableros de tareas, registro de horas, portal del cliente con verificación de email, feedback visual, integración con GitHub y Sentry, y reportes mensuales con IA."
       },
-      "learnMore": "Saber mas"
+      "learnMore": "Conoce más"
     },
     "bd": {
-      "intro": "El modulo de Desarrollo de Negocios cubre el ciclo de vida completo desde la captura inicial del lead hasta la cobranza final del pago. Cada etapa esta conectada — los datos fluyen automaticamente de un paso al siguiente, eliminando el re-ingreso manual y asegurando que nada se pierda.",
-      "pipeline": "El Pipeline",
+      "intro": "El módulo de Ventas y Cobranzas cubre el ciclo completo desde que llega un prospecto hasta que cobra el último sol. Cada etapa está conectada — los datos fluyen automáticamente de un paso al siguiente, sin re-digitación y sin que nada se pierda.",
+      "pipeline": "El Ciclo de Ventas",
       "features": {
         "0": {
-          "title": "Seguimiento y Gestion de Leads",
-          "desc": "Captura y gestiona prospectos con un pipeline completo de estados (Nuevo, Contactado, Calificado, Propuesta Enviada, Ganado, Perdido). Seguimiento de detalles de empresa, contactos, fuente y valor estimado. Asigna responsables y configura recordatorios de seguimiento."
+          "title": "Gestión de Prospectos",
+          "desc": "Captura y gestiona prospectos en un embudo visual con estados (Nuevo, Contactado, Calificado, Cotización Enviada, Ganado, Perdido). Registra datos de empresa, contactos, fuente y valor estimado. Asigna responsables y configura recordatorios de seguimiento."
         },
         "1": {
           "title": "Sesiones de Discovery con IA",
-          "desc": "Graba reuniones de discovery, sube video o audio, y deja que la IA transcriba y analice el contenido. Extrae automaticamente insights clave, puntos de dolor y requerimientos en resumenes estructurados para el equipo."
+          "desc": "Graba reuniones de discovery, sube video o audio, y deja que la IA transcriba y analice el contenido. Extrae automáticamente insights clave, puntos de dolor y requerimientos en resúmenes estructurados para tu equipo."
         },
         "2": {
-          "title": "Analisis de Factibilidad",
-          "desc": "Evalua factibilidad tecnica, capacidad del equipo y requerimientos de recursos para cada lead. Puntua oportunidades basandose en complejidad, timeline y ajuste estrategico antes de comprometerse con una propuesta."
+          "title": "Análisis de Factibilidad",
+          "desc": "Evalúa factibilidad técnica, capacidad de tu equipo y recursos necesarios para cada prospecto. Puntúa oportunidades según complejidad, timeline y ajuste estratégico antes de comprometerte con una cotización."
         },
         "3": {
-          "title": "Generacion de Propuestas y Comparticion Publica",
-          "desc": "Crea propuestas profesionales con plantillas personalizables, precios por item y definiciones de alcance. Genera links seguros para que los clientes vean las propuestas en una pagina publica de marca con seguimiento de vistas."
+          "title": "Cotizaciones con Link Público",
+          "desc": "Crea cotizaciones profesionales con plantillas personalizables, precios por ítem y definiciones de alcance. Genera links seguros para que tus clientes vean la cotización en una página con tu marca y seguimiento de vistas."
         },
         "4": {
           "title": "Contratos con Doble Firma",
-          "desc": "Convierte propuestas aceptadas en contratos. Rowship pre-firma el contrato, luego envia un link seguro al cliente para su firma digital. Ambas firmas se capturan con timestamps y se almacenan para cumplimiento."
+          "desc": "Convierte cotizaciones aceptadas en contratos. Tu equipo pre-firma el contrato, luego envía un link seguro al cliente para su firma digital. Ambas firmas quedan registradas con timestamps para cumplimiento."
         },
         "5": {
-          "title": "Generacion Automatica de Facturas",
-          "desc": "Genera facturas directamente desde contratos activos con items, montos y terminos de pago pre-llenados. Envia facturas por email con un link de checkout de Stripe de un clic para cobro instantaneo."
+          "title": "Generación Automática de Facturas",
+          "desc": "Genera facturas directamente desde contratos activos con ítems, montos y términos de pago pre-llenados. Envía facturas por email con un link de pago Stripe de un solo clic."
         },
         "6": {
-          "title": "Procesamiento de Pagos con Stripe",
-          "desc": "Acepta tarjetas de credito/debito, transferencias ACH, pagos por transferencia bancaria y criptomonedas (USDC) a traves de Stripe. Los pagos se concilian automaticamente y los asientos contables correspondientes se crean en el modulo de contabilidad."
+          "title": "Cobro de Pagos con Stripe",
+          "desc": "Acepta tarjetas de crédito/débito, transferencias ACH, transferencias bancarias y crypto (USDC) a través de Stripe. Los pagos se concilian automáticamente y se genera el asiento contable en el módulo de contabilidad."
         },
         "7": {
-          "title": "Automatizacion de Cobranza",
-          "desc": "Flujo de escalamiento automatizado para facturas vencidas: recordatorio en fecha de vencimiento (D+0), seguimiento en D+2, escalamiento en D+5 y aviso final en D+10. Notificaciones enviadas via email, Slack y canales in-app con mensajes generados por IA."
+          "title": "Cobranza Automática",
+          "desc": "Flujo de escalamiento automático para facturas vencidas: recordatorio en fecha de vencimiento (D+0), seguimiento en D+2, escalamiento en D+5 y aviso final en D+10. Notificaciones por email, Slack y en el sistema con mensajes generados por IA."
         },
         "8": {
-          "title": "Conversion de Clientes",
-          "desc": "Cuando una propuesta es aceptada y un contrato firmado, el lead se convierte automaticamente en un registro de cliente. Todos los datos historicos — notas de discovery, propuestas, contratos — se preservan y vinculan al nuevo perfil del cliente."
+          "title": "Conversión a Cliente",
+          "desc": "Cuando una cotización es aceptada y el contrato firmado, el prospecto se convierte automáticamente en cliente. Todos los datos históricos — notas de discovery, cotizaciones, contratos — se preservan y vinculan al nuevo perfil del cliente."
         }
       }
     },
     "finance": {
-      "intro": "El modulo de Finanzas proporciona un motor contable completo de partida doble disenado para empresas que operan tanto en Peru como en Estados Unidos. Soporta el Plan Contable General Empresarial (PCGE) peruano y el plan de cuentas US GAAP de forma nativa, con generacion automatica de asientos contables desde transacciones empresariales en toda la plataforma.",
+      "intro": "El módulo de Contabilidad es un motor completo de partida doble diseñado para empresas peruanas que también operan en Estados Unidos. Soporta el Plan Contable General Empresarial (PCGE) peruano y US GAAP de forma nativa, con generación automática de asientos contables desde transacciones en toda la plataforma.",
       "features": {
         "0": {
           "title": "Motor de Contabilidad de Partida Doble",
-          "desc": "Cada transaccion crea asientos balanceados de debito y credito. El sistema aplica reglas de integridad contable con validaciones que previenen asientos desbalanceados de ser registrados."
+          "desc": "Cada transacción crea asientos balanceados de debe y haber. El sistema aplica reglas de integridad contable con validaciones que impiden registrar asientos desbalanceados."
         },
         "1": {
           "title": "Plan de Cuentas PCGE y US GAAP",
-          "desc": "Plantillas pre-construidas de plan de cuentas para el estandar peruano PCGE y US GAAP. Inicializa tus libros en segundos, o personaliza el plan para ajustarse a las necesidades especificas de tu negocio."
+          "desc": "Plantillas pre-armadas para el estándar peruano PCGE y US GAAP. Comienza con tus libros en segundos, o personaliza el plan según las necesidades de tu negocio."
         },
         "2": {
-          "title": "Asientos Contables (Manuales y Automaticos)",
-          "desc": "Crea asientos contables manuales para ajustes y devengos. Los asientos automaticos se generan desde facturas, pagos, ejecuciones de nomina, gastos y pagos de facturas — manteniendo tus libros siempre actualizados."
+          "title": "Asientos Contables (Manuales y Automáticos)",
+          "desc": "Crea asientos manuales para ajustes y devengos. Los asientos automáticos se generan desde facturas, pagos, planilla, gastos y pagos a proveedores — manteniendo tus libros siempre actualizados."
         },
         "3": {
-          "title": "Conciliacion Bancaria",
-          "desc": "Importa transacciones bancarias, coincide con asientos contables existentes y concilia tus cuentas. Seguimiento del estado de conciliacion por cuenta bancaria con pistas de auditoria detalladas."
+          "title": "Conciliación Bancaria",
+          "desc": "Importa movimientos bancarios, crúzalos con asientos contables y concilia tus cuentas. Seguimiento del estado de conciliación por cuenta bancaria con pistas de auditoría detalladas."
         },
         "4": {
-          "title": "Multi-Moneda con Tipos de Cambio",
-          "desc": "Maneja transacciones en PEN, USD y otras monedas. Obtiene tipos de cambio actualizados automaticamente y registra ganancias o perdidas por conversion de moneda en las cuentas apropiadas."
+          "title": "Soles y Dólares con Tipo de Cambio",
+          "desc": "Trabaja en PEN, USD y otras monedas. El tipo de cambio se actualiza automáticamente y el sistema registra diferencias de cambio en las cuentas correspondientes."
         },
         "5": {
-          "title": "Gestion de Presupuestos",
-          "desc": "Crea presupuestos por cuenta y periodo fiscal. Seguimiento de montos reales vs. presupuestados con analisis de varianza para mantener los gastos bajo control y pronosticar con precision."
+          "title": "Gestión de Presupuestos",
+          "desc": "Crea presupuestos por cuenta y periodo fiscal. Compara real vs. presupuestado con análisis de varianza para mantener los gastos bajo control y pronosticar con precisión."
         },
         "6": {
-          "title": "Gestion de Periodos Fiscales",
-          "desc": "Define anos y periodos fiscales (mensual, trimestral o personalizado). Cierra periodos para prevenir mas registros y genera reportes de fin de periodo para cumplimiento."
+          "title": "Gestión de Periodos Fiscales",
+          "desc": "Define años y periodos fiscales (mensual, trimestral o personalizado). Cierra periodos para impedir más registros y genera reportes de fin de periodo para cumplimiento."
         },
         "7": {
-          "title": "Gestion de Proveedores y Gastos",
-          "desc": "Mantiene un directorio de proveedores con detalles de contacto y terminos de pago. Seguimiento de gastos con flujos de aprobacion y generacion automatica de asientos contables al aprobar."
+          "title": "Gestión de Proveedores y Gastos",
+          "desc": "Mantén un directorio de proveedores con datos de contacto y términos de pago. Registra gastos con flujos de aprobación y genera asientos contables automáticamente al aprobar."
         },
         "8": {
           "title": "Facturas de Proveedores y Cuentas por Pagar",
-          "desc": "Registra facturas de proveedores, seguimiento de fechas de vencimiento y procesa pagos. El sistema mantiene un libro completo de cuentas por pagar con analisis de antiguedad."
+          "desc": "Registra facturas de proveedores, controla vencimientos y procesa pagos. El sistema mantiene un libro completo de cuentas por pagar con análisis de antigüedad."
         },
         "9": {
-          "title": "Seguimiento de Prestamos",
-          "desc": "Registra prestamos con capital, tasas de interes y cronogramas de pago. Seguimiento de pagos de prestamos y generacion automatica de asientos contables correspondientes para capital e intereses."
+          "title": "Seguimiento de Préstamos",
+          "desc": "Registra préstamos con capital, tasas de interés y cronogramas de pago. Controla los pagos y genera asientos contables automáticos para capital e intereses."
         },
         "10": {
           "title": "Obligaciones Tributarias",
-          "desc": "Seguimiento de obligaciones tributarias para Peru (SUNAT) y EE.UU. (IRS). Registra pagos de impuestos, gestiona fechas limite de declaracion y mantiene un historial completo para propositos de auditoria."
+          "desc": "Controla obligaciones tributarias para SUNAT (Perú) e IRS (EE.UU.). Registra pagos de impuestos, gestiona fechas límite de declaración y mantén un historial completo para auditorías."
         }
       },
-      "reportTypes": "Tipos de Reportes Financieros",
+      "reportTypes": "Reportes Financieros",
       "reports": {
         "0": "Estado de Resultados (P&L)",
         "1": "Balance General",
         "2": "Estado de Flujo de Efectivo",
-        "3": "Balance de Comprobacion",
+        "3": "Balance de Comprobación",
         "4": "Libro Mayor",
-        "5": "Antiguedad de Cuentas por Cobrar",
-        "6": "Antiguedad de Cuentas por Pagar"
+        "5": "Antigüedad de Cuentas por Cobrar",
+        "6": "Antigüedad de Cuentas por Pagar"
       }
     },
     "hr": {
-      "intro": "El modulo de RRHH y Nomina proporciona operaciones de personas integrales para empresas con empleados en Peru y Estados Unidos. Desde la contratacion hasta el retiro, maneja registros de empleados, procesamiento de nomina con calculos fiscales especificos por pais, seguimiento de asistencia, gestion de documentos, evaluaciones de desempeno, reclutamiento y mucho mas.",
+      "intro": "El módulo de Planilla y RRHH cubre toda la gestión de personas para empresas con colaboradores en Perú y Estados Unidos. Desde la contratación hasta el cese: expedientes de colaboradores, planilla con cálculos fiscales por país, asistencia, documentos, evaluaciones de desempeño, reclutamiento y más.",
       "features": {
         "0": {
-          "title": "Gestion de Empleados",
-          "desc": "Perfiles centralizados de empleados con datos personales, historial de empleo, registros de compensacion, documentos, contactos de emergencia y estructura organizacional. Soporte para trabajadores de tiempo completo, medio tiempo y contrato."
+          "title": "Gestión de Colaboradores",
+          "desc": "Expedientes centralizados con datos personales, historial laboral, compensación, documentos, contactos de emergencia y estructura organizacional. Soporte para tiempo completo, medio tiempo y contrato."
         },
         "1": {
-          "title": "Nomina Especifica por Pais",
-          "desc": "Procesamiento automatizado de nomina con calculos especificos por pais. Peru: CTS, gratificaciones, EsSalud, contribuciones AFP/ONP. EE.UU.: retenciones W-2, impuestos federales y estatales, Seguro Social y Medicare."
+          "title": "Planilla por País",
+          "desc": "Procesamiento automático de planilla con cálculos específicos por país. Perú: CTS, gratificaciones, EsSalud, AFP/ONP. EE.UU.: retenciones W-2, impuestos federales y estatales, Social Security y Medicare."
         },
         "2": {
-          "title": "Seguimiento de Asistencia",
-          "desc": "Funcionalidad de entrada/salida, registros diarios de asistencia, calculo de horas extra y seguimiento de ausencias. Genera reportes de asistencia por departamento, equipo o empleado individual."
+          "title": "Control de Asistencia",
+          "desc": "Marca de entrada/salida, registros diarios, cálculo de horas extra y seguimiento de ausencias. Genera reportes de asistencia por departamento, equipo o colaborador individual."
         },
         "3": {
-          "title": "Gestion de PTO y Ausencias",
-          "desc": "Configura tipos de licencia (vacaciones, enfermedad, personal, maternidad/paternidad), establece politicas de acumulacion y gestiona flujos de aprobacion. Los empleados envian solicitudes; los gerentes aprueban a traves de la plataforma o portal de RRHH."
+          "title": "Vacaciones y Permisos",
+          "desc": "Configura tipos de licencia (vacaciones, enfermedad, personal, maternidad/paternidad), establece políticas de acumulación y gestiona flujos de aprobación. Los colaboradores envían solicitudes; los jefes aprueban desde la plataforma."
         },
         "4": {
-          "title": "Gestion de Documentos y Firmas Digitales",
-          "desc": "Sube, almacena y gestiona documentos de RRHH con control de versiones. Soporte de firma digital dual para contratos de empleo, acuses de politicas y documentos de cumplimiento. Seguimiento de estado de firma y envio de recordatorios."
+          "title": "Documentos con Firma Digital",
+          "desc": "Sube, almacena y gestiona documentos de RRHH con control de versiones. Firma digital dual para contratos laborales, acuses de políticas y documentos de cumplimiento. Seguimiento de estado y envío de recordatorios."
         },
         "5": {
-          "title": "Portal de RRHH para Empleados",
-          "desc": "Portal self-service donde los empleados pueden ver boletas de pago, solicitar tiempo libre, actualizar informacion personal, acceder a documentos de la empresa, completar encuestas y ver anuncios."
+          "title": "Portal del Colaborador",
+          "desc": "Portal self-service donde cada colaborador puede ver sus boletas, solicitar vacaciones, actualizar información personal, acceder a documentos, completar encuestas y ver anuncios."
         },
         "6": {
-          "title": "Evaluaciones de Desempeno y Feedback entre Pares",
-          "desc": "Ciclos estructurados de evaluacion de desempeno con auto-evaluaciones, evaluaciones de gerentes y revisiones 360 grados entre pares. Seguimiento de metas, competencias y planes de desarrollo a lo largo del tiempo."
+          "title": "Evaluaciones de Desempeño y Feedback 360°",
+          "desc": "Ciclos estructurados de evaluación con autoevaluaciones, evaluaciones del jefe y revisiones 360° entre pares. Seguimiento de metas, competencias y planes de desarrollo."
         },
         "7": {
           "title": "Reconocimiento y Kudos",
-          "desc": "Sistema de reconocimiento entre pares donde los empleados pueden enviar kudos alineados con los valores de la empresa. Construye una cultura de aprecio con un feed publico de reconocimiento y destacados mensuales."
+          "desc": "Sistema de reconocimiento entre pares donde los colaboradores envían kudos alineados con los valores de la empresa. Construye cultura de aprecio con un feed público y destacados mensuales."
         },
         "8": {
-          "title": "Reclutamiento y Contratacion",
-          "desc": "Publica ofertas de trabajo, seguimiento de candidatos a traves del pipeline de contratacion (Aplicado, Screening, Entrevista, Oferta, Contratado, Rechazado), programa entrevistas y gestiona cartas de oferta — todo dentro de la plataforma."
+          "title": "Reclutamiento y Contratación",
+          "desc": "Publica vacantes, da seguimiento a postulantes en tu pipeline (Aplicado, Screening, Entrevista, Oferta, Contratado, Rechazado), programa entrevistas y gestiona cartas de oferta — todo desde la plataforma."
         },
         "9": {
           "title": "Checklists de Onboarding",
-          "desc": "Crea programas estructurados de onboarding con checklists de tareas, requisitos de documentos y asignaciones de capacitacion. Seguimiento de estado de completitud y asegura que cada nuevo empleado tenga una experiencia consistente."
+          "desc": "Crea programas estructurados de ingreso con checklists de tareas, requisitos de documentos y asignaciones de capacitación. Controla el avance y asegura que cada nuevo colaborador tenga una experiencia consistente."
         },
         "10": {
-          "title": "Capacitacion y Certificaciones",
-          "desc": "Gestiona cursos de capacitacion, seguimiento de inscripciones y completitudes de empleados, y monitorea fechas de vencimiento de certificaciones. Asegura cumplimiento con requisitos de capacitacion obligatoria."
+          "title": "Capacitación y Certificaciones",
+          "desc": "Gestiona cursos de capacitación, controla inscripciones y avances, y monitorea fechas de vencimiento de certificaciones. Asegura cumplimiento con capacitación obligatoria."
         },
         "11": {
-          "title": "Inscripcion de Beneficios y Encuestas",
-          "desc": "Gestiona planes de beneficios, seguimiento de periodos de inscripcion y permite a los empleados seleccionar sus beneficios a traves del portal. Ejecuta encuestas de empleados para medir compromiso y satisfaccion."
+          "title": "Beneficios y Encuestas",
+          "desc": "Gestiona planes de beneficios, controla periodos de inscripción y permite a los colaboradores seleccionar beneficios desde el portal. Ejecuta encuestas para medir compromiso y satisfacción."
         },
         "12": {
-          "title": "Gestion de Contratistas",
-          "desc": "Gestiona contratistas independientes con ordenes de servicio, terminos de contrato, entregables y seguimiento de pagos. Genera registros fiscales 1099 (EE.UU.) y mantiene documentacion de cumplimiento."
+          "title": "Locadores de Servicios",
+          "desc": "Gestiona trabajadores independientes con órdenes de servicio, términos de contrato, entregables y seguimiento de pagos. Genera formularios 1099 (EE.UU.) y mantén documentación de cumplimiento."
         }
       },
-      "compliance": "Cumplimiento Especifico por Pais",
+      "compliance": "Cumplimiento por País",
       "peru": {
-        "title": "Cumplimiento Peru",
+        "title": "Cumplimiento Perú",
         "items": {
-          "0": "Calculo y depositos de CTS (Compensacion por Tiempo de Servicios)",
-          "1": "Gratificaciones (pagos de bonificacion de julio y diciembre)",
+          "0": "Cálculo y depósitos de CTS (Compensación por Tiempo de Servicios)",
+          "1": "Gratificaciones (bonos de julio y diciembre)",
           "2": "Contribuciones patronales de EsSalud para seguro de salud",
-          "3": "Retencion y reporte de fondos de pension AFP/ONP",
-          "4": "Reporte de impuestos de nomina SUNAT y declaracion electronica"
+          "3": "Retención y reporte de fondos de pensión AFP/ONP",
+          "4": "Reporte de impuestos de planilla SUNAT y declaración electrónica"
         }
       },
       "usa": {
         "title": "Cumplimiento EE.UU.",
         "items": {
-          "0": "Generacion de W-2 de salarios e impuestos para empleados",
+          "0": "Generación de W-2 de salarios e impuestos para colaboradores",
           "1": "Reporte 1099-NEC para contratistas independientes",
-          "2": "Retencion de impuesto federal sobre la renta (tablas IRS)",
-          "3": "Calculos de Seguro Social y Medicare (FICA)",
-          "4": "Retencion y reporte de impuestos a nivel estatal"
+          "2": "Retención de impuesto federal sobre la renta (tablas IRS)",
+          "3": "Cálculos de Social Security y Medicare (FICA)",
+          "4": "Retención y reporte de impuestos a nivel estatal"
         }
       }
     },
     "projects": {
-      "intro": "El modulo de Proyectos conecta contratos firmados con trabajo entregado. Proporciona gestion de proyectos de principio a fin con seguimiento de salud, entrega basada en hitos, tableros de tareas, registro de tiempo y un portal para clientes — todo integrado con los modulos de facturacion y contabilidad para facturacion y reportes financieros fluidos.",
+      "intro": "El módulo de Proyectos conecta contratos firmados con trabajo entregado. Gestión de proyectos de principio a fin con seguimiento de salud, entrega basada en hitos, tableros de tareas, registro de tiempo y un portal para clientes — todo integrado con facturación y contabilidad.",
       "features": {
         "0": {
-          "title": "Dashboards de Salud del Proyecto",
-          "desc": "Indicadores visuales de salud (Azul para nuevo, Verde para en camino, Amarillo para en riesgo, Rojo para critico) dan visibilidad instantanea del estado del proyecto. Seguimiento de tasa de consumo de presupuesto, progreso de timeline y asignacion de equipo de un vistazo."
+          "title": "Dashboard de Salud del Proyecto",
+          "desc": "Indicadores visuales de salud (Azul = nuevo, Verde = en camino, Amarillo = en riesgo, Rojo = crítico) dan visibilidad instantánea del estado. Seguimiento de consumo de presupuesto, avance del timeline y asignación de equipo de un vistazo."
         },
         "1": {
-          "title": "Flujos de Aprobacion de Hitos",
-          "desc": "Define hitos del proyecto con entregables, fechas limite y criterios de aceptacion. Los clientes revisan y aprueban hitos a traves del portal, activando la generacion de facturas para facturacion basada en hitos."
+          "title": "Aprobación de Hitos",
+          "desc": "Define hitos del proyecto con entregables, fechas límite y criterios de aceptación. Tus clientes revisan y aprueban hitos desde el portal, activando la generación de facturas automáticamente."
         },
         "2": {
-          "title": "Tablero de Gestion de Tareas",
-          "desc": "Tablero Kanban completo con seis estados: Backlog, Por Hacer, En Progreso, Revision, Bloqueado y Hecho. Asigna tareas a miembros del equipo, establece prioridades, seguimiento de estimados vs. tiempo real, y vinculacion con issues de GitHub."
+          "title": "Tablero de Tareas",
+          "desc": "Tablero Kanban completo con seis estados: Backlog, Por Hacer, En Progreso, Revisión, Bloqueado y Hecho. Asigna tareas a tu equipo, establece prioridades, compara estimado vs. real, y vincúlalas con issues de GitHub."
         },
         "3": {
-          "title": "Seguimiento de Tiempo (Facturable y No Facturable)",
-          "desc": "Registra entradas de tiempo contra tareas con clasificacion facturable y no facturable. Calcula montos facturables basados en tarifas de miembros del equipo. Genera reportes de utilizacion y alimenta datos en facturacion."
+          "title": "Registro de Horas (Facturable y No Facturable)",
+          "desc": "Registra tiempo por tarea con clasificación facturable y no facturable. Calcula montos facturables según tarifas de cada miembro del equipo. Genera reportes de utilización que alimentan la facturación."
         },
         "4": {
-          "title": "Portal de Cliente con Verificacion de Email",
-          "desc": "Portal de cliente con marca accesible via tokens de comparticion seguros. Los clientes verifican su email para acceder a actualizaciones del proyecto, estado de hitos, documentos y herramientas de feedback visual. No se requiere creacion de cuenta."
+          "title": "Portal del Cliente con Verificación de Email",
+          "desc": "Portal con tu marca accesible vía tokens seguros. Tus clientes verifican su email para acceder a actualizaciones del proyecto, estado de hitos, documentos y herramientas de feedback visual. No necesitan crear cuenta."
         },
         "5": {
           "title": "Feedback Visual y Anotaciones",
-          "desc": "Los clientes pueden dejar feedback visual directamente en entregables con anotaciones de punto-y-clic. Los comentarios son hilados, rastreados y vinculados a tareas especificas para resolucion."
+          "desc": "Tus clientes dejan feedback visual directamente sobre los entregables con anotaciones punto-y-clic. Los comentarios se rastrean y vinculan a tareas específicas para resolución."
         },
         "6": {
-          "title": "Integracion GitHub y Sentry",
-          "desc": "Vincula tareas a issues y pull requests de GitHub para integracion de flujo de trabajo de desarrolladores. Conecta seguimiento de errores Sentry para identificar y vincular problemas de produccion directamente a tareas del proyecto."
+          "title": "Integración GitHub y Sentry",
+          "desc": "Vincula tareas a issues y pull requests de GitHub para integrar el flujo de desarrollo. Conecta Sentry para identificar y vincular errores de producción directamente a tareas del proyecto."
         },
         "7": {
           "title": "Reportes Mensuales con IA",
-          "desc": "Genera reportes mensuales completos del proyecto con resumenes escritos por IA cubriendo progreso, riesgos, proximos hitos y rendimiento del equipo. Comparte reportes con clientes a traves del portal."
+          "desc": "Genera reportes mensuales del proyecto con resúmenes escritos por IA cubriendo progreso, riesgos, próximos hitos y rendimiento del equipo. Comparte reportes con tus clientes desde el portal."
         }
       }
     },
     "architecture": {
-      "intro": "BillingOps esta construida sobre un stack tecnologico moderno y listo para produccion, optimizado para rendimiento, experiencia de desarrollador y escalabilidad. La arquitectura sigue patrones establecidos para aplicaciones SaaS multi-tenant con fuerte aislamiento de datos, acceso basado en roles y registro de auditoria integral.",
-      "stack": "Stack Tecnologico",
+      "intro": "BillingOps está construida sobre un stack tecnológico moderno y listo para producción, optimizado para rendimiento, experiencia de desarrollador y escalabilidad. La arquitectura sigue patrones establecidos para aplicaciones SaaS multi-empresa con aislamiento de datos, acceso basado en roles y registro de auditoría integral.",
+      "stack": "Stack Tecnológico",
       "techStack": {
         "0": {
           "name": "Next.js 14 (App Router)",
-          "desc": "Framework React con server components, streaming y edge runtime para cargas rapidas de pagina y optimizacion SEO."
+          "desc": "Framework React con server components, streaming y edge runtime para cargas rápidas de página y optimización SEO."
         },
         "1": {
           "name": "TypeScript (Modo Estricto)",
-          "desc": "Seguridad de tipos de extremo a extremo en todo el codebase — desde consultas de base de datos hasta respuestas API y componentes UI."
+          "desc": "Seguridad de tipos de extremo a extremo en todo el código — desde consultas de base de datos hasta respuestas API y componentes UI."
         },
         "2": {
-          "name": "PostgreSQL via Neon",
-          "desc": "PostgreSQL serverless con connection pooling, branching para desarrollo y escalado automatico para cargas de produccion."
+          "name": "PostgreSQL vía Neon",
+          "desc": "PostgreSQL serverless con connection pooling, branching para desarrollo y escalado automático para cargas de producción."
         },
         "3": {
           "name": "Prisma ORM",
-          "desc": "Cliente de base de datos type-safe con migraciones dirigidas por schema, gestion de relaciones y un query builder intuitivo para 80+ modelos."
+          "desc": "Cliente de base de datos type-safe con migraciones dirigidas por schema, gestión de relaciones y un query builder intuitivo para 80+ modelos."
         },
         "4": {
           "name": "NextAuth v5 (Estrategia JWT)",
-          "desc": "Autenticacion con tokens JWT, proveedor de credenciales, hash de contrasenas bcrypt y gestion de sesiones con informacion de roles."
+          "desc": "Autenticación con tokens JWT, proveedor de credenciales, hash de contraseñas bcrypt y gestión de sesiones con información de roles."
         },
         "5": {
           "name": "Tailwind CSS",
-          "desc": "Framework CSS utility-first para diseno consistente y responsive en todos los modulos con un sistema de diseno personalizado."
+          "desc": "Framework CSS utility-first para diseño consistente y responsive en todos los módulos con un sistema de diseño personalizado."
         },
         "6": {
-          "name": "Libreria de Componentes shadcn/ui",
-          "desc": "Componentes UI accesibles y componibles construidos sobre primitivas Radix con personalizacion completa y lenguaje de diseno consistente."
+          "name": "Librería de Componentes shadcn/ui",
+          "desc": "Componentes UI accesibles y componibles construidos sobre primitivas Radix con personalización completa y lenguaje de diseño consistente."
         },
         "7": {
           "name": "Despliegue en Vercel",
-          "desc": "Despliegue en red edge con CI/CD automatico, ambientes de preview para pull requests y ejecucion de funciones serverless."
+          "desc": "Despliegue en red edge con CI/CD automático, ambientes de preview para pull requests y ejecución de funciones serverless."
         },
         "8": {
-          "name": "next-intl para Internacionalizacion",
-          "desc": "Soporte i18n completo con traducciones en ingles y espanol, enrutamiento consciente de locale y formatos de fechas, numeros y monedas."
+          "name": "next-intl para Internacionalización",
+          "desc": "Soporte i18n completo con traducciones en español e inglés, enrutamiento consciente de locale y formatos de fechas, números y monedas."
         },
         "9": {
-          "name": "Validacion con Zod",
-          "desc": "Validacion de schemas en runtime para todas las entradas de API y datos de formularios, asegurando seguridad de tipos en la frontera entre cliente y servidor."
+          "name": "Validación con Zod",
+          "desc": "Validación de schemas en runtime para todas las entradas de API y datos de formularios, asegurando seguridad de tipos en la frontera cliente-servidor."
         }
       },
-      "patterns": "Patrones Arquitectonicos",
+      "patterns": "Patrones Arquitectónicos",
       "patternList": {
         "0": {
           "title": "Rutas API REST con Estructura Consistente",
-          "desc": "Todos los endpoints API siguen un patron estandar: autenticacion, autorizacion RBAC, validacion Zod, logica de negocio, registro de auditoria y respuestas JSON consistentes con codigos de estado HTTP apropiados."
+          "desc": "Todos los endpoints API siguen un patrón estándar: autenticación, autorización RBAC, validación Zod, lógica de negocio, registro de auditoría y respuestas JSON consistentes con códigos HTTP apropiados."
         },
         "1": {
           "title": "Middleware RBAC con 25+ Permisos",
-          "desc": "Control de acceso basado en roles aplicado en cada endpoint API. Cinco roles (Owner, Admin, Finance, Sales, Viewer) con permisos granulares a nivel de recurso en todos los modulos."
+          "desc": "Control de acceso basado en roles aplicado en cada endpoint API. Cinco roles (Dueño, Admin, Finanzas, Ventas, Lectura) con permisos granulares a nivel de recurso en todos los módulos."
         },
         "2": {
-          "title": "Registro de Auditoria Integral",
-          "desc": "Cada operacion de creacion, actualizacion y eliminacion se registra con identidad del actor, timestamp, tipo de entidad, ID de entidad y metadata. Proporciona una pista de cumplimiento completa para operaciones financieras y de RRHH."
+          "title": "Registro de Auditoría Integral",
+          "desc": "Cada operación de creación, actualización y eliminación se registra con identidad del actor, timestamp, tipo de entidad, ID de entidad y metadata. Proporciona una pista de cumplimiento completa para operaciones financieras y de RRHH."
         },
         "3": {
-          "title": "Aislamiento de Datos Multi-Tenant",
-          "desc": "Todos los modelos de base de datos incluyen un campo organizationId. Las consultas estan delimitadas a la organizacion actual, asegurando aislamiento completo de datos entre tenants sin bases de datos separadas."
+          "title": "Aislamiento de Datos Multi-Empresa",
+          "desc": "Todos los modelos de base de datos incluyen un campo organizationId. Las consultas están delimitadas a la organización actual, asegurando aislamiento completo de datos entre empresas sin bases de datos separadas."
         },
         "4": {
-          "title": "Comparticion Publica via Tokens Seguros",
-          "desc": "Propuestas, contratos y portales de proyecto soportan acceso publico a traves de tokens de comparticion criptograficamente seguros. No se requiere autenticacion para que los clientes vean, firmen o interactuen con recursos compartidos."
+          "title": "Compartición Pública vía Tokens Seguros",
+          "desc": "Cotizaciones, contratos y portales de proyecto soportan acceso público a través de tokens criptográficamente seguros. No se requiere autenticación para que tus clientes vean, firmen o interactúen con recursos compartidos."
         },
         "5": {
           "title": "Manejo de Webhooks para Eventos Externos",
-          "desc": "Webhooks de pagos Stripe y callbacks de pagos crypto se procesan a traves de endpoints de webhook verificados. Los eventos se validan, se aplica idempotencia y los registros correspondientes se crean o actualizan."
+          "desc": "Webhooks de pagos Stripe y callbacks de pagos crypto se procesan a través de endpoints de webhook verificados. Los eventos se validan, se aplica idempotencia y los registros correspondientes se crean o actualizan."
         }
       }
     },
     "dataModel": {
-      "intro": "El modelo de datos de BillingOps abarca 80+ modelos Prisma y 50+ enums, organizados en cuatro modulos. Cada modelo incluye aislamiento multi-tenant via organizationId y timestamps para propositos de auditoria. A continuacion se presentan las 20 entidades core que forman la columna vertebral de la plataforma.",
+      "intro": "El modelo de datos de BillingOps abarca 80+ modelos Prisma y 50+ enums, organizados en cuatro módulos. Cada modelo incluye aislamiento multi-empresa vía organizationId y timestamps para auditoría. A continuación las 20 entidades core que forman la columna vertebral de la plataforma.",
       "coreEntities": "Entidades Core",
       "entity": "Modelo",
-      "module": "Modulo",
-      "description": "Descripcion",
+      "module": "Módulo",
+      "description": "Descripción",
       "entities": {
         "0": {
           "name": "User",
           "module": "Core",
-          "desc": "Usuarios del sistema con roles (Owner, Admin, Finance, Sales, Viewer), credenciales de autenticacion y membresia de organizacion."
+          "desc": "Usuarios del sistema con roles (Dueño, Admin, Finanzas, Ventas, Lectura), credenciales de autenticación y membresía de organización."
         },
         "1": {
           "name": "Organization",
           "module": "Core",
-          "desc": "Organizacion multi-tenant con configuraciones, branding, configuracion de plan de cuentas y plan de suscripcion."
+          "desc": "Empresa multi-tenant con configuraciones, branding, configuración de plan de cuentas y plan de suscripción."
         },
         "2": {
           "name": "Lead",
-          "module": "BD",
-          "desc": "Clientes potenciales con pipeline de estados, informacion de contacto, valor estimado, seguimiento de fuente y responsable asignado."
+          "module": "Ventas",
+          "desc": "Prospectos con embudo de estados, información de contacto, valor estimado, seguimiento de fuente y responsable asignado."
         },
         "3": {
           "name": "Discovery",
-          "module": "BD",
-          "desc": "Grabaciones de reuniones con transcripciones generadas por IA y resumenes estructurados extraidos via OpenAI."
+          "module": "Ventas",
+          "desc": "Grabaciones de reuniones con transcripciones generadas por IA y resúmenes estructurados extraídos vía OpenAI."
         },
         "4": {
           "name": "Proposal",
-          "module": "BD",
-          "desc": "Propuestas de negocio con precios por item, definiciones de alcance, tokens de comparticion publica y analiticas de seguimiento de vistas."
+          "module": "Ventas",
+          "desc": "Cotizaciones con precios por ítem, definiciones de alcance, tokens de compartición pública y analíticas de seguimiento de vistas."
         },
         "5": {
           "name": "Contract",
-          "module": "BD",
-          "desc": "Acuerdos firmados con firmas digitales duales (Rowship + cliente), tokens de comparticion y facturas vinculadas."
+          "module": "Ventas",
+          "desc": "Contratos firmados con firmas digitales duales (tu equipo + cliente), tokens de compartición y facturas vinculadas."
         },
         "6": {
           "name": "Invoice",
-          "module": "BD",
-          "desc": "Documentos de facturacion con items de linea, calculos de impuestos, integracion de checkout Stripe y seguimiento de estado (Borrador, Enviada, Pagada, Vencida)."
+          "module": "Ventas",
+          "desc": "Facturas con ítems de línea, cálculos de impuestos, integración de checkout Stripe y seguimiento de estado (Borrador, Enviada, Pagada, Vencida)."
         },
         "7": {
           "name": "Payment",
-          "module": "BD",
-          "desc": "Registros de pago soportando metodos de Tarjeta, ACH, Transferencia y USDC con generacion automatica de asientos contables."
+          "module": "Ventas",
+          "desc": "Registros de pago soportando métodos de Tarjeta, ACH, Transferencia y USDC con generación automática de asientos contables."
         },
         "8": {
           "name": "Client",
-          "module": "BD",
-          "desc": "Clientes activos convertidos desde propuestas aceptadas, con detalles de contacto, preferencias de facturacion e historial de proyectos."
+          "module": "Ventas",
+          "desc": "Clientes activos convertidos desde cotizaciones aceptadas, con datos de contacto, preferencias de facturación e historial de proyectos."
         },
         "9": {
           "name": "ChartOfAccounts",
-          "module": "Finanzas",
-          "desc": "Estructura jerarquica de cuentas soportando estandares PCGE y US GAAP con tipos de cuenta, codigos y balances."
+          "module": "Contabilidad",
+          "desc": "Estructura jerárquica de cuentas soportando estándares PCGE y US GAAP con tipos de cuenta, códigos y balances."
         },
         "10": {
           "name": "JournalEntry",
-          "module": "Finanzas",
-          "desc": "Registros contables de partida doble con lineas de debito/credito, estado de registro y referencia de fuente (factura, pago, nomina)."
+          "module": "Contabilidad",
+          "desc": "Registros contables de partida doble con líneas de debe/haber, estado de registro y referencia de fuente (factura, pago, planilla)."
         },
         "11": {
           "name": "BankAccount",
-          "module": "Finanzas",
-          "desc": "Cuentas bancarias con importacion de transacciones, seguimiento de conciliacion y gestion de balance actual."
+          "module": "Contabilidad",
+          "desc": "Cuentas bancarias con importación de transacciones, seguimiento de conciliación y gestión de balance actual."
         },
         "12": {
           "name": "Employee",
-          "module": "RRHH",
-          "desc": "Perfiles de empleados con datos personales, detalles de empleo, compensacion, departamento e informacion fiscal especifica por pais."
+          "module": "Planilla",
+          "desc": "Perfiles de colaboradores con datos personales, detalles de empleo, compensación, departamento e información fiscal por país."
         },
         "13": {
           "name": "PayrollRun",
-          "module": "RRHH",
-          "desc": "Lotes de procesamiento de nomina con calculos bruto/neto, deducciones, contribuciones patronales y flujo de aprobacion."
+          "module": "Planilla",
+          "desc": "Lotes de procesamiento de planilla con cálculos bruto/neto, deducciones, contribuciones patronales y flujo de aprobación."
         },
         "14": {
           "name": "Attendance",
-          "module": "RRHH",
-          "desc": "Registros diarios de asistencia con horarios de entrada/salida, calculos de horas extra y categorizacion de ausencias."
+          "module": "Planilla",
+          "desc": "Registros diarios de asistencia con horarios de entrada/salida, cálculos de horas extra y categorización de ausencias."
         },
         "15": {
           "name": "HRDocument",
-          "module": "RRHH",
-          "desc": "Documentos de RRHH con soporte de firma digital, control de versiones, seguimiento de vencimiento y categorizacion de cumplimiento."
+          "module": "Planilla",
+          "desc": "Documentos de RRHH con soporte de firma digital, control de versiones, seguimiento de vencimiento y categorización de cumplimiento."
         },
         "16": {
           "name": "Project",
           "module": "Proyectos",
-          "desc": "Proyectos activos vinculados a contratos con estado de salud, seguimiento de presupuesto, asignaciones de equipo y acceso al portal de cliente."
+          "desc": "Proyectos activos vinculados a contratos con estado de salud, seguimiento de presupuesto, asignaciones de equipo y acceso al portal del cliente."
         },
         "17": {
           "name": "Milestone",
           "module": "Proyectos",
-          "desc": "Entregables del proyecto con fechas limite, criterios de aceptacion, flujo de aprobacion del cliente y disparadores de generacion de facturas."
+          "desc": "Entregables del proyecto con fechas límite, criterios de aceptación, flujo de aprobación del cliente y disparadores de generación de facturas."
         },
         "18": {
           "name": "Task",
           "module": "Proyectos",
-          "desc": "Items de trabajo con estado Kanban (Backlog a Hecho), asignados, estimados, links de GitHub/Sentry y entradas de tiempo."
+          "desc": "Ítems de trabajo con estado Kanban (Backlog a Hecho), asignados, estimados, links de GitHub/Sentry y entradas de tiempo."
         },
         "19": {
           "name": "TimeEntry",
           "module": "Proyectos",
-          "desc": "Registros de tiempo con clasificacion facturable/no facturable, tarifas por hora, asociacion de tareas y estado de facturacion."
+          "desc": "Registros de tiempo con clasificación facturable/no facturable, tarifas por hora, asociación de tareas y estado de facturación."
         }
       },
-      "total": "El schema completo incluye 80+ modelos y 50+ enums cubriendo cada aspecto de las operaciones empresariales — desde puntuacion de leads y plantillas de propuestas hasta deducciones de nomina y registros de conciliacion bancaria."
+      "total": "El schema completo incluye 80+ modelos y 50+ enums cubriendo cada aspecto de las operaciones — desde puntuación de prospectos y plantillas de cotizaciones hasta deducciones de planilla y registros de conciliación bancaria."
     },
     "security": {
-      "intro": "La seguridad es fundamental para BillingOps. La plataforma maneja datos financieros sensibles, registros de empleados y contratos empresariales, por lo que cada capa de la arquitectura esta disenada con defensa en profundidad. A continuacion se presentan las caracteristicas clave de seguridad integradas en la plataforma.",
+      "intro": "La seguridad es fundamental para BillingOps. La plataforma maneja datos financieros sensibles, registros de colaboradores y contratos empresariales, por lo que cada capa de la arquitectura está diseñada con defensa en profundidad. A continuación las características clave de seguridad integradas en la plataforma.",
       "features": {
         "0": {
-          "title": "Autenticacion JWT con Gestion de Sesiones",
-          "desc": "NextAuth v5 con estrategia JWT proporciona autenticacion stateless. Las sesiones incluyen identidad del usuario y rol, estan firmadas criptograficamente y expiran automaticamente. Todas las rutas autenticadas estan protegidas por middleware."
+          "title": "Autenticación JWT con Gestión de Sesiones",
+          "desc": "NextAuth v5 con estrategia JWT proporciona autenticación stateless. Las sesiones incluyen identidad del usuario y rol, están firmadas criptográficamente y expiran automáticamente. Todas las rutas autenticadas están protegidas por middleware."
         },
         "1": {
           "title": "Control de Acceso Basado en Roles (5 Roles)",
-          "desc": "Cinco roles granulares — Owner, Admin, Finance, Sales y Viewer — con 25+ permisos a nivel de recurso. Cada endpoint API verifica permisos antes de ejecutar logica de negocio usando la utilidad canAccess()."
+          "desc": "Cinco roles granulares — Dueño, Admin, Finanzas, Ventas y Solo lectura — con 25+ permisos a nivel de recurso. Cada endpoint API verifica permisos antes de ejecutar lógica de negocio usando la utilidad canAccess()."
         },
         "2": {
-          "title": "Aislamiento de Datos a Nivel de Organizacion",
-          "desc": "Todas las consultas de base de datos estan delimitadas por organizationId, asegurando aislamiento completo de datos entre tenants. Los usuarios solo pueden acceder a datos pertenecientes a su organizacion, aplicado a nivel de consulta."
+          "title": "Aislamiento de Datos a Nivel de Empresa",
+          "desc": "Todas las consultas de base de datos están delimitadas por organizationId, asegurando aislamiento completo de datos entre empresas. Los usuarios solo pueden acceder a datos de su organización, aplicado a nivel de consulta."
         },
         "3": {
-          "title": "Registro de Auditoria Integral",
-          "desc": "Cada operacion de creacion, actualizacion y eliminacion se registra en la tabla AuditLog con ID del actor, tipo de accion, referencia de entidad, timestamp y metadata. Proporciona una pista de cumplimiento a prueba de manipulacion."
+          "title": "Registro de Auditoría Integral",
+          "desc": "Cada operación de creación, actualización y eliminación se registra en la tabla AuditLog con ID del actor, tipo de acción, referencia de entidad, timestamp y metadata. Proporciona una pista de cumplimiento a prueba de manipulación."
         },
         "4": {
-          "title": "Validacion de Entradas con Zod",
-          "desc": "Todos los cuerpos de solicitud API y parametros de consulta se validan usando schemas Zod antes del procesamiento. Las entradas invalidas se rechazan con mensajes de error detallados, previniendo ataques de inyeccion y corrupcion de datos."
+          "title": "Validación de Entradas con Zod",
+          "desc": "Todos los cuerpos de solicitud API y parámetros de consulta se validan usando schemas Zod antes del procesamiento. Las entradas inválidas se rechazan con mensajes de error detallados, previniendo ataques de inyección y corrupción de datos."
         },
         "5": {
-          "title": "Autenticacion de Dos Factores (2FA)",
-          "desc": "Soporte opcional de autenticacion de dos factores para cuentas de usuario, anadiendo una capa extra de seguridad para acceder a datos financieros y de RRHH sensibles."
+          "title": "Autenticación de Dos Factores (2FA)",
+          "desc": "Soporte opcional de autenticación de dos factores para cuentas de usuario, añadiendo una capa extra de seguridad para acceder a datos financieros y de planilla sensibles."
         },
         "6": {
-          "title": "Politicas de Contrasenas",
-          "desc": "Requisitos de contrasena aplicados incluyendo longitud minima, reglas de complejidad (mayusculas, minusculas, numeros, caracteres especiales), historial de contrasenas para prevenir reutilizacion y politicas de expiracion configurables."
+          "title": "Políticas de Contraseñas",
+          "desc": "Requisitos de contraseña aplicados incluyendo longitud mínima, reglas de complejidad (mayúsculas, minúsculas, números, caracteres especiales), historial de contraseñas para prevenir reutilización y políticas de expiración configurables."
         },
         "7": {
           "title": "API Keys con Permisos Delimitados",
-          "desc": "Los planes Enterprise soportan autenticacion con API key con permisos delimitados para acceso programatico. Las keys pueden restringirse a recursos y acciones especificas, y son rotables sin tiempo de inactividad."
+          "desc": "Los planes Enterprise soportan autenticación con API key con permisos delimitados para acceso programático. Las keys pueden restringirse a recursos y acciones específicas, y son rotables sin tiempo de inactividad."
         },
         "8": {
-          "title": "Limitacion de Tasa",
-          "desc": "Los endpoints API estan protegidos con limitacion de tasa para prevenir abuso, ataques de fuerza bruta e intentos de denegacion de servicio. Los limites son configurables por endpoint y por nivel de autenticacion."
+          "title": "Limitación de Tasa",
+          "desc": "Los endpoints API están protegidos con limitación de tasa para prevenir abuso, ataques de fuerza bruta e intentos de denegación de servicio. Los límites son configurables por endpoint y por nivel de autenticación."
         },
         "9": {
-          "title": "Encriptacion en Reposo y en Transito",
-          "desc": "Todos los datos estan encriptados en reposo usando encriptacion AES-256 en la capa de base de datos. Todas las comunicaciones usan TLS 1.3 para encriptacion en transito, asegurando que los datos esten protegidos durante todo su ciclo de vida."
+          "title": "Encriptación en Reposo y en Tránsito",
+          "desc": "Todos los datos están encriptados en reposo usando encriptación AES-256 en la capa de base de datos. Todas las comunicaciones usan TLS 1.3 para encriptación en tránsito, asegurando que los datos estén protegidos durante todo su ciclo de vida."
         }
       }
     },
     "integrations": {
-      "intro": "BillingOps se integra con servicios de terceros de primera clase para extender sus capacidades en pagos, comunicaciones, IA y herramientas de desarrollo. Todas las integraciones estan construidas con resiliencia, logica de reintentos y verificacion de webhooks.",
+      "intro": "BillingOps se integra con servicios de primera clase para extender sus capacidades en pagos, comunicaciones, IA y herramientas de desarrollo. Todas las integraciones están construidas con resiliencia, lógica de reintentos y verificación de webhooks.",
       "items": {
         "0": {
           "name": "Stripe",
-          "desc": "Infraestructura completa de pagos: sesiones de checkout, intenciones de pago, procesamiento de reembolsos, gestion de clientes y eventos webhook en tiempo real para confirmacion y conciliacion de pagos."
+          "desc": "Infraestructura completa de pagos: sesiones de checkout, intenciones de pago, procesamiento de reembolsos, gestión de clientes y eventos webhook en tiempo real para confirmación y conciliación de pagos."
         },
         "1": {
           "name": "Resend",
-          "desc": "Entrega de email transaccional con 14 plantillas pre-construidas cubriendo entrega de facturas, confirmaciones de pago, comparticion de contratos, recordatorios de cobranza, secuencias de onboarding y notificaciones de RRHH."
+          "desc": "Envío de email transaccional con 14 plantillas pre-armadas: envío de facturas, confirmaciones de pago, compartición de contratos, recordatorios de cobranza, secuencias de onboarding y notificaciones de planilla."
         },
         "2": {
           "name": "Slack",
@@ -1011,69 +1011,69 @@
         },
         "3": {
           "name": "Telegram",
-          "desc": "Recordatorios de pago y notificaciones de clientes entregadas via bot de Telegram. Soporta alertas de confirmacion de pago, notificaciones de facturas vencidas y mensajes automatizados personalizados."
+          "desc": "Recordatorios de pago y notificaciones de clientes vía bot de Telegram. Soporta alertas de confirmación de pago, notificaciones de facturas vencidas y mensajes automatizados personalizados."
         },
         "4": {
           "name": "OpenAI",
-          "desc": "Funcionalidades potenciadas por IA incluyendo transcripcion de sesiones de discovery (Whisper), generacion de resumenes de reuniones, composicion inteligente de mensajes de cobranza y narrativas automatizadas de reportes mensuales de proyectos."
+          "desc": "Funcionalidades potenciadas por IA: transcripción de sesiones de discovery (Whisper), generación de resúmenes de reuniones, composición inteligente de mensajes de cobranza y narrativas automáticas de reportes mensuales de proyectos."
         },
         "5": {
           "name": "GitHub",
-          "desc": "Integracion de flujo de trabajo de desarrolladores vinculando tareas de proyecto a issues y pull requests de GitHub. Seguimiento de cambios de codigo, estado de branch y estado de despliegue directamente desde el tablero de tareas del proyecto."
+          "desc": "Integración de flujo de trabajo de desarrolladores vinculando tareas de proyecto a issues y pull requests de GitHub. Seguimiento de cambios de código, estado de branch y despliegue directamente desde el tablero de tareas."
         },
         "6": {
           "name": "Sentry",
-          "desc": "Integracion de seguimiento de errores y monitoreo. Vincula errores de produccion y problemas de rendimiento directamente a tareas del proyecto para triaje, priorizacion y seguimiento de resolucion."
+          "desc": "Integración de seguimiento de errores y monitoreo. Vincula errores de producción y problemas de rendimiento directamente a tareas del proyecto para triaje, priorización y seguimiento de resolución."
         }
       },
       "erpTitle": "Integraciones ERP (Enterprise)",
-      "erpDesc": "Para empresas que ya usan un sistema ERP principal, BillingOps se integra como el frontend operativo — sincronizando datos financieros, facturas, pagos y plan de cuentas con tu ERP existente. Disponible en planes Enterprise.",
+      "erpDesc": "Para empresas que ya usan un ERP principal, BillingOps se integra como el frontend operativo — sincronizando datos financieros, facturas, pagos y plan de cuentas con tu ERP existente. Disponible en planes Enterprise.",
       "erp": {
         "0": {
           "name": "SAP Business One / S/4HANA",
-          "desc": "Sincronizacion de plan de cuentas, asientos contables, facturas y pagos via SAP Service Layer (REST/OData). Soporte para entornos SAP Business One y S/4HANA."
+          "desc": "Sincronización de plan de cuentas, asientos contables, facturas y pagos vía SAP Service Layer (REST/OData). Soporte para entornos SAP Business One y S/4HANA."
         },
         "1": {
           "name": "Odoo",
-          "desc": "Sincronizacion bidireccional de contactos, facturas, asientos contables y productos via API XML-RPC / JSON-RPC de Odoo. Importa plan de cuentas y catalogos de clientes existentes."
+          "desc": "Sincronización bidireccional de contactos, facturas, asientos contables y productos vía API XML-RPC / JSON-RPC de Odoo. Importa plan de cuentas y catálogos de clientes existentes."
         },
         "2": {
           "name": "QuickBooks Online",
-          "desc": "Exporta facturas, pagos y asientos contables a QuickBooks via API REST OAuth 2.0. Importa plan de cuentas y registros de proveedores."
+          "desc": "Exporta facturas, pagos y asientos contables a QuickBooks vía API REST OAuth 2.0. Importa plan de cuentas y registros de proveedores."
         },
         "3": {
           "name": "Xero",
-          "desc": "Sincroniza facturas, pagos, transacciones bancarias y contactos con Xero via API REST. Conciliacion automatica de transacciones exportadas."
+          "desc": "Sincroniza facturas, pagos, transacciones bancarias y contactos con Xero vía API REST. Conciliación automática de transacciones exportadas."
         },
         "4": {
           "name": "Oracle NetSuite",
-          "desc": "Integracion de grado enterprise via API REST SuiteTalk para sincronizar el flujo financiero completo: plan de cuentas, asientos contables, facturas, pagos y facturas de proveedores."
+          "desc": "Integración de grado enterprise vía API REST SuiteTalk para sincronizar el flujo financiero completo: plan de cuentas, asientos contables, facturas, pagos y facturas de proveedores."
         }
       }
     },
     "api": {
-      "intro": "La API de BillingOps sigue convenciones REST con patrones consistentes de autenticacion, autorizacion, validacion y respuesta en todos los endpoints. Todas las rutas estan organizadas bajo la ruta /api/ y devuelven respuestas JSON con codigos de estado HTTP estandar.",
+      "intro": "La API de BillingOps sigue convenciones REST con patrones consistentes de autenticación, autorización, validación y respuesta en todos los endpoints. Todas las rutas están organizadas bajo la ruta /api/ y devuelven respuestas JSON con códigos de estado HTTP estándar.",
       "endpoints": "Endpoints de Ejemplo",
       "routes": {
         "0": {
           "method": "GET",
           "path": "/api/leads",
-          "desc": "Listar leads con filtrado y busqueda"
+          "desc": "Listar prospectos con filtrado y búsqueda"
         },
         "1": {
           "method": "POST",
           "path": "/api/leads",
-          "desc": "Crear un nuevo lead"
+          "desc": "Crear un nuevo prospecto"
         },
         "2": {
           "method": "POST",
           "path": "/api/discovery/[id]/transcribe",
-          "desc": "Transcribir sesion de discovery con IA"
+          "desc": "Transcribir sesión de discovery con IA"
         },
         "3": {
           "method": "POST",
           "path": "/api/proposals/[id]/generate-link",
-          "desc": "Generar link de comparticion publica"
+          "desc": "Generar link de compartición pública"
         },
         "4": {
           "method": "POST",
@@ -1108,12 +1108,12 @@
         "10": {
           "method": "GET",
           "path": "/api/hr/employees",
-          "desc": "Listar empleados con filtrado por departamento"
+          "desc": "Listar colaboradores con filtrado por departamento"
         },
         "11": {
           "method": "POST",
           "path": "/api/hr/payroll/run",
-          "desc": "Ejecutar una corrida de nomina"
+          "desc": "Ejecutar una corrida de planilla"
         },
         "12": {
           "method": "GET",
@@ -1131,26 +1131,26 @@
           "desc": "Activar flujo de cobranza para facturas vencidas"
         }
       },
-      "auth": "Autenticacion",
-      "authDesc": "Todos los endpoints autenticados requieren un token de sesion JWT valido proporcionado via NextAuth. La sesion incluye el ID del usuario y su rol, que se usan para verificaciones de permisos RBAC. Las solicitudes no autenticadas reciben una respuesta 401, y las solicitudes con permisos insuficientes reciben una respuesta 403.",
-      "publicRoutes": "Rutas Publicas",
-      "publicDesc": "Ciertas rutas son accesibles sin autenticacion para flujos orientados al cliente: visualizacion de propuestas (/api/proposals/public/[token]), firma de contratos (/api/contracts/public/[token]), pago de facturas (/api/invoices/public/[id]), portal de proyectos (/api/projects/public/[token]) y receptores de webhooks (/api/webhooks/stripe, /api/webhooks/crypto)."
+      "auth": "Autenticación",
+      "authDesc": "Todos los endpoints autenticados requieren un token de sesión JWT válido proporcionado vía NextAuth. La sesión incluye el ID del usuario y su rol, que se usan para verificaciones de permisos RBAC. Las solicitudes no autenticadas reciben una respuesta 401, y las solicitudes con permisos insuficientes reciben una respuesta 403.",
+      "publicRoutes": "Rutas Públicas",
+      "publicDesc": "Ciertas rutas son accesibles sin autenticación para flujos orientados al cliente: visualización de cotizaciones (/api/proposals/public/[token]), firma de contratos (/api/contracts/public/[token]), pago de facturas (/api/invoices/public/[id]), portal de proyectos (/api/projects/public/[token]) y receptores de webhooks (/api/webhooks/stripe, /api/webhooks/crypto)."
     }
   },
   "modulePages": {
-    "backToOverview": "Volver a todas las funcionalidades",
-    "cta": "Solicitar una Demo",
-    "viewPricing": "Ver Precios",
-    "learnMore": "Saber más",
-    "exploreOther": "Explorar Otros Módulos",
+    "backToOverview": "Volver a todos los módulos",
+    "cta": "Agenda tu Demo Gratis",
+    "viewPricing": "Ver Planes",
+    "learnMore": "Conoce más",
+    "exploreOther": "Explora Otros Módulos",
     "operations": {
-      "label": "Desarrollo de Negocios",
-      "heroTitle": "Pipeline de Lead a Pago",
-      "heroSubtitle": "Gestiona todo el ciclo de ventas desde el contacto inicial hasta el cobro final. Automatiza propuestas, contratos, facturación y cobranza — todo conectado en un solo flujo.",
+      "label": "Ventas y Cobranzas",
+      "heroTitle": "De la Cotización al Cobro",
+      "heroSubtitle": "Gestiona todo el ciclo de ventas: desde el primer contacto hasta que el dinero entra a tu cuenta. Cotizaciones, contratos, facturas electrónicas y cobranza — todo conectado.",
       "workflow": {
-        "lead": "Captura de Leads",
-        "discovery": "Sesiones Discovery",
-        "proposal": "Propuestas",
+        "lead": "Prospectos",
+        "discovery": "Discovery",
+        "proposal": "Cotizaciones",
         "contract": "Contratos",
         "invoice": "Facturación",
         "payment": "Cobros"
@@ -1158,7 +1158,7 @@
       "highlights": {
         "0": {
           "stat": "6 etapas",
-          "label": "Pipeline completo de lead a pago"
+          "label": "Ciclo completo de prospecto a cobro"
         },
         "1": {
           "stat": "1-click",
@@ -1174,34 +1174,34 @@
         }
       },
       "featuresTitle": "Todo lo que Necesitas para Cerrar Negocios",
-      "featuresSubtitle": "Desde el primer contacto hasta el cobro final, cada paso está rastreado y automatizado.",
+      "featuresSubtitle": "Desde el primer contacto hasta el cobro final, cada paso está registrado y automatizado.",
       "detailedFeatures": {
         "0": {
           "tag": "CRM",
-          "title": "Gestión de Leads y Pipeline",
-          "description": "Captura y rastrea leads en un pipeline visual. Realiza sesiones de descubrimiento, análisis de factibilidad y califica oportunidades antes de comprometer recursos.",
+          "title": "Gestión de Prospectos y Embudo",
+          "description": "Captura y da seguimiento a prospectos en un embudo visual. Realiza sesiones de discovery, análisis de factibilidad y califica oportunidades antes de comprometer recursos.",
           "bullets": {
-            "0": "Pipeline visual con etapas personalizables",
+            "0": "Embudo visual con etapas personalizables",
             "1": "Grabaciones de sesiones discovery con transcripción IA",
             "2": "Análisis de factibilidad técnica y de capacidad"
           }
         },
         "1": {
           "tag": "Ventas",
-          "title": "Propuestas y Firma de Contratos",
-          "description": "Genera propuestas profesionales desde plantillas, compártelas vía links seguros y convierte propuestas aceptadas en contratos con firmas digitales.",
+          "title": "Cotizaciones y Firma de Contratos",
+          "description": "Genera cotizaciones profesionales desde plantillas, compártelas vía links seguros y convierte las aceptadas en contratos con firmas digitales.",
           "bullets": {
-            "0": "Propuestas basadas en plantillas con precios personalizados",
+            "0": "Cotizaciones basadas en plantillas con precios personalizados",
             "1": "Links seguros con seguimiento de visualización",
             "2": "Firmas digitales duales (tu equipo + cliente)"
           }
         },
         "2": {
           "tag": "Facturación",
-          "title": "Facturación Automatizada",
-          "description": "Crea facturas directamente desde contratos firmados. Envía links de pago por email con un solo click y rastrea el estado de pagos en tiempo real.",
+          "title": "Facturación Electrónica",
+          "description": "Crea facturas directamente desde contratos firmados. Envía el link de pago por email con un solo clic y ve el estado del pago en tiempo real.",
           "bullets": {
-            "0": "Auto-genera facturas desde hitos del contrato",
+            "0": "Genera facturas desde hitos del contrato",
             "1": "Links de pago Stripe en cada email",
             "2": "Seguimiento de estado de pagos en tiempo real"
           }
@@ -1209,7 +1209,7 @@
         "3": {
           "tag": "Pagos",
           "title": "Cobro Multi-Método",
-          "description": "Acepta pagos con tarjeta de crédito, transferencia ACH, transferencia bancaria y criptomoneda (USDC). Todo potenciado por Stripe con conciliación automática.",
+          "description": "Acepta pagos con tarjeta de crédito, transferencia ACH, transferencia bancaria y crypto (USDC). Todo potenciado por Stripe con conciliación automática.",
           "bullets": {
             "0": "Tarjeta de crédito y ACH vía Stripe Checkout",
             "1": "Soporte para transferencia bancaria y crypto (USDC)",
@@ -1218,18 +1218,18 @@
         },
         "4": {
           "tag": "Cobranza",
-          "title": "Automatización de Cobranza",
-          "description": "No persiga pagos manualmente nunca más. Configure secuencias automáticas de recordatorios para facturas vencidas por email, Slack y notificaciones in-app.",
+          "title": "Cobranza Automática",
+          "description": "No persigas pagos manualmente nunca más. Configura secuencias automáticas de recordatorios para facturas vencidas por email, Slack y notificaciones en el sistema.",
           "bullets": {
             "0": "Programación configurable (antes, en y después del vencimiento)",
-            "1": "Multi-canal: email, Slack y notificaciones in-app",
-            "2": "Flujos de escalamiento para morosos crónicos"
+            "1": "Multi-canal: email, Slack y notificaciones en el sistema",
+            "2": "Flujos de escalamiento para morosos"
           }
         },
         "5": {
           "tag": "Portal",
-          "title": "Portal de Clientes y Visibilidad",
-          "description": "Dale a tus clientes un portal personalizado donde pueden ver progreso de proyectos, aprobar hitos, acceder a documentos y realizar pagos — todo sin necesitar una cuenta.",
+          "title": "Portal para tus Clientes",
+          "description": "Dale a tus clientes un portal personalizado donde ven el avance de sus proyectos, aprueban entregables, acceden a documentos y pagan — todo sin necesitar una cuenta.",
           "bullets": {
             "0": "Portal personalizado vía token seguro",
             "1": "Aprobación de hitos y acceso a documentos",
@@ -1237,13 +1237,13 @@
           }
         }
       },
-      "ctaTitle": "¿Listo para Automatizar tu Pipeline de Ventas?",
-      "ctaSubtitle": "De leads a pagos — gestiona todo en un solo lugar."
+      "ctaTitle": "¿Listo para Ordenar tus Ventas y Cobranzas?",
+      "ctaSubtitle": "De prospectos a pagos — gestiona todo en un solo lugar."
     },
     "finance": {
-      "label": "Finanzas y Contabilidad",
-      "heroTitle": "Contabilidad por Partida Doble, Simplificada",
-      "heroSubtitle": "Un motor contable completo construido para Latinoamérica y EE.UU. Plan de cuentas PCGE y US GAAP, asientos contables, conciliación bancaria, multi-moneda y reportes financieros en tiempo real.",
+      "label": "Contabilidad",
+      "heroTitle": "Contabilidad Completa con PCGE",
+      "heroSubtitle": "Sistema contable de partida doble con el Plan Contable General Empresarial listo para usar. Asientos, conciliación bancaria, soles y dólares, reportes y cierre fiscal — todo al día con SUNAT.",
       "workflow": {
         "accounts": "Plan de Cuentas",
         "journals": "Asientos",
@@ -1255,30 +1255,30 @@
       "highlights": {
         "0": {
           "stat": "PCGE + GAAP",
-          "label": "Plantillas pre-construidas de plan de cuentas"
+          "label": "Plan de cuentas listo para usar"
         },
         "1": {
           "stat": "7 reportes",
           "label": "Estado de resultados, balance y más"
         },
         "2": {
-          "stat": "Multi-moneda",
-          "label": "PEN, USD con tipos de cambio automáticos"
+          "stat": "Soles y dólares",
+          "label": "Tipo de cambio automático"
         },
         "3": {
           "stat": "Auto-asientos",
           "label": "Desde facturas y pagos"
         }
       },
-      "featuresTitle": "Gestión Financiera Completa",
-      "featuresSubtitle": "Todo lo que tu equipo de finanzas necesita — desde la contabilidad diaria hasta los reportes de cierre.",
+      "featuresTitle": "Gestión Contable Completa",
+      "featuresSubtitle": "Todo lo que tu contador necesita — desde la contabilidad diaria hasta los reportes de cierre.",
       "detailedFeatures": {
         "0": {
           "tag": "Base",
-          "title": "Plan de Cuentas",
-          "description": "Comienza con plantillas pre-construidas PCGE (Perú) o US GAAP, o crea tu propio plan personalizado. Organiza cuentas por tipo, categoría y sub-cuentas.",
+          "title": "Plan de Cuentas PCGE",
+          "description": "Comienza con el PCGE peruano ya configurado, o crea tu propio plan si también operas en EE.UU. (US GAAP). Organiza cuentas por tipo, categoría y sub-cuentas.",
           "bullets": {
-            "0": "Plantillas PCGE y US GAAP incluidas",
+            "0": "PCGE peruano y US GAAP incluidos",
             "1": "Cuentas personalizadas con sub-niveles ilimitados",
             "2": "Tipos: activos, pasivos, patrimonio, ingresos, gastos"
           }
@@ -1286,9 +1286,9 @@
         "1": {
           "tag": "Contabilidad",
           "title": "Asientos Contables",
-          "description": "Crea asientos manuales o deja que el sistema los auto-genere desde facturas, pagos y gastos. Cada transacción cumple con partida doble.",
+          "description": "Crea asientos manuales o deja que el sistema los genere automáticamente desde facturas, pagos y gastos. Cada transacción cumple con partida doble.",
           "bullets": {
-            "0": "Asientos manuales y auto-generados",
+            "0": "Asientos manuales y automáticos",
             "1": "Flujo de borrador, publicar y anular",
             "2": "Validación automática de balance"
           }
@@ -1296,7 +1296,7 @@
         "2": {
           "tag": "Reportes",
           "title": "Reportes Financieros",
-          "description": "Genera estado de resultados, balance general, flujo de caja, balance de comprobación, libro mayor y reportes de antigüedad. Filtra por rango de fechas, cuenta y periodo.",
+          "description": "Genera estado de resultados, balance general, flujo de caja, balance de comprobación, libro mayor y reportes de antigüedad — listos para tu contador.",
           "bullets": {
             "0": "7 reportes financieros estándar",
             "1": "Filtros por rango de fechas y periodo",
@@ -1306,27 +1306,27 @@
         "3": {
           "tag": "Bancario",
           "title": "Conciliación Bancaria",
-          "description": "Importa transacciones bancarias, crúzalas contra asientos contables y concilia tus cuentas. Identifica discrepancias y resuélvelas rápidamente.",
+          "description": "Importa los movimientos de tu banco, crúzalos con tus asientos y concilia tus cuentas. Identifica diferencias y resuélvelas rápidamente.",
           "bullets": {
-            "0": "Importación de transacciones de estados bancarios",
+            "0": "Importación de movimientos bancarios",
             "1": "Cruce automático contra asientos contables",
-            "2": "Detección y resolución de discrepancias"
+            "2": "Detección y resolución de diferencias"
           }
         },
         "4": {
           "tag": "Internacional",
-          "title": "Soporte Multi-Moneda",
-          "description": "Maneja transacciones en PEN, USD y otras monedas. Actualizaciones automáticas de tipos de cambio aseguran conversiones y reportes precisos.",
+          "title": "Soles y Dólares",
+          "description": "Trabaja en PEN y USD sin complicaciones. El tipo de cambio se actualiza automáticamente para conversiones y reportes precisos.",
           "bullets": {
-            "0": "PEN, USD y más de 150 monedas soportadas",
-            "1": "Actualización diaria automática de tipos de cambio",
-            "2": "Seguimiento de ganancia/pérdida cambiaria"
+            "0": "Soles, dólares y más de 150 monedas",
+            "1": "Actualización diaria automática del tipo de cambio",
+            "2": "Seguimiento de diferencia de cambio"
           }
         },
         "5": {
           "tag": "Planificación",
-          "title": "Presupuestos y Periodos Fiscales",
-          "description": "Define presupuestos por cuenta, rastrea montos reales vs presupuestados y gestiona aperturas y cierres de periodos fiscales.",
+          "title": "Presupuestos y Cierre Fiscal",
+          "description": "Define presupuestos por área, compara lo real vs. lo presupuestado y cierra tus periodos fiscales ordenadamente.",
           "bullets": {
             "0": "Presupuesto por cuenta y departamento",
             "1": "Seguimiento de variaciones (real vs. presupuesto)",
@@ -1334,15 +1334,15 @@
           }
         }
       },
-      "ctaTitle": "Toma el Control de tus Finanzas",
-      "ctaSubtitle": "Contabilidad por partida doble que funciona para Latinoamérica y EE.UU."
+      "ctaTitle": "Ordena tu Contabilidad",
+      "ctaSubtitle": "Contabilidad PCGE de partida doble que funciona para empresas peruanas."
     },
     "hr": {
-      "label": "Gestión de Personas",
-      "heroTitle": "RRHH y Planilla para Perú y EE.UU.",
-      "heroSubtitle": "Gestión completa de personas con procesamiento de planilla, control de asistencia, manejo de documentos, portales de empleados, evaluaciones de desempeño, reclutamiento y gestión de contratistas — todo cumpliendo con SUNAT e IRS.",
+      "label": "Planilla y RRHH",
+      "heroTitle": "Planilla y Gestión de Personas",
+      "heroSubtitle": "Todo lo que necesitas para gestionar a tu equipo en Perú (y EE.UU. si tienes operaciones allá). Expedientes, planilla, asistencia, boletas y cumplimiento SUNAT incluido.",
       "workflow": {
-        "employees": "Empleados",
+        "employees": "Colaboradores",
         "payroll": "Planilla",
         "attendance": "Asistencia",
         "documents": "Documentos",
@@ -1352,38 +1352,38 @@
       "highlights": {
         "0": {
           "stat": "2 países",
-          "label": "Cumplimiento Perú (SUNAT) y EE.UU. (IRS)"
+          "label": "Cumplimiento SUNAT (Perú) e IRS (EE.UU.)"
         },
         "1": {
           "stat": "Auto-cálculo",
-          "label": "Planilla con deducciones fiscales"
+          "label": "Planilla con AFP, CTS, gratificaciones"
         },
         "2": {
           "stat": "Self-service",
-          "label": "Portal de empleados para boletas y permisos"
+          "label": "Portal del colaborador para boletas y permisos"
         },
         "3": {
           "stat": "360°",
-          "label": "Evaluaciones con feedback de pares"
+          "label": "Evaluaciones con feedback de compañeros"
         }
       },
       "featuresTitle": "Todo lo que tu Equipo de RRHH Necesita",
-      "featuresSubtitle": "Desde la contratación hasta la planilla y evaluaciones de desempeño — gestiona toda tu fuerza laboral en un solo lugar.",
+      "featuresSubtitle": "Desde la contratación hasta la planilla y evaluaciones de desempeño — gestiona a todo tu equipo en un solo lugar.",
       "detailedFeatures": {
         "0": {
           "tag": "RRHH Core",
-          "title": "Gestión de Empleados",
-          "description": "Expedientes centralizados con información personal, documentos, contratos, historial de compensación y asignaciones organizacionales. Una sola fuente de verdad para toda tu fuerza laboral.",
+          "title": "Expedientes de Colaboradores",
+          "description": "Toda la información de cada colaborador en un solo lugar: documentos, contratos, historial salarial y asignaciones organizacionales. Una sola fuente de verdad para tu equipo.",
           "bullets": {
-            "0": "Perfiles completos con almacenamiento de documentos",
+            "0": "Expedientes completos con almacenamiento de documentos",
             "1": "Historial de compensación y contratos",
             "2": "Organigrama y gestión de departamentos"
           }
         },
         "1": {
           "tag": "Planilla",
-          "title": "Procesamiento de Planilla",
-          "description": "Cálculos automáticos de planilla para cumplimiento SUNAT (Perú) e IRS (EE.UU.). Maneja cálculos bruto-a-neto, retenciones fiscales, contribuciones sociales y generación de boletas.",
+          "title": "Cálculo de Planilla",
+          "description": "AFP, EsSalud, ONP, CTS, gratificaciones — todo calculado automáticamente según la normativa peruana. Si tienes colaboradores en EE.UU., también calculamos sus impuestos.",
           "bullets": {
             "0": "Perú: AFP, EsSalud, ONP, CTS, Gratificaciones",
             "1": "EE.UU.: Impuestos federal/estatal, Social Security, Medicare",
@@ -1392,8 +1392,8 @@
         },
         "2": {
           "tag": "Tiempo y Permisos",
-          "title": "Asistencia y Permisos",
-          "description": "Rastrea asistencia diaria, gestiona saldos de vacaciones, maneja días de enfermedad y configura feriados. Los empleados solicitan permisos y los gerentes aprueban con un click.",
+          "title": "Asistencia y Vacaciones",
+          "description": "Control de entrada/salida, gestión de vacaciones, permisos y licencias. Tus colaboradores solicitan permisos y sus jefes aprueban con un clic.",
           "bullets": {
             "0": "Control de entrada/salida diaria",
             "1": "Gestión de saldos con reglas de acumulación",
@@ -1402,8 +1402,8 @@
         },
         "3": {
           "tag": "Cumplimiento",
-          "title": "Gestión Documental",
-          "description": "Maneja contratos laborales, NDAs, formularios fiscales y documentos de cumplimiento. Flujos de firma digital aseguran que todo esté firmado y almacenado de forma segura.",
+          "title": "Documentos y Firmas",
+          "description": "Contratos, constancias y documentos con firma digital. Almacenados de forma segura y siempre accesibles.",
           "bullets": {
             "0": "Flujo de firma digital de documentos",
             "1": "Almacenamiento seguro en la nube con historial de versiones",
@@ -1412,8 +1412,8 @@
         },
         "4": {
           "tag": "Self-Service",
-          "title": "Portal del Empleado",
-          "description": "Los empleados acceden a sus boletas, solicitan permisos, ven y firman documentos, completan encuestas y actualizan información personal — todo desde un portal self-service.",
+          "title": "Portal del Colaborador",
+          "description": "Cada colaborador ve sus boletas, solicita vacaciones, descarga documentos y completa encuestas — sin pedírtelo a ti.",
           "bullets": {
             "0": "Visualización y descarga de boletas",
             "1": "Solicitudes de permisos con flujo de aprobación",
@@ -1423,17 +1423,17 @@
         "5": {
           "tag": "Desempeño",
           "title": "Evaluaciones de Desempeño",
-          "description": "Ejecuta ciclos estructurados de evaluación con auto-evaluaciones, evaluaciones de gerente y feedback 360° de pares. Rastrea objetivos, competencias y planes de desarrollo.",
+          "description": "Organiza ciclos de evaluación con autoevaluaciones, feedback del jefe y opiniones de compañeros (360°). Rastrea objetivos, competencias y planes de desarrollo.",
           "bullets": {
             "0": "Ciclos y plantillas de evaluación configurables",
-            "1": "Evaluaciones de uno mismo, gerente y 360° de pares",
+            "1": "Autoevaluaciones, del jefe y 360° de compañeros",
             "2": "Seguimiento de objetivos y planes de desarrollo"
           }
         },
         "6": {
           "tag": "Reclutamiento",
           "title": "Reclutamiento y Onboarding",
-          "description": "Publica vacantes, rastrea candidatos en tu pipeline de contratación y onboardea nuevos empleados con checklists automatizados. Desde la primera postulación hasta el primer día.",
+          "description": "Publica vacantes, gestiona postulantes y recibe a los nuevos colaboradores con checklists de ingreso. Desde la primera postulación hasta el primer día.",
           "bullets": {
             "0": "Publicación de vacantes y seguimiento de postulantes",
             "1": "Pipeline de contratación con etapas personalizables",
@@ -1441,35 +1441,35 @@
           }
         },
         "7": {
-          "tag": "Contratistas",
-          "title": "Gestión de Contratistas",
-          "description": "Gestiona expedientes de contratistas, rastrea pagos y maneja documentación fiscal (formularios 1099 para EE.UU.). Mantén las relaciones con contratistas organizadas junto a tus empleados.",
+          "tag": "Locadores",
+          "title": "Locadores de Servicios",
+          "description": "Gestiona a tus trabajadores independientes: expedientes, recibos por honorarios y formularios tributarios. Mantén todo organizado junto a tus colaboradores.",
           "bullets": {
-            "0": "Perfiles de contratistas y seguimiento de pagos",
-            "1": "Generación y envío de formularios 1099",
+            "0": "Expedientes de locadores y seguimiento de pagos",
+            "1": "Generación de formularios 1099 (EE.UU.)",
             "2": "Resúmenes de pagos acumulados del año"
           }
         }
       },
-      "ctaTitle": "Simplifica tu Gestión de Personas",
-      "ctaSubtitle": "RRHH y planilla con cumplimiento para Perú y EE.UU. — en una sola plataforma."
+      "ctaTitle": "Ordena tu Gestión de Personas",
+      "ctaSubtitle": "Planilla y RRHH con cumplimiento SUNAT e IRS — en una sola plataforma."
     },
     "projects": {
-      "label": "Proyectos y Entrega",
-      "heroTitle": "Gestión de Proyectos que Entrega Resultados",
-      "heroSubtitle": "Desde contratos firmados hasta proyectos entregados. Rastrea hitos, gestiona tareas, registra tiempo, integra con herramientas de desarrollo y dale a tus clientes visibilidad total a través de un portal personalizado.",
+      "label": "Proyectos",
+      "heroTitle": "Gestión de Proyectos",
+      "heroSubtitle": "Del contrato firmado al proyecto entregado. Organiza hitos, asigna tareas, registra horas y mantén a tus clientes informados con un portal donde ven todo el avance.",
       "workflow": {
         "setup": "Setup del Proyecto",
         "milestones": "Hitos",
         "tasks": "Tareas",
-        "timeTracking": "Registro de Tiempo",
-        "portal": "Portal de Clientes",
+        "timeTracking": "Registro de Horas",
+        "portal": "Portal del Cliente",
         "reports": "Reportes IA"
       },
       "highlights": {
         "0": {
           "stat": "End-to-end",
-          "label": "Seguimiento de contrato a entrega"
+          "label": "De contrato a entrega"
         },
         "1": {
           "stat": "GitHub + Sentry",
@@ -1481,16 +1481,16 @@
         },
         "3": {
           "stat": "Con IA",
-          "label": "Reportes de proyecto auto-generados"
+          "label": "Reportes de proyecto automáticos"
         }
       },
       "featuresTitle": "Entrega Proyectos a Tiempo, Siempre",
-      "featuresSubtitle": "Gestión completa de proyectos con visibilidad para clientes e integraciones con herramientas de desarrollo.",
+      "featuresSubtitle": "Gestión completa de proyectos con visibilidad para tus clientes e integraciones con herramientas de desarrollo.",
       "detailedFeatures": {
         "0": {
           "tag": "Vista General",
-          "title": "Seguimiento y Salud del Proyecto",
-          "description": "Monitorea la salud del proyecto con dashboards que muestran progreso, hitos, consumo de presupuesto y utilización del equipo. Identifica proyectos en riesgo antes de que sean problemas.",
+          "title": "Dashboard de Salud del Proyecto",
+          "description": "Un dashboard por proyecto con el estado de salud, hitos completados y lo que falta por entregar. Identifica proyectos en riesgo antes de que sean problemas.",
           "bullets": {
             "0": "Dashboard de salud con indicadores de progreso",
             "1": "Seguimiento de presupuesto y velocidad de gasto",
@@ -1500,17 +1500,17 @@
         "1": {
           "tag": "Hitos",
           "title": "Gestión de Hitos",
-          "description": "Divide proyectos en hitos con entregables, fechas límite y flujos de aprobación. Los clientes pueden aprobar hitos directamente desde el portal, disparando la generación de facturas.",
+          "description": "Divide proyectos en hitos con entregables, fechas límite y flujos de aprobación. Tus clientes aprueban hitos desde el portal, disparando la generación de facturas.",
           "bullets": {
             "0": "Estructura de proyecto basada en hitos",
             "1": "Flujo de aprobación del cliente vía portal",
-            "2": "Auto-generación de facturas al aprobar hitos"
+            "2": "Generación de facturas al aprobar hitos"
           }
         },
         "2": {
           "tag": "Tareas",
-          "title": "Gestión de Tareas e Integraciones",
-          "description": "Crea y asigna tareas a miembros del equipo. Integra con GitHub para tareas vinculadas a código y Sentry para tracking de bugs. Mantén el trabajo de desarrollo conectado a los hitos.",
+          "title": "Tareas y Asignaciones",
+          "description": "Crea tareas, asígnalas a tu equipo y conéctalas con GitHub o Sentry si trabajas en desarrollo. Mantén el trabajo de desarrollo conectado a los hitos.",
           "bullets": {
             "0": "Asignación de tareas con prioridad y fechas límite",
             "1": "Integración GitHub para vincular commits y PRs",
@@ -1519,8 +1519,8 @@
         },
         "3": {
           "tag": "Tiempo",
-          "title": "Registro de Tiempo",
-          "description": "Registra horas facturables y no facturables por tarea y proyecto. Genera reportes de tiempo para facturación, análisis de utilización y seguimiento de rentabilidad.",
+          "title": "Registro de Horas",
+          "description": "Tu equipo registra las horas por tarea. Distingue entre horas facturables y no facturables. Genera reportes de tiempo para facturación y análisis de rentabilidad.",
           "bullets": {
             "0": "Registro de tiempo por tarea y proyecto",
             "1": "Categorización facturable vs. no facturable",
@@ -1529,8 +1529,8 @@
         },
         "4": {
           "tag": "Portal",
-          "title": "Portal de Clientes y Feedback",
-          "description": "Dale a tus clientes un portal personalizado para ver progreso, aprobar hitos, dejar feedback visual en entregables y acceder a documentos — todo sin necesitar una cuenta.",
+          "title": "Portal para el Cliente",
+          "description": "Tu cliente entra al portal, ve el avance, aprueba entregables y descarga documentos — todo sin llamarte. Dale a tus clientes visibilidad total sin que te quiten tiempo.",
           "bullets": {
             "0": "Portal personalizado vía link seguro",
             "1": "Feedback visual punto-y-click en entregables",
@@ -1539,17 +1539,17 @@
         },
         "5": {
           "tag": "IA",
-          "title": "Reportes de Proyecto con IA",
-          "description": "Genera reportes mensuales completos con resúmenes escritos por IA cubriendo progreso, riesgos, hitos alcanzados y próximos pasos. Comparte con clientes o stakeholders.",
+          "title": "Reportes Automáticos con IA",
+          "description": "Genera reportes mensuales para tu cliente con un resumen escrito por IA: avance, riesgos e hitos cumplidos. Comparte con clientes o stakeholders en un clic.",
           "bullets": {
             "0": "Resúmenes narrativos generados por IA",
             "1": "Cobertura de progreso, riesgos e hitos",
-            "2": "Compartir con clientes en un click"
+            "2": "Compartir con clientes en un clic"
           }
         }
       },
       "ctaTitle": "Entrega Proyectos con Confianza",
-      "ctaSubtitle": "Rastrea hitos, gestiona tareas y mantén a tus clientes informados — todo en un solo lugar."
+      "ctaSubtitle": "Hitos, tareas y portal del cliente — todo en un solo lugar."
     }
   }
 }
