@@ -758,33 +758,41 @@
     "sectionSubtitle": "Everything you need to know about our platform.",
     "q1": {
       "question": "What does the platform include?",
-      "answer": "Our platform covers the complete business lifecycle: lead management, proposals, contracts, invoicing, payments, double-entry accounting (PCGE & US GAAP), HR & payroll, project management with time tracking, and comprehensive financial reporting. Everything you need to run your operations in one place."
+      "answer": "BillingOps covers your complete business lifecycle: lead management, proposals with view tracking, dual-signature contracts, invoicing, automated dunning (D+0 to D+10 escalation), PCGE accounting with 7 financial reports, full Peru payroll, and project management with AI-generated reports. Everything connected in one system."
     },
     "q2": {
       "question": "Do you support Peruvian tax regulations (SUNAT)?",
-      "answer": "Yes. We fully support the Plan Contable General Empresarial (PCGE) chart of accounts, Peruvian tax calculations, and SUNAT compliance reporting. Our payroll module handles CTS, gratificaciones, and all mandatory contributions."
+      "answer": "Yes, 100%. PCGE comes pre-configured and ready to use. The system automatically generates all 7 financial reports (P&L, Balance Sheet, Cash Flow, Trial Balance, General Ledger, AR Aging, AP Aging). Uses updated UIT 2026 (S/ 5,500) and RMV 2026 (S/ 1,130)."
     },
     "q3": {
       "question": "Can I manage multiple companies?",
-      "answer": "Absolutely. With Professional and Enterprise plans, you can create and manage multiple organizations from a single account, each with its own books, chart of accounts, clients, employees, and team members."
+      "answer": "Absolutely. With Professional and Enterprise plans, you can create and manage multiple organizations from a single account. Each organization has its own accounting, clients, employees, and team — completely isolated with full data separation."
     },
     "q4": {
-      "question": "How does payment processing work?",
-      "answer": "We integrate directly with Stripe. When you send an invoice, your client receives a secure payment link. We support credit/debit cards, ACH transfers, wire payments, and cryptocurrency (USDC). Payments are automatically reconciled and journal entries created."
+      "question": "How does automated dunning work?",
+      "answer": "The system has a 4-stage intelligent escalation: friendly reminder on due date (D+0), first follow-up at 2 days (D+2), escalation at 5 days (D+5), and final notice at 10 days (D+10). Messages are sent via email, Slack, and in-app notifications. AI helps compose effective messages."
     },
     "q5": {
-      "question": "Do you offer data migration?",
-      "answer": "Yes. Professional plans include assisted migration for your chart of accounts, clients, and historical data. Enterprise plans include white-glove migration with dedicated support to ensure a smooth transition."
+      "question": "How do proposals and contracts work?",
+      "answer": "Create a proposal and share it via secure link. The system notifies you when your client opens it (view tracking: how many times, how long). When accepted, generate a contract with dual signatures: your company signs first, then the client signs via their link. Both signatures are recorded with timestamps."
     },
     "q6": {
+      "question": "Which AFP providers are supported?",
+      "answer": "All 4 Peruvian AFPs with updated 2026 rates: Integra (1.55%), Habitat (1.47%), Prima (1.60%), and Profuturo (1.69%). Also calculates the mandatory 10% contribution and insurance. For employees in ONP, applies 13% automatically."
+    },
+    "q7": {
+      "question": "Does it support all 3 labor regimes?",
+      "answer": "Yes. General Regime (100% benefits), Small Business / MYPE (50% CTS and gratificaciones), and Microenterprise (no CTS or gratificaciones). The system calculates automatically based on each employee's regime. Also calculates CTS (May and November), gratificaciones (July and December), and 5ta categoría with SUNAT brackets."
+    },
+    "q8": {
+      "question": "Does it generate project reports automatically?",
+      "answer": "Yes. AI generates monthly reports with narrative text: executive summary, key highlights, identified risks, and recommendations. You don't have to write anything — the system analyzes progress and drafts the report. Share with your client from the portal with one click."
+    },
+    "q9": {
       "question": "Is the platform bilingual?",
       "answer": "Yes, the entire platform is fully bilingual (English and Spanish). You can switch languages at any time. All reports, invoices, and client-facing documents support both languages."
     },
-    "q7": {
-      "question": "How does the HR & Payroll module work?",
-      "answer": "Our HR module supports employee management, payroll processing, attendance tracking, PTO management, document handling, and contractor management. It's built for compliance in both Peru (SUNAT, EsSalud, AFP) and the US (IRS, W-2, 1099)."
-    },
-    "q8": {
+    "q10": {
       "question": "What kind of support do you offer?",
       "answer": "Starter plans include email support. Professional plans get priority support with faster response times. Enterprise plans include a dedicated account manager, custom onboarding, and phone support."
     }

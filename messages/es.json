@@ -313,33 +313,41 @@
     "sectionSubtitle": "Las dudas más comunes sobre BillingOps.",
     "q1": {
       "question": "¿Qué incluye el sistema?",
-      "answer": "BillingOps cubre todo el ciclo de tu negocio: gestión de prospectos, cotizaciones, contratos, facturación electrónica, cobranza, contabilidad con PCGE, planilla, gestión de proyectos y reportes financieros. Todo en un solo sistema, todo conectado."
+      "answer": "BillingOps cubre todo el ciclo de tu negocio: gestión de prospectos, cotizaciones con tracking de vistas, contratos con firma dual, facturación electrónica, cobranza automatizada (escalación D+0 a D+10), contabilidad PCGE con 7 reportes financieros, planilla completa para Perú, y gestión de proyectos con reportes generados por IA. Todo conectado en un solo sistema."
     },
     "q2": {
       "question": "¿Cumple con las normas de SUNAT?",
-      "answer": "Sí. El sistema viene con el Plan Contable General Empresarial (PCGE) listo para usar, calcula los impuestos peruanos automáticamente y genera los reportes que necesitas para SUNAT. El módulo de planilla maneja CTS, gratificaciones, AFP, EsSalud y todas las contribuciones obligatorias."
+      "answer": "Sí, al 100%. El PCGE viene pre-configurado y listo para usar. El sistema genera automáticamente los 7 reportes financieros (Estado de Resultados, Balance General, Flujo de Caja, Balance de Comprobación, Libro Mayor, Antigüedad de Cuentas por Cobrar y por Pagar). Usa el UIT 2026 (S/ 5,500) y RMV 2026 (S/ 1,130) actualizados."
     },
     "q3": {
       "question": "¿Puedo manejar varias empresas?",
-      "answer": "Claro. Con los planes Professional y Enterprise puedes crear y administrar varias empresas desde una sola cuenta. Cada empresa tiene su propia contabilidad, clientes, colaboradores y equipo de trabajo — completamente separadas."
+      "answer": "Claro. Con los planes Professional y Enterprise puedes crear y administrar varias empresas desde una sola cuenta. Cada empresa tiene su propia contabilidad, clientes, colaboradores y equipo de trabajo — completamente separadas con aislamiento total de datos."
     },
     "q4": {
-      "question": "¿Cómo cobro a mis clientes?",
-      "answer": "Cuando envías una factura, tu cliente recibe un link de pago seguro (vía Stripe). Puede pagar con tarjeta de crédito, débito o transferencia. El pago se registra automáticamente y se genera el asiento contable — sin que hagas nada."
+      "question": "¿Cómo funciona la cobranza automática?",
+      "answer": "El sistema tiene una escalación inteligente de 4 etapas: recordatorio amigable el día de vencimiento (D+0), primer seguimiento a los 2 días (D+2), escalación a los 5 días (D+5), y aviso final a los 10 días (D+10). Los mensajes se envían por email, Slack y notificación en el sistema. La IA ayuda a redactar mensajes efectivos."
     },
     "q5": {
-      "question": "¿Me ayudan a migrar mis datos?",
-      "answer": "Sí. En los planes Professional te ayudamos a migrar tu plan de cuentas, clientes y datos históricos. En Enterprise hacemos una implementación completa con soporte dedicado para que la transición sea ordenada."
+      "question": "¿Cómo funcionan las cotizaciones y contratos?",
+      "answer": "Creas una cotización y la compartes por link seguro. El sistema te avisa cuando tu cliente la abre (tracking de vistas: cuántas veces, cuánto tiempo). Cuando acepta, generas el contrato con firma dual: tu empresa firma primero, luego el cliente firma desde su link. Ambas firmas quedan registradas con fecha y hora."
     },
     "q6": {
+      "question": "¿Qué AFPs soporta el sistema?",
+      "answer": "Las 4 AFPs peruanas con sus tasas 2026 actualizadas: Integra (1.55%), Habitat (1.47%), Prima (1.60%) y Profuturo (1.69%). También calcula la comisión obligatoria del 10% y el seguro. Si el colaborador está en ONP, aplica el 13% automáticamente."
+    },
+    "q7": {
+      "question": "¿Soporta los 3 regímenes laborales?",
+      "answer": "Sí. Régimen General (100% de beneficios), Pequeña Empresa / MYPE (50% de CTS y gratificaciones), y Microempresa (sin CTS ni gratificaciones). El sistema calcula automáticamente según el régimen de cada colaborador. También calcula CTS (mayo y noviembre), gratificaciones (julio y diciembre), y 5ta categoría con los brackets de SUNAT."
+    },
+    "q8": {
+      "question": "¿Genera reportes de proyectos automáticamente?",
+      "answer": "Sí. La IA genera reportes mensuales con texto narrativo: resumen ejecutivo, logros destacados, riesgos identificados y recomendaciones. No tienes que escribir nada — el sistema analiza el avance y redacta el reporte. Lo compartes con tu cliente desde el portal con un clic."
+    },
+    "q9": {
       "question": "¿El sistema está en español?",
       "answer": "Sí, todo está en español e inglés. Puedes cambiar de idioma cuando quieras. Las facturas, reportes y documentos para clientes también soportan ambos idiomas."
     },
-    "q7": {
-      "question": "¿Cómo funciona el módulo de planilla?",
-      "answer": "Gestionas expedientes de colaboradores, calculas la planilla automáticamente (AFP, EsSalud, ONP, CTS, gratificaciones), controlas asistencia y vacaciones, manejas documentos con firma digital y generas boletas. Todo según la normativa peruana. Si también tienes colaboradores en EE.UU., el sistema calcula los impuestos de allá también."
-    },
-    "q8": {
+    "q10": {
       "question": "¿Qué soporte tienen?",
       "answer": "El plan Starter incluye soporte por correo. Professional tiene soporte prioritario con respuesta más rápida. Enterprise incluye un ejecutivo de cuenta dedicado, implementación personalizada y soporte telefónico."
     }
