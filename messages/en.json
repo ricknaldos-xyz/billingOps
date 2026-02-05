@@ -46,27 +46,27 @@
     },
     "operations": {
       "title": "Lead-to-Payment Pipeline",
-      "description": "Manage the complete sales cycle from initial contact to collected payment. Automate proposals, contracts, invoicing, and dunning — all connected.",
+      "description": "Manage the complete sales cycle: proposals with view tracking, dual-signature contracts, invoicing, and automated D+0 to D+10 dunning escalation.",
       "features": {
         "0": {
           "title": "Lead Management",
           "desc": "Track prospects with status pipeline, discovery sessions, and feasibility analysis."
         },
         "1": {
-          "title": "Proposals & Contracts",
-          "desc": "Generate proposals, share via secure links, collect digital signatures on contracts."
+          "title": "Proposals with Tracking",
+          "desc": "Share proposals via link and get alerts when clients open them. See view count and time spent."
         },
         "2": {
-          "title": "Automated Invoicing",
-          "desc": "Create invoices from contracts, send payment links via email with one click."
+          "title": "Dual-Signature Contracts",
+          "desc": "Your company signs first, then client signs via their link. Both signatures recorded with timestamps."
         },
         "3": {
-          "title": "Payment Collection",
-          "desc": "Accept card, ACH, wire, and crypto (USDC) payments via Stripe integration."
+          "title": "Automated Invoicing",
+          "desc": "Create invoices from contracts, send Stripe payment links via email with one click."
         },
         "4": {
-          "title": "Dunning Automation",
-          "desc": "Automated reminders for overdue invoices via email, Slack, and in-app notifications."
+          "title": "D+0 to D+10 Dunning",
+          "desc": "Automatic escalation: reminder on due date, follow-up at 2, 5, and 10 days. Email, Slack, and in-app."
         },
         "5": {
           "title": "Client Portal",
@@ -76,27 +76,27 @@
     },
     "finance": {
       "title": "Double-Entry Accounting",
-      "description": "Full accounting engine with support for PCGE (Peru) and US GAAP chart of accounts. Journal entries, fiscal periods, bank reconciliation, and real-time financial reports.",
+      "description": "Full accounting engine with pre-configured PCGE. Auto-journal entries from invoices and payments, 7 financial reports, bank reconciliation, and multi-currency.",
       "features": {
         "0": {
-          "title": "Chart of Accounts",
-          "desc": "Pre-built PCGE and US GAAP templates, or create your own custom chart."
+          "title": "Pre-Configured PCGE",
+          "desc": "Plan Contable General Empresarial ready to use. Also supports US GAAP for US operations."
         },
         "1": {
-          "title": "Journal Entries",
-          "desc": "Manual and auto-generated entries from invoices, payments, and expenses."
+          "title": "Auto Journal Entries",
+          "desc": "System generates entries from invoices, payments, and payroll. Manual entries also supported."
         },
         "2": {
-          "title": "Financial Reports",
-          "desc": "P&L, balance sheet, cash flow, trial balance, general ledger, and aging reports."
+          "title": "7 Financial Reports",
+          "desc": "P&L, Balance Sheet, Cash Flow, Trial Balance, General Ledger, AR Aging, and AP Aging."
         },
         "3": {
           "title": "Bank Reconciliation",
-          "desc": "Import transactions, match against entries, reconcile your accounts."
+          "desc": "Import bank transactions, match against entries, identify discrepancies quickly."
         },
         "4": {
           "title": "Multi-Currency",
-          "desc": "Handle PEN, USD, and more with automatic exchange rate management."
+          "desc": "Work in PEN and USD. Exchange rates from SUNAT/SBS update automatically daily."
         },
         "5": {
           "title": "Budgets & Fiscal Periods",
@@ -105,70 +105,70 @@
       }
     },
     "hr": {
-      "title": "HR & Payroll Management",
-      "description": "Complete people management for Peru and the US. Employee records, payroll processing, attendance tracking, document handling, and compliance out of the box.",
+      "title": "Complete Peru Payroll",
+      "description": "4 AFPs (Integra, Habitat, Prima, Profuturo), 3 labor regimes, automatic CTS and gratificaciones, 5ta categoría with SUNAT brackets. All with updated 2026 rates.",
       "features": {
         "0": {
-          "title": "Employee Management",
-          "desc": "Centralized employee records with documents, contracts, and history."
+          "title": "Employee Records",
+          "desc": "All employee information in one place: documents, contracts, salary history."
         },
         "1": {
-          "title": "Payroll Processing",
-          "desc": "Automated payroll calculations for Peru (SUNAT) and US (IRS) compliance."
+          "title": "4 AFPs with 2026 Rates",
+          "desc": "Integra (1.55%), Habitat (1.47%), Prima (1.60%), Profuturo (1.69%). Also ONP at 13% if applicable."
         },
         "2": {
-          "title": "Attendance & Time Off",
-          "desc": "Track work hours, manage PTO requests, handle sick days and holidays."
+          "title": "3 Labor Regimes",
+          "desc": "General Regime (100%), Small Business (50% CTS/Grat), Microenterprise (no CTS/Grat). Calculates per case."
         },
         "3": {
-          "title": "Document Management",
-          "desc": "Digital document signing, storage, and compliance tracking."
+          "title": "Auto CTS & Gratificaciones",
+          "desc": "CTS in May and November, gratificaciones in July and December. All calculated automatically."
         },
         "4": {
-          "title": "Employee Self-Service Portal",
-          "desc": "Employees view payslips, request time off, access documents, and complete surveys."
+          "title": "5ta Categoría SUNAT",
+          "desc": "Calculates income tax with current brackets (8% to 30%) and applies the 7 UIT exemption."
         },
         "5": {
-          "title": "Performance Reviews",
-          "desc": "Structured review cycles with self-assessments, manager evaluations, and 360-degree peer feedback."
+          "title": "Employee Portal",
+          "desc": "Employees view payslips, request time off, access documents, and complete surveys."
         },
         "6": {
-          "title": "Recruitment & Onboarding",
-          "desc": "Post jobs, track candidates through the hiring pipeline, and onboard new hires with task checklists."
+          "title": "360° Reviews",
+          "desc": "Review cycles with self-assessments, manager feedback, and peer evaluations."
         },
         "7": {
-          "title": "Contractor Management",
-          "desc": "Handle contractor records, tax forms (1099), and payment tracking."
+          "title": "Contractors (4ta Categoría)",
+          "desc": "Manage independent contractors: records, fee receipts, and tax forms."
         }
       }
     },
     "projects": {
       "title": "Project & Client Management",
-      "description": "From signed contracts to delivered projects. Track milestones, manage tasks, log time, and give clients full visibility through a branded portal.",
+      "description": "Health semaphore (🔵🟢🟡🔴), GitHub and Sentry integration, billable time tracking, and monthly reports with AI-generated narratives.",
       "features": {
         "0": {
-          "title": "Project Tracking",
-          "desc": "Health dashboards, milestones, and deliverable tracking per project."
+          "title": "Health Semaphore",
+          "desc": "🔵 New, 🟢 On Track, 🟡 At Risk, 🔴 Critical. Know instantly which projects need attention."
         },
         "1": {
-          "title": "Task Management",
-          "desc": "Create tasks, assign team members, integrate with GitHub and Sentry."
+          "title": "GitHub & Sentry",
+          "desc": "Link tasks to GitHub issues and Sentry errors. Your dev team works without switching tools."
         },
         "2": {
           "title": "Time Tracking",
-          "desc": "Log billable and non-billable hours per task and project."
+          "desc": "Team logs hours per task. Distinguish between billable and non-billable hours."
         },
         "3": {
           "title": "Client Portal",
-          "desc": "Clients can view project progress, approve milestones, and access documents."
+          "desc": "Clients view progress, approve milestones, and access documents — all without calling you."
         },
         "4": {
-          "title": "Visual Feedback & Annotations",
-          "desc": "Clients leave point-and-click feedback directly on deliverables, linked to tasks for resolution."
+          "title": "Visual Feedback",
+          "desc": "Clients click directly on deliverables to leave feedback. Automatically becomes a task."
         },
         "5": {
-          "title": "AI-Powered Reports",
-          "desc": "Generate monthly project reports with AI-written summaries covering progress, risks, and milestones."
+          "title": "AI Reports",
+          "desc": "Generate monthly reports with executive summary, highlights, risks, and recommendations — all AI-written."
         }
       }
     }
