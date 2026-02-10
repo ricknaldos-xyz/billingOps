@@ -674,52 +674,83 @@
       "ctaSubtitle": "Track milestones, manage tasks, and keep clients in the loop — all in one place."
     }
   },
+  "modules": {
+    "operations": "Billing",
+    "finance": "Accounting",
+    "hr": "Payroll",
+    "projects": "Projects"
+  },
   "pricing": {
     "sectionLabel": "Pricing",
-    "sectionTitle": "Simple, Transparent Pricing",
-    "sectionSubtitle": "Choose the plan that fits your business. No hidden fees. Cancel anytime.",
+    "sectionTitle": "Pay Only for What You Use",
+    "sectionSubtitle": "Choose the modules you need. Add more as you grow. No hidden fees.",
+    "modulesAvailable": "4 modules available — choose what you need",
     "monthly": "Monthly",
     "annual": "Annual",
-    "annualSave": "Save 15%",
+    "annualSave": "Save 17%",
     "perMonth": "/mo",
+    "perModule": "+ ${price}/mo per additional module",
     "perEmployee": "+ ${price}/employee/mo beyond 15 included",
+    "chooseModules": "Choose 2 modules",
+    "allModulesIncluded": "All 4 modules included",
+    "popularCombos": "Popular combinations",
     "guarantee": "14-day free trial on all plans. No credit card required.",
     "starter": {
       "name": "Starter",
-      "description": "For freelancers and small teams getting started with billing automation."
+      "description": "Choose 2 modules to get started. Add more when you need them."
     },
-    "professional": {
-      "name": "Professional",
-      "description": "For growing businesses that need full operations, accounting, and HR.",
+    "growth": {
+      "name": "Growth",
+      "description": "All modules, unlimited users, and priority support for growing businesses.",
       "badge": "Most Popular"
     },
     "enterprise": {
       "name": "Enterprise",
-      "description": "For large organizations with custom requirements and dedicated support.",
+      "description": "For large organizations that need API, ERP integrations, and dedicated support.",
       "price": "Custom"
     },
     "features": {
-      "singleOrg": "1 Organization",
-      "basicAccounting": "Basic accounting & reports",
-      "invoicing": "Invoicing & payment links",
-      "upTo10Users": "Up to 10 users",
+      "twoModules": "2 modules of your choice",
+      "simpleOnboarding": "Guided setup",
+      "simpleUsers": "5 users included",
+      "simpleEmployees": "10 employees in payroll",
+      "simpleOrg": "1 organization",
+      "simpleReports": "Basic reports",
       "emailSupport": "Email support",
-      "multiOrg": "Unlimited organizations",
-      "fullAccounting": "Full double-entry accounting (PCGE & US GAAP)",
-      "invoicingPayments": "Invoicing, payments & dunning automation",
-      "unlimitedClients": "Unlimited clients & projects",
-      "hrPayroll": "HR & Payroll (Peru + USA)",
-      "includedEmployees": "15 employees included",
-      "financialReports": "All financial reports & dashboards",
-      "dataMigration": "Assisted data migration",
+      "allModules": "All 4 modules included",
+      "simpleIntegration": "Modules 100% integrated",
+      "simpleUnlimitedUsers": "Unlimited users",
+      "simpleIncludedEmployees": "15 employees included",
+      "simpleUnlimitedOrgs": "Unlimited organizations",
+      "simpleAllReports": "All financial reports",
+      "simpleDataMigration": "Assisted data migration",
       "prioritySupport": "Priority support",
-      "everythingPro": "Everything in Professional",
-      "unlimitedEmployees": "Unlimited employees",
-      "apiAccess": "API access & webhooks",
+      "simpleEverythingGrowth": "Everything in Growth",
+      "simpleUnlimitedEmployees": "Unlimited employees",
+      "apiAccess": "API & webhooks",
       "customIntegrations": "Custom integrations",
+      "simpleErpIntegrations": "SAP, Odoo, QuickBooks integration",
       "dedicatedManager": "Dedicated account manager",
       "sla": "99.9% uptime SLA",
-      "onboarding": "White-glove onboarding & migration"
+      "simpleOnboardingWhiteGlove": "White-glove onboarding"
+    },
+    "bundles": {
+      "billing-pro": {
+        "name": "Billing Pro",
+        "modules": "Billing + Accounting"
+      },
+      "team-management": {
+        "name": "Team Management",
+        "modules": "Payroll + Projects"
+      },
+      "consulting": {
+        "name": "Consulting",
+        "modules": "Billing + Projects"
+      },
+      "back-office": {
+        "name": "Back Office",
+        "modules": "Accounting + Payroll"
+      }
     },
     "cta": "Start Free Trial",
     "ctaEnterprise": "Contact Sales"

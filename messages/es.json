@@ -229,52 +229,83 @@
     "apiNote": "API disponible para conectar con tus propios sistemas (planes Enterprise).",
     "erpLabel": "Integraciones con ERPs (Enterprise)"
   },
+  "modules": {
+    "operations": "Facturación",
+    "finance": "Contabilidad",
+    "hr": "Planilla",
+    "projects": "Proyectos"
+  },
   "pricing": {
     "sectionLabel": "Planes",
-    "sectionTitle": "Planes Claros, Sin Sorpresas",
-    "sectionSubtitle": "Elige el plan que se ajuste a tu empresa. Sin costos ocultos. Cancela cuando quieras.",
+    "sectionTitle": "Paga Solo por lo que Usas",
+    "sectionSubtitle": "Elige los módulos que necesitas. Agrega más cuando crezcas. Sin costos ocultos.",
+    "modulesAvailable": "4 módulos disponibles — elige los que necesites",
     "monthly": "Mensual",
     "annual": "Anual",
-    "annualSave": "Ahorra 15%",
+    "annualSave": "Ahorra 17%",
     "perMonth": "/mes",
+    "perModule": "+ ${price}/mes por módulo adicional",
     "perEmployee": "+ ${price}/colaborador/mes adicional a los 15 incluidos",
+    "chooseModules": "Elige 2 módulos",
+    "allModulesIncluded": "Los 4 módulos incluidos",
+    "popularCombos": "Combos más elegidos",
     "guarantee": "Prueba gratis por 14 días en todos los planes. Sin poner tarjeta.",
     "starter": {
       "name": "Starter",
-      "description": "Para freelancers y equipos pequeños que quieren ordenar su facturación."
+      "description": "Elige 2 módulos para empezar. Agrega más cuando los necesites."
     },
-    "professional": {
-      "name": "Professional",
-      "description": "Para empresas en crecimiento que necesitan contabilidad, planilla y gestión completa.",
+    "growth": {
+      "name": "Growth",
+      "description": "Todos los módulos, usuarios ilimitados y soporte prioritario para empresas en crecimiento.",
       "badge": "El más elegido"
     },
     "enterprise": {
       "name": "Enterprise",
-      "description": "Para organizaciones grandes que necesitan configuraciones a medida y soporte dedicado.",
+      "description": "Para organizaciones grandes que necesitan API, integraciones ERP y soporte dedicado.",
       "price": "Conversemos"
     },
     "features": {
-      "singleOrg": "1 empresa",
-      "basicAccounting": "Contabilidad básica y reportes",
-      "invoicing": "Facturación electrónica y links de pago",
-      "upTo10Users": "Hasta 10 usuarios",
+      "twoModules": "2 módulos a tu elección",
+      "simpleOnboarding": "Configuración guiada",
+      "simpleUsers": "5 usuarios incluidos",
+      "simpleEmployees": "10 colaboradores en planilla",
+      "simpleOrg": "1 empresa",
+      "simpleReports": "Reportes básicos",
       "emailSupport": "Soporte por correo",
-      "multiOrg": "Empresas ilimitadas",
-      "fullAccounting": "Contabilidad completa con PCGE (y US GAAP si lo necesitas)",
-      "invoicingPayments": "Facturación, cobros y recordatorios automáticos",
-      "unlimitedClients": "Clientes y proyectos ilimitados",
-      "hrPayroll": "Planilla completa (Perú + EE.UU.)",
-      "includedEmployees": "15 colaboradores incluidos",
-      "financialReports": "Todos los reportes financieros",
-      "dataMigration": "Te ayudamos a migrar tus datos",
+      "allModules": "Los 4 módulos incluidos",
+      "simpleIntegration": "Módulos 100% integrados entre sí",
+      "simpleUnlimitedUsers": "Usuarios ilimitados",
+      "simpleIncludedEmployees": "15 colaboradores incluidos",
+      "simpleUnlimitedOrgs": "Empresas ilimitadas",
+      "simpleAllReports": "Todos los reportes financieros",
+      "simpleDataMigration": "Te ayudamos a migrar tus datos",
       "prioritySupport": "Soporte prioritario",
-      "everythingPro": "Todo lo de Professional",
-      "unlimitedEmployees": "Colaboradores ilimitados",
-      "apiAccess": "API y webhooks para conectar tus sistemas",
+      "simpleEverythingGrowth": "Todo lo de Growth",
+      "simpleUnlimitedEmployees": "Colaboradores ilimitados",
+      "apiAccess": "API y webhooks",
       "customIntegrations": "Integraciones a medida",
+      "simpleErpIntegrations": "Integración con SAP, Odoo, QuickBooks",
       "dedicatedManager": "Ejecutivo de cuenta dedicado",
       "sla": "Disponibilidad garantizada 99.9%",
-      "onboarding": "Implementación y migración personalizada"
+      "simpleOnboardingWhiteGlove": "Implementación personalizada"
+    },
+    "bundles": {
+      "billing-pro": {
+        "name": "Facturación Pro",
+        "modules": "Facturación + Contabilidad"
+      },
+      "team-management": {
+        "name": "Gestión de Equipo",
+        "modules": "Planilla + Proyectos"
+      },
+      "consulting": {
+        "name": "Consultoría",
+        "modules": "Facturación + Proyectos"
+      },
+      "back-office": {
+        "name": "Back Office",
+        "modules": "Contabilidad + Planilla"
+      }
     },
     "cta": "Empieza tu Prueba Gratis",
     "ctaEnterprise": "Conversemos"

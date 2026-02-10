@@ -4,16 +4,47 @@ import { useState } from 'react'
 import { useTranslations } from 'next-intl'
 import { Link } from '@/i18n/navigation'
 import { motion } from 'framer-motion'
-import { Check, X, ArrowRight } from 'lucide-react'
-import { PRICING_TIERS } from '@/lib/constants'
+import {
+  Check,
+  ArrowRight,
+  FileText,
+  Calculator,
+  Users,
+  FolderKanban,
+  Receipt,
+  UsersRound,
+  Briefcase,
+  Building2,
+  Sparkles,
+} from 'lucide-react'
+import { PRICING_TIERS, MODULES, MODULE_BUNDLES } from '@/lib/constants'
 import { cn } from '@/lib/utils'
+
+const iconMap: Record<string, React.ElementType> = {
+  FileText,
+  Calculator,
+  Users,
+  FolderKanban,
+  Receipt,
+  UsersRound,
+  Briefcase,
+  Building2,
+}
+
+const colorMap: Record<string, string> = {
+  blue: 'bg-blue-100 text-blue-600 border-blue-200',
+  green: 'bg-green-100 text-green-600 border-green-200',
+  purple: 'bg-purple-100 text-purple-600 border-purple-200',
+  orange: 'bg-orange-100 text-orange-600 border-orange-200',
+}
 
 export function Pricing() {
   const t = useTranslations('pricing')
+  const tModules = useTranslations('modules')
   const [annual, setAnnual] = useState(false)
 
   return (
-    <section id="pricing" className="bg-white py-24 sm:py-32">
+    <section id="pricing" className="bg-slate-50 py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6">
         {/* Header */}
         <motion.div
@@ -32,6 +63,38 @@ export function Pricing() {
           <p className="mt-4 text-lg text-slate-600">
             {t('sectionSubtitle')}
           </p>
+        </motion.div>
+
+        {/* Module showcase */}
+        <motion.div
+          className="mx-auto mt-12 max-w-3xl"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, delay: 0.1 }}
+        >
+          <p className="text-center text-sm font-medium text-slate-500 mb-4">
+            {t('modulesAvailable')}
+          </p>
+          <div className="flex flex-wrap justify-center gap-3">
+            {MODULES.map((mod) => {
+              const Icon = iconMap[mod.icon]
+              return (
+                <div
+                  key={mod.id}
+                  className={cn(
+                    'flex items-center gap-2 rounded-full border px-4 py-2',
+                    colorMap[mod.color]
+                  )}
+                >
+                  <Icon className="h-4 w-4" />
+                  <span className="text-sm font-medium">
+                    {tModules(mod.id)}
+                  </span>
+                </div>
+              )
+            })}
+          </div>
         </motion.div>
 
         {/* Toggle */}
@@ -78,11 +141,12 @@ export function Pricing() {
           )}
         </div>
 
-        {/* Cards */}
+        {/* Pricing Cards */}
         <div className="mt-12 grid gap-6 lg:grid-cols-3">
           {PRICING_TIERS.map((tier, index) => {
             const price = annual ? tier.annualPrice : tier.monthlyPrice
             const isEnterprise = tier.id === 'enterprise'
+            const isStarter = tier.id === 'starter'
 
             return (
               <motion.div
@@ -90,7 +154,7 @@ export function Pricing() {
                 className={cn(
                   'relative flex flex-col rounded-3xl border p-8',
                   tier.highlighted
-                    ? 'border-primary/30 bg-gradient-to-b from-primary/[0.03] to-white shadow-xl shadow-primary/10 ring-1 ring-primary/10'
+                    ? 'border-primary/30 bg-white shadow-xl shadow-primary/10 ring-1 ring-primary/10'
                     : 'border-slate-200 bg-white'
                 )}
                 initial={{ opacity: 0, y: 20 }}
@@ -115,7 +179,7 @@ export function Pricing() {
                   </p>
                 </div>
 
-                <div className="mt-8 border-b border-slate-100 pb-8">
+                <div className="mt-6 border-b border-slate-100 pb-6">
                   {isEnterprise ? (
                     <div>
                       <span className="font-display text-4xl font-bold text-slate-900">
@@ -132,16 +196,77 @@ export function Pricing() {
                           {t('perMonth')}
                         </span>
                       </div>
-                      {tier.perEmployee > 0 && (
+                      {isStarter && tier.additionalModulePrice > 0 && (
                         <p className="mt-2 text-sm text-slate-500">
-                          {t('perEmployee', { price: tier.perEmployee })}
+                          {t('perModule', { price: tier.additionalModulePrice })}
+                        </p>
+                      )}
+                      {'employeePrice' in tier && tier.employeePrice > 0 && (
+                        <p className="mt-2 text-sm text-slate-500">
+                          {t('perEmployee', { price: tier.employeePrice })}
                         </p>
                       )}
                     </div>
                   )}
                 </div>
 
-                <ul className="mt-8 flex-1 space-y-3.5">
+                {/* Module indicator for Starter */}
+                {isStarter && (
+                  <div className="mt-6 rounded-xl bg-slate-50 p-4">
+                    <p className="text-xs font-semibold uppercase tracking-wider text-slate-400 mb-3">
+                      {t('chooseModules')}
+                    </p>
+                    <div className="grid grid-cols-2 gap-2">
+                      {MODULES.map((mod) => {
+                        const Icon = iconMap[mod.icon]
+                        return (
+                          <div
+                            key={mod.id}
+                            className="flex items-center gap-2 rounded-lg border border-slate-200 bg-white px-3 py-2"
+                          >
+                            <Icon className="h-4 w-4 text-slate-400" />
+                            <span className="text-xs text-slate-600">
+                              {tModules(mod.id)}
+                            </span>
+                          </div>
+                        )
+                      })}
+                    </div>
+                  </div>
+                )}
+
+                {/* All modules indicator for Growth */}
+                {tier.id === 'growth' && (
+                  <div className="mt-6 rounded-xl bg-primary/5 p-4">
+                    <div className="flex items-center gap-2 mb-3">
+                      <Sparkles className="h-4 w-4 text-primary" />
+                      <p className="text-xs font-semibold uppercase tracking-wider text-primary">
+                        {t('allModulesIncluded')}
+                      </p>
+                    </div>
+                    <div className="flex flex-wrap gap-2">
+                      {MODULES.map((mod) => {
+                        const Icon = iconMap[mod.icon]
+                        return (
+                          <div
+                            key={mod.id}
+                            className={cn(
+                              'flex items-center gap-1.5 rounded-full border px-2.5 py-1',
+                              colorMap[mod.color]
+                            )}
+                          >
+                            <Icon className="h-3 w-3" />
+                            <span className="text-xs font-medium">
+                              {tModules(mod.id)}
+                            </span>
+                          </div>
+                        )
+                      })}
+                    </div>
+                  </div>
+                )}
+
+                <ul className="mt-6 flex-1 space-y-3">
                   {tier.features.map((featureKey) => (
                     <li key={featureKey} className="flex items-start gap-3">
                       <Check
@@ -174,9 +299,43 @@ export function Pricing() {
           })}
         </div>
 
+        {/* Bundles suggestion */}
+        <motion.div
+          className="mt-16 mx-auto max-w-4xl"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+        >
+          <p className="text-center text-sm font-semibold uppercase tracking-wider text-slate-400 mb-6">
+            {t('popularCombos')}
+          </p>
+          <div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
+            {MODULE_BUNDLES.map((bundle) => {
+              const Icon = iconMap[bundle.icon]
+              return (
+                <div
+                  key={bundle.id}
+                  className="flex flex-col items-center rounded-2xl border border-slate-200 bg-white p-4 text-center hover:border-primary/30 hover:shadow-md transition-all"
+                >
+                  <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-slate-100 mb-3">
+                    <Icon className="h-5 w-5 text-slate-600" />
+                  </div>
+                  <p className="text-sm font-semibold text-slate-900">
+                    {t(`bundles.${bundle.id}.name`)}
+                  </p>
+                  <p className="mt-1 text-xs text-slate-500">
+                    {t(`bundles.${bundle.id}.modules`)}
+                  </p>
+                </div>
+              )
+            })}
+          </div>
+        </motion.div>
+
         {/* Guarantee note */}
         <motion.p
-          className="mt-10 text-center text-sm text-slate-400"
+          className="mt-12 text-center text-sm text-slate-400"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
