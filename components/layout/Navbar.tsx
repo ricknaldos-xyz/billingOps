@@ -1,11 +1,12 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useTranslations } from 'next-intl'
 import { Link, usePathname, useRouter } from '@/i18n/navigation'
 import { useLocale } from 'next-intl'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Menu, X, Globe } from 'lucide-react'
+import { cn } from '@/lib/utils'
 
 export function Navbar() {
   const t = useTranslations('nav')
@@ -13,6 +14,13 @@ export function Navbar() {
   const pathname = usePathname()
   const router = useRouter()
   const [mobileOpen, setMobileOpen] = useState(false)
+  const [scrolled, setScrolled] = useState(false)
+
+  useEffect(() => {
+    const handler = () => setScrolled(window.scrollY > 20)
+    window.addEventListener('scroll', handler, { passive: true })
+    return () => window.removeEventListener('scroll', handler)
+  }, [])
 
   const toggleLocale = () => {
     const next = locale === 'en' ? 'es' : 'en'
@@ -26,11 +34,16 @@ export function Navbar() {
   ]
 
   return (
-    <header className="sticky top-0 z-50 border-b border-slate-100 bg-white/80 backdrop-blur-lg">
+    <header className={cn(
+      'sticky top-0 z-50 transition-all duration-300',
+      scrolled
+        ? 'border-b border-slate-200/60 bg-white/90 shadow-sm shadow-slate-900/[0.03] backdrop-blur-xl'
+        : 'bg-white/80 backdrop-blur-lg'
+    )}>
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
-          <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary">
+          <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-primary to-primary-light shadow-sm shadow-primary/20">
             <span className="text-sm font-bold text-white">B</span>
           </div>
           <span className="font-display text-xl font-semibold text-slate-900">
@@ -69,7 +82,7 @@ export function Navbar() {
           </button>
           <Link
             href="/demo"
-            className="rounded-xl bg-primary px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-primary-dark"
+            className="rounded-xl bg-gradient-to-r from-primary to-primary-light px-5 py-2.5 text-sm font-medium text-white shadow-sm shadow-primary/20 transition-all hover:shadow-md hover:shadow-primary/30 hover:-translate-y-px"
           >
             {t('requestDemo')}
           </Link>
@@ -128,7 +141,7 @@ export function Navbar() {
               </button>
               <Link
                 href="/demo"
-                className="mt-2 block rounded-xl bg-primary px-5 py-2.5 text-center text-sm font-medium text-white"
+                className="mt-2 block rounded-xl bg-gradient-to-r from-primary to-primary-light px-5 py-2.5 text-center text-sm font-medium text-white"
                 onClick={() => setMobileOpen(false)}
               >
                 {t('requestDemo')}

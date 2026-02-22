@@ -26,7 +26,7 @@ export function Testimonials() {
   const t = useTranslations('testimonials')
 
   return (
-    <section className="bg-slate-50 py-24 sm:py-32">
+    <section className="bg-gradient-to-br from-slate-50 via-purple-50/20 to-slate-50 py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6">
         <motion.div
           className="mx-auto max-w-2xl text-center"
@@ -48,13 +48,17 @@ export function Testimonials() {
           {TESTIMONIALS.map((item, index) => (
             <motion.div
               key={item.id}
-              className="relative rounded-2xl border border-slate-200 bg-white p-8"
+              className="group relative overflow-hidden rounded-2xl border border-slate-200/80 bg-white p-8 transition-all duration-300 hover:border-primary/20 hover:shadow-xl hover:shadow-primary/[0.05]"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.4, delay: index * 0.1 }}
+              transition={{ duration: 0.4, delay: index * 0.15 }}
+              whileHover={{ y: -4 }}
             >
-              <Quote className="absolute top-6 right-6 h-8 w-8 text-slate-100" />
+              {/* Gradient accent bar on hover */}
+              <div className="absolute inset-x-0 top-0 h-0.5 bg-gradient-to-r from-primary/0 via-primary/40 to-primary/0 opacity-0 transition-opacity group-hover:opacity-100" />
+
+              <Quote className="absolute top-6 right-6 h-10 w-10 text-slate-100 transition-colors group-hover:text-primary/10" />
 
               {/* Stars */}
               <div className="flex gap-0.5">
@@ -74,7 +78,7 @@ export function Testimonials() {
               {/* Author */}
               <div className="mt-6 flex items-center gap-3 border-t border-slate-100 pt-6">
                 <div
-                  className={`flex h-10 w-10 items-center justify-center rounded-full text-sm font-bold ${item.color}`}
+                  className={`flex h-11 w-11 items-center justify-center rounded-full text-sm font-bold ring-2 ring-white shadow-sm ${item.color}`}
                 >
                   {item.avatar}
                 </div>

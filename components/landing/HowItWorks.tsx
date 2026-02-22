@@ -15,8 +15,9 @@ export function HowItWorks() {
   const t = useTranslations('howItWorks')
 
   return (
-    <section className="bg-slate-50 py-24 sm:py-32">
-      <div className="mx-auto max-w-7xl px-6">
+    <section className="relative overflow-hidden bg-gradient-to-b from-slate-50 to-white py-24 sm:py-32">
+      <div className="absolute inset-0 dot-pattern opacity-30" />
+      <div className="relative mx-auto max-w-7xl px-6">
         <motion.div
           className="mx-auto max-w-2xl text-center"
           initial={{ opacity: 0, y: 20 }}
@@ -44,23 +45,40 @@ export function HowItWorks() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.4, delay: index * 0.1 }}
               >
-                {/* Step number */}
-                <div className="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-primary text-white shadow-lg shadow-primary/25">
-                  <Icon className="h-6 w-6" />
-                </div>
-                <div className="mb-2 text-xs font-bold uppercase tracking-wider text-primary">
+                {/* Watermark number */}
+                <div className="pointer-events-none absolute top-0 left-1/2 -translate-x-1/2 -translate-y-2 select-none font-display text-7xl font-bold text-slate-100">
                   {String(index + 1).padStart(2, '0')}
                 </div>
-                <h3 className="font-display text-lg font-semibold text-slate-900">
-                  {t(`${step.key}.title`)}
-                </h3>
-                <p className="mt-2 text-sm leading-relaxed text-slate-500">
-                  {t(`${step.key}.description`)}
-                </p>
 
-                {/* Connector line (hidden on last and mobile) */}
+                {/* Icon */}
+                <div className="relative mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-primary to-primary-light text-white shadow-lg shadow-primary/25 transition-transform hover:scale-110">
+                  <Icon className="h-7 w-7" />
+                </div>
+
+                <div className="relative">
+                  <div className="mb-2 text-xs font-bold uppercase tracking-wider text-primary">
+                    {String(index + 1).padStart(2, '0')}
+                  </div>
+                  <h3 className="font-display text-lg font-semibold text-slate-900">
+                    {t(`${step.key}.title`)}
+                  </h3>
+                  <p className="mt-2 text-sm leading-relaxed text-slate-500">
+                    {t(`${step.key}.description`)}
+                  </p>
+                </div>
+
+                {/* Dashed connector line */}
                 {index < steps.length - 1 && (
-                  <div className="absolute right-0 top-7 hidden h-px w-8 translate-x-full bg-slate-300 lg:block" />
+                  <div className="absolute right-0 top-7 hidden translate-x-full lg:block">
+                    <svg width="32" height="2" className="text-primary/30">
+                      <line
+                        x1="0" y1="1" x2="32" y2="1"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeDasharray="4 4"
+                      />
+                    </svg>
+                  </div>
                 )}
               </motion.div>
             )

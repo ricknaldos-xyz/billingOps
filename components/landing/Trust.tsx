@@ -17,7 +17,7 @@ export function Trust() {
   const t = useTranslations('trust')
 
   return (
-    <section className="border-y border-slate-100 bg-slate-50/50 py-24 sm:py-32">
+    <section className="relative border-y border-slate-100 bg-gradient-to-b from-white to-slate-50/50 py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6">
         <motion.div
           className="mx-auto max-w-2xl text-center"
@@ -41,20 +41,21 @@ export function Trust() {
             return (
               <motion.div
                 key={badge.key}
-                className="flex items-start gap-4 rounded-2xl border border-slate-200 bg-white p-6"
+                className="group flex items-start gap-4 rounded-2xl border border-slate-200/80 bg-white p-6 transition-all duration-300 hover:border-primary/15 hover:shadow-lg hover:shadow-primary/[0.04]"
                 initial={{ opacity: 0, y: 16 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.3, delay: index * 0.05 }}
+                whileHover={{ y: -2 }}
               >
-                <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-primary/10">
+                <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-primary/10 to-primary/5 transition-colors group-hover:from-primary/15 group-hover:to-primary/10">
                   <Icon className="h-5 w-5 text-primary" />
                 </div>
                 <div>
-                  <h3 className="font-medium text-slate-900">
+                  <h3 className="font-semibold text-slate-900">
                     {t(`${badge.key}.title`)}
                   </h3>
-                  <p className="mt-1 text-sm leading-relaxed text-slate-500">
+                  <p className="mt-1.5 text-sm leading-relaxed text-slate-500">
                     {t(`${badge.key}.description`)}
                   </p>
                 </div>

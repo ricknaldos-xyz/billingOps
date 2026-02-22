@@ -4,8 +4,11 @@
   --color-primary: #0817c6;
   --color-primary-light: #3b4de8;
   --color-primary-dark: #050f8a;
+  --color-primary-50: #eef0ff;
+  --color-primary-100: #d9deff;
   --color-accent: #06b6d4;
   --color-accent-light: #22d3ee;
+  --color-accent-50: #ecfeff;
   --color-surface: #f8fafc;
   --color-surface-dark: #0f172a;
   --color-muted: #64748b;
@@ -25,4 +28,39 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-display);
+}
+
+/* Noise texture overlay */
+.noise-bg::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  opacity: 0.03;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Dot grid pattern */
+.dot-pattern {
+  background-image: radial-gradient(circle, rgba(8, 23, 198, 0.06) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Grid line pattern */
+.grid-pattern {
+  background-image:
+    linear-gradient(rgba(8, 23, 198, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(8, 23, 198, 0.03) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+/* Glow pulse for CTAs */
+@keyframes glow-pulse {
+  0%, 100% { box-shadow: 0 0 20px rgba(8, 23, 198, 0.15), 0 4px 12px rgba(8, 23, 198, 0.2); }
+  50% { box-shadow: 0 0 30px rgba(8, 23, 198, 0.25), 0 4px 16px rgba(8, 23, 198, 0.3); }
+}
+
+.cta-glow {
+  animation: glow-pulse 3s ease-in-out infinite;
 }
