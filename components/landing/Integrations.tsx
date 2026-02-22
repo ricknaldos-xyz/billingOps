@@ -26,8 +26,9 @@ export function Integrations() {
   const t = useTranslations('integrations')
 
   return (
-    <section className="bg-white py-24 sm:py-32">
-      <div className="mx-auto max-w-7xl px-6">
+    <section className="relative overflow-hidden bg-white py-24 sm:py-32">
+      <div className="absolute inset-0 grid-pattern opacity-30" />
+      <div className="relative mx-auto max-w-7xl px-6">
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-20">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -63,11 +64,12 @@ export function Integrations() {
               {NATIVE_INTEGRATIONS.map((integration) => (
                 <motion.div
                   key={integration.name}
-                  className="flex flex-col items-center gap-2 rounded-2xl border border-slate-100 bg-white p-5 shadow-sm transition-all hover:border-primary/20 hover:shadow-md"
-                  whileHover={{ y: -4 }}
+                  className="flex flex-col items-center gap-2.5 rounded-2xl border border-slate-100 bg-white p-5 shadow-sm transition-all duration-300 hover:border-primary/20 hover:shadow-lg hover:shadow-primary/[0.05]"
+                  whileHover={{ y: -6, scale: 1.02 }}
+                  transition={{ type: 'spring', stiffness: 300, damping: 20 }}
                 >
                   <div
-                    className={`flex h-12 w-12 items-center justify-center rounded-xl text-sm font-bold ${integration.color}`}
+                    className={`flex h-14 w-14 items-center justify-center rounded-xl text-sm font-bold shadow-sm transition-shadow group-hover:shadow-md ${integration.color}`}
                   >
                     {integration.initials}
                   </div>
@@ -86,8 +88,9 @@ export function Integrations() {
                 {ERP_INTEGRATIONS.map((integration) => (
                   <motion.div
                     key={integration.name}
-                    className="flex flex-col items-center gap-2 rounded-2xl border border-dashed border-slate-200 bg-slate-50/50 p-4 transition-all hover:border-primary/30 hover:bg-white hover:shadow-sm"
-                    whileHover={{ y: -4 }}
+                    className="flex flex-col items-center gap-2 rounded-2xl border border-dashed border-slate-200 bg-slate-50/50 p-4 transition-all duration-300 hover:border-primary/30 hover:bg-white hover:shadow-md"
+                    whileHover={{ y: -4, scale: 1.02 }}
+                    transition={{ type: 'spring', stiffness: 300, damping: 20 }}
                   >
                     <div
                       className={`flex h-10 w-10 items-center justify-center rounded-lg text-xs font-bold ${integration.color}`}

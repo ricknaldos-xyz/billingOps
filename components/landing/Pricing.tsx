@@ -44,8 +44,9 @@ export function Pricing() {
   const [annual, setAnnual] = useState(false)
 
   return (
-    <section id="pricing" className="bg-slate-50 py-24 sm:py-32">
-      <div className="mx-auto max-w-7xl px-6">
+    <section id="pricing" className="relative overflow-hidden bg-slate-50 py-24 sm:py-32">
+      <div className="absolute inset-0 dot-pattern opacity-30" />
+      <div className="relative mx-auto max-w-7xl px-6">
         {/* Header */}
         <motion.div
           className="mx-auto max-w-2xl text-center"
@@ -97,44 +98,33 @@ export function Pricing() {
           </div>
         </motion.div>
 
-        {/* Toggle */}
-        <div className="mt-10 flex items-center justify-center gap-3">
-          <span
-            className={cn(
-              'text-sm font-medium transition-colors',
-              !annual ? 'text-slate-900' : 'text-slate-400'
-            )}
-          >
-            {t('monthly')}
-          </span>
-          <button
-            onClick={() => setAnnual(!annual)}
-            className={cn(
-              'relative inline-flex h-7 w-12 items-center rounded-full transition-colors',
-              annual ? 'bg-primary' : 'bg-slate-300'
-            )}
-            aria-label="Toggle billing period"
-          >
-            <span
+        {/* Pill-style toggle */}
+        <div className="mt-10 flex items-center justify-center">
+          <div className="inline-flex items-center rounded-full border border-slate-200 bg-white p-1 shadow-sm">
+            <button
+              onClick={() => setAnnual(false)}
               className={cn(
-                'inline-block h-5 w-5 rounded-full bg-white shadow transition-transform',
-                annual ? 'translate-x-6' : 'translate-x-1'
+                'rounded-full px-6 py-2.5 text-sm font-medium transition-all',
+                !annual ? 'bg-primary text-white shadow-sm' : 'text-slate-600 hover:text-slate-900'
               )}
-            />
-          </button>
-          <span
-            className={cn(
-              'text-sm font-medium transition-colors',
-              annual ? 'text-slate-900' : 'text-slate-400'
-            )}
-          >
-            {t('annual')}
-          </span>
+            >
+              {t('monthly')}
+            </button>
+            <button
+              onClick={() => setAnnual(true)}
+              className={cn(
+                'rounded-full px-6 py-2.5 text-sm font-medium transition-all',
+                annual ? 'bg-primary text-white shadow-sm' : 'text-slate-600 hover:text-slate-900'
+              )}
+            >
+              {t('annual')}
+            </button>
+          </div>
           {annual && (
             <motion.span
-              initial={{ opacity: 0, scale: 0.9 }}
-              animate={{ opacity: 1, scale: 1 }}
-              className="rounded-full bg-green-100 px-3 py-1 text-xs font-semibold text-green-700"
+              initial={{ opacity: 0, x: -10 }}
+              animate={{ opacity: 1, x: 0 }}
+              className="ml-3 rounded-full bg-green-100 px-3 py-1 text-xs font-semibold text-green-700"
             >
               {t('annualSave')}
             </motion.span>
@@ -154,8 +144,8 @@ export function Pricing() {
                 className={cn(
                   'relative flex flex-col rounded-3xl border p-8',
                   tier.highlighted
-                    ? 'border-primary/30 bg-white shadow-xl shadow-primary/10 ring-1 ring-primary/10'
-                    : 'border-slate-200 bg-white'
+                    ? 'z-10 scale-[1.02] border-primary/20 bg-gradient-to-b from-white via-white to-primary-50/30 shadow-2xl shadow-primary/15 ring-2 ring-primary/20'
+                    : 'border-slate-200 bg-white transition-all hover:border-slate-300 hover:shadow-lg'
                 )}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -163,11 +153,19 @@ export function Pricing() {
                 transition={{ duration: 0.4, delay: index * 0.1 }}
               >
                 {tier.highlighted && (
-                  <div className="absolute -top-3.5 left-1/2 -translate-x-1/2">
-                    <span className="rounded-full bg-primary px-4 py-1.5 text-xs font-semibold text-white shadow-lg shadow-primary/25">
-                      {t(`${tier.id}.badge`)}
-                    </span>
-                  </div>
+                  <>
+                    {/* Gradient top stripe */}
+                    <div className="absolute inset-x-0 top-0 h-1 rounded-t-3xl bg-gradient-to-r from-primary via-primary-light to-accent" />
+                    {/* Glow behind */}
+                    <div className="absolute -top-4 left-1/2 -translate-x-1/2 h-32 w-3/4 rounded-full bg-primary/[0.06] blur-3xl" />
+                    {/* Badge */}
+                    <div className="absolute -top-4 left-1/2 -translate-x-1/2">
+                      <span className="inline-flex items-center gap-1.5 rounded-full bg-gradient-to-r from-primary to-primary-light px-5 py-2 text-xs font-semibold text-white shadow-lg shadow-primary/30">
+                        <Sparkles className="h-3.5 w-3.5" />
+                        {t(`${tier.id}.badge`)}
+                      </span>
+                    </div>
+                  </>
                 )}
 
                 <div>
@@ -189,7 +187,7 @@ export function Pricing() {
                   ) : (
                     <div>
                       <div className="flex items-baseline gap-1">
-                        <span className="font-display text-5xl font-bold text-slate-900">
+                        <span className="bg-gradient-to-r from-slate-900 to-slate-700 bg-clip-text font-display text-5xl font-bold text-transparent">
                           ${price}
                         </span>
                         <span className="text-sm text-slate-500">
@@ -287,8 +285,8 @@ export function Pricing() {
                   className={cn(
                     'mt-8 flex items-center justify-center gap-2 rounded-xl py-3.5 text-sm font-semibold transition-all',
                     tier.highlighted
-                      ? 'bg-primary text-white shadow-lg shadow-primary/25 hover:bg-primary-dark hover:-translate-y-0.5'
-                      : 'border border-slate-200 text-slate-700 hover:bg-slate-50'
+                      ? 'bg-gradient-to-r from-primary to-primary-light text-white shadow-lg shadow-primary/25 hover:shadow-xl hover:shadow-primary/35 hover:-translate-y-0.5'
+                      : 'border border-slate-200 text-slate-700 hover:bg-slate-50 hover:border-slate-300'
                   )}
                 >
                   {isEnterprise ? t('ctaEnterprise') : t('cta')}
@@ -316,10 +314,10 @@ export function Pricing() {
               return (
                 <div
                   key={bundle.id}
-                  className="flex flex-col items-center rounded-2xl border border-slate-200 bg-white p-4 text-center hover:border-primary/30 hover:shadow-md transition-all"
+                  className="flex flex-col items-center rounded-2xl border border-slate-200 bg-white p-4 text-center transition-all hover:border-primary/20 hover:shadow-lg hover:-translate-y-1"
                 >
-                  <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-slate-100 mb-3">
-                    <Icon className="h-5 w-5 text-slate-600" />
+                  <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-primary/10 to-accent/5 mb-3">
+                    <Icon className="h-5 w-5 text-primary" />
                   </div>
                   <p className="text-sm font-semibold text-slate-900">
                     {t(`bundles.${bundle.id}.name`)}

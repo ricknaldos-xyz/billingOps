@@ -47,33 +47,39 @@ export function Features() {
           </p>
         </motion.div>
 
-        {/* Tabs */}
+        {/* Pill tabs with animated indicator */}
         <motion.div
-          className="mt-14 flex flex-wrap justify-center gap-2"
+          className="mt-14 flex justify-center"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.1 }}
         >
-          {TABS.map((tab) => {
-            const Icon = tab.icon
-            const isActive = activeTab === tab.id
-            return (
-              <button
-                key={tab.id}
-                onClick={() => setActiveTab(tab.id)}
-                className={cn(
-                  'flex items-center gap-2 rounded-xl px-5 py-3 text-sm font-medium transition-all',
-                  isActive
-                    ? 'bg-primary text-white shadow-lg shadow-primary/25'
-                    : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
-                )}
-              >
-                <Icon className="h-4 w-4" />
-                {t(`tabs.${tab.id}`)}
-              </button>
-            )
-          })}
+          <div className="inline-flex flex-wrap justify-center gap-1 rounded-2xl bg-slate-100/80 p-1.5">
+            {TABS.map((tab) => {
+              const Icon = tab.icon
+              const isActive = activeTab === tab.id
+              return (
+                <button
+                  key={tab.id}
+                  onClick={() => setActiveTab(tab.id)}
+                  className="relative flex items-center gap-2 rounded-xl px-5 py-3 text-sm font-medium transition-colors"
+                >
+                  {isActive && (
+                    <motion.div
+                      layoutId="activeTab"
+                      className="absolute inset-0 rounded-xl bg-white shadow-md"
+                      transition={{ type: 'spring', stiffness: 300, damping: 30 }}
+                    />
+                  )}
+                  <span className={cn('relative z-10 flex items-center gap-2', isActive ? 'text-primary' : 'text-slate-600')}>
+                    <Icon className="h-4 w-4" />
+                    {t(`tabs.${tab.id}`)}
+                  </span>
+                </button>
+              )
+            })}
+          </div>
         </motion.div>
 
         {/* Tab content */}
@@ -122,11 +128,12 @@ export function Features() {
                   </Link>
                 </div>
 
-                {/* Right — mockup */}
+                {/* Right — mockup with enhanced glow */}
                 <div className="relative">
-                  <div className="absolute -inset-4 rounded-3xl bg-gradient-to-br from-primary/5 to-accent/5 blur-xl" />
-                  <div className="relative overflow-hidden rounded-2xl border border-slate-200 bg-white p-1 shadow-xl">
-                    <div className="rounded-xl bg-slate-50 p-6">
+                  <div className="absolute -inset-6 rounded-3xl bg-gradient-to-br from-primary/8 to-accent/8 blur-2xl" />
+                  <div className="relative overflow-hidden rounded-2xl border border-slate-200/80 bg-white p-1.5 shadow-2xl shadow-slate-900/[0.06]">
+                    <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent" />
+                    <div className="rounded-xl bg-gradient-to-b from-slate-50 to-slate-50/50 p-6">
                       <TabMockup tabId={tab.id} />
                     </div>
                   </div>

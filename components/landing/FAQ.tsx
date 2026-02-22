@@ -40,26 +40,39 @@ export function FAQ() {
             return (
               <motion.div
                 key={index}
-                className="overflow-hidden rounded-2xl border border-slate-200 bg-white"
+                className={cn(
+                  'overflow-hidden rounded-2xl border bg-white transition-all duration-200',
+                  isOpen
+                    ? 'border-primary/20 shadow-md shadow-primary/[0.04]'
+                    : 'border-slate-200 hover:border-slate-300'
+                )}
                 initial={{ opacity: 0, y: 10 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.3, delay: index * 0.03 }}
               >
                 <button
-                  className="flex w-full items-center justify-between px-6 py-4 text-left"
+                  className="flex w-full items-center justify-between px-6 py-5 text-left"
                   onClick={() => setOpenIndex(isOpen ? null : index)}
                   aria-expanded={isOpen}
                 >
-                  <span className="pr-4 font-medium text-slate-900">
+                  <span className={cn(
+                    'pr-4 font-medium transition-colors',
+                    isOpen ? 'text-primary' : 'text-slate-900'
+                  )}>
                     {item.question}
                   </span>
-                  <ChevronDown
-                    className={cn(
-                      'h-5 w-5 shrink-0 text-slate-400 transition-transform',
-                      isOpen && 'rotate-180'
-                    )}
-                  />
+                  <div className={cn(
+                    'flex h-7 w-7 shrink-0 items-center justify-center rounded-full transition-all',
+                    isOpen ? 'bg-primary/10 text-primary' : 'bg-slate-100 text-slate-400'
+                  )}>
+                    <ChevronDown
+                      className={cn(
+                        'h-4 w-4 transition-transform',
+                        isOpen && 'rotate-180'
+                      )}
+                    />
+                  </div>
                 </button>
                 <AnimatePresence>
                   {isOpen && (
@@ -69,7 +82,7 @@ export function FAQ() {
                       exit={{ height: 0, opacity: 0 }}
                       transition={{ duration: 0.2 }}
                     >
-                      <p className="px-6 pb-4 text-sm leading-relaxed text-slate-500">
+                      <p className="px-6 pb-5 text-sm leading-relaxed text-slate-500">
                         {item.answer}
                       </p>
                     </motion.div>
